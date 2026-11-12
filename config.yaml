@@ -24,9 +24,10 @@ search:
 models:
   # LiteLLM model names. fallback is tried when the model fails twice. null = none.
   # reasoning: LiteLLM reasoning_effort (none|minimal|low|medium|high), used for both models.
-  # Leave it out and Gemini 3 thinks at "high": slower and dearer.
-  fast:   {model: gemini/gemini-3.8-flash,        fallback: gemini/gemini-3.5-flash-lite, reasoning: low}
-  strong: {model: gemini/gemini-3.1-pro-preview,  fallback: gemini/gemini-3.8-flash,      reasoning: high}
+  # Leave it out and Gemini thinks at its default "high": slower and dearer.
+  # fast = repetitive work (extract, score, analyse, classify, follow-up). strong = tailor, letter, import.
+  fast:   {model: gemini/gemini-3.8-flash, fallback: gemini/gemini-3.5-flash-lite,  reasoning: low}
+  strong: {model: gemini/gemini-4-carbon,  fallback: gemini/gemini-3.1-pro-preview, reasoning: medium}
 
 mail:
   lookback_days: 3           # each run reads this many days, so a missed run is caught up
