@@ -28,12 +28,12 @@ roles:
 - id: wikimedia-2
   company: Wikimedia
   title: Volunteer Software Developer
-  location: ''
+  location: Remote
   start: Oct 2023
   end: Present
   claims:
   - id: wikimedia-2-01
-    text: I actively contribute to the Anti-Harassment team, Machine Learning team and the Data-Platform-SRE Group.
+    text: Contribute to the Anti-Harassment, Machine Learning and Data-Platform-SRE teams.
     skills:
     - Open-Source Development
     - Machine Learning
@@ -67,7 +67,7 @@ roles:
     skills:
     - Machine Learning
 - id: university-of-johann-3
-  company: 'UNIVERSITY OF JOHANNESBURG PROCESS, ENERGY AND ENVIRONMENTAL (UJ PEETS) '
+  company: UJ PEETS
   title: 'Research Associate: Python Developer'
   location: Johannesburg, Gauteng
   start: Jan 2021
