@@ -1,0 +1,127 @@
+base_cv: ai-ml
+template: cv.docx
+cv:
+  headline: Machine Learning Engineer
+  summary: Develops and deploys AI, machine learning, and large language models into
+    production systems for real-time applications and automation. Maintains ML pipelines,
+    monitors model performance, and implements CI/CD/CT workflows for machine learning
+    models using AWS SageMaker. Designs Python decision support software and integrates
+    serverless APIs with AWS API Gateway and AWS services.
+  summary_claims:
+  - dreamverse-holdings-1-01
+  - dreamverse-holdings-1-02
+  - university-of-johann-3-07
+  - university-of-johann-3-02
+  - penyesa-sa-4-06
+  skills:
+  - Machine Learning
+  - Python
+  - AWS
+  - ML pipelines
+  - AI
+  - LLMs
+  - AWS Sagemaker
+  - CI/CD
+  - Monitoring
+  - Docker
+  - Backend Development
+  - AWS API Gateway
+  - AWS Lambda
+  - AWS CodePipeline
+  - PyTorch
+  - LangChain
+  - Open-Source Development
+  - Communication skills
+  roles:
+  - role_id: dreamverse-holdings-1
+    bullets:
+    - claim_id: dreamverse-holdings-1-01
+      text: Developed and deployed AI and machine learning models at scale, automating
+        production workloads, monitoring performance, and maintaining ML pipelines
+        for real-time applications.
+    - claim_id: dreamverse-holdings-1-02
+      text: Integrated large language models and advanced ML algorithms into production
+        systems and optimized them for real-time deployment, improving automation
+        and decision-making for client systems.
+    - claim_id: dreamverse-holdings-1-03
+      text: Built client web and mobile applications alongside CI/CD automation pipelines
+        for building and deploying web apps, running performance benchmarks and maintaining
+        high availability and security.
+  - role_id: wikimedia-2
+    bullets:
+    - claim_id: wikimedia-2-05
+      text: Migrated machine-generated article descriptions from Toolforge to Liftwing,
+        maintaining smooth and efficient operation of article-description inference
+        services.
+    - claim_id: wikimedia-2-04
+      text: Completed operations, administrative, and engineering tasks across Data
+        Platforms teams, including the Machine Learning team developing machine learning
+        services for Wikimedia sites.
+    - claim_id: wikimedia-2-01
+      text: Contributed open-source work to the Machine Learning, Data-Platform-SRE,
+        and Anti-Harassment teams.
+    - claim_id: wikimedia-2-02
+      text: Developed and maintained backend services and Anti-Harassment features
+        for operational quality, supporting a safe and inclusive environment for users.
+    - claim_id: wikimedia-2-07
+      text: Participated in community initiatives including Pilot-Flag and Test-Grounds,
+        improving the quality and relevance of machine learning models.
+    - claim_id: wikimedia-2-06
+      text: Helped improve Istio mesh traffic transparent proxy capabilities for external
+        domains accessed by Lift Wing, increasing service connectivity and performance.
+  - role_id: university-of-johann-3
+    bullets:
+    - claim_id: university-of-johann-3-07
+      text: Implemented and maintained continuous integration, delivery, and testing
+        (CI/CD/CT) workflows for machine learning models using AWS SageMaker.
+    - claim_id: university-of-johann-3-06
+      text: Built scalable automated processes for data analysis, machine learning
+        model development, and implementation to support continuous improvement.
+    - claim_id: university-of-johann-3-02
+      text: Designed a Python-based GUI Decision Support System for Risk-Based Water
+        Quality Guidelines, improving user accessibility and interaction.
+  - role_id: penyesa-sa-4
+    bullets:
+    - claim_id: penyesa-sa-4-04
+      text: Authored and maintained CI/CD pipelines using AWS developer tools including
+        AWS CodePipeline and AWS CodeBuild.
+    - claim_id: penyesa-sa-4-06
+      text: Integrated serverless APIs with AWS API Gateway and AWS services.
+    - claim_id: penyesa-sa-4-02
+      text: Worked on cloud architectures, application containerization, deployment,
+        alerting, monitoring, and automation.
+  gaps:
+  - Bachelor's degree in Computer Science, Engineering, Software Engineering, Applied
+    Mathematics, Statistics or related field
+  - Strong SQL skills
+  - Developing intelligent agents
+  - Deploying solutions into an AI marketplace environment
+  - AWS certifications
+  - Experience with AWS Bedrock and Bedrock AgentCore
+  - Master's or PhD in AI, Machine Learning or related field
+letter:
+  paragraphs:
+  - I am writing to apply for the Machine Learning Engineer (Intermediate / Senior)
+    role. I am a strong match for this position because my background combines deploying
+    real-time machine learning pipelines at scale, integrating large language models
+    into production systems, and maintaining continuous integration, delivery, and
+    testing workflows on AWS SageMaker.
+  - In my prior work, I developed and deployed AI and machine learning models at scale,
+    focusing on automating production workloads, monitoring performance, and maintaining
+    machine learning pipelines for real-time applications. Furthermore, I integrated
+    large language models and advanced machine learning algorithms into production
+    systems, optimizing those models for real-time deployment to improve decision-making
+    and automation for client systems.
+  - To manage model deployment reliably, I used AWS SageMaker to implement and maintain
+    continuous integration, delivery, and testing workflows for machine learning models.
+    This hands-on work with automated testing and delivery workflows prepares me to
+    support your MLOps practices and AWS-based cloud infrastructure for AI applications.
+  - I am drawn to your client's focus on building production machine learning solutions,
+    AI-powered applications, and intelligent agents while supporting deployment into
+    an AI marketplace environment. I would welcome a conversation to discuss how my
+    background in machine learning pipelines and AWS SageMaker workflows can contribute
+    to your team.
+  claim_ids:
+  - dreamverse-holdings-1-01
+  - dreamverse-holdings-1-02
+  - university-of-johann-3-07

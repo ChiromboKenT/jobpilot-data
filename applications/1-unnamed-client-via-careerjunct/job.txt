@@ -1,0 +1,33 @@
+Machine Learning Engineer (Intermediate / Senior) - Remote, South Africa
+
+Our client is looking for a Machine Learning Engineer to design, build, deploy and maintain production machine learning solutions.
+
+Responsibilities
+- Design, build, deploy and maintain production machine learning solutions
+- Develop AI-powered applications, automation tools and intelligent agents
+- Build and optimise data pipelines, model training pipelines and inference workflows
+- Implement MLOps practices including CI/CD, monitoring, deployment and scaling
+- Work with AWS-based cloud infrastructure to support AI applications
+- Develop and maintain APIs and AI services
+- Collaborate with data scientists, engineers and business stakeholders
+- Contribute to AI platform engineering and internal AI product development
+- Support deploying solutions into an AI marketplace environment
+
+Essential requirements
+- Bachelor's degree in Computer Science, Engineering, Software Engineering, Applied Mathematics, Statistics or related field
+- 2+ years' experience in machine learning, data science or data engineering
+- 2+ years' software development experience in Python
+- Strong SQL skills
+- 1+ year hands-on AWS experience
+- Experience with model training, deployment, monitoring and MLOps practices
+- Experience building scalable ML infrastructure and AI-powered applications
+- Strong software engineering principles and coding best practices
+- Excellent communication and stakeholder engagement skills
+
+Highly advantageous
+- AWS certifications
+- Experience with AWS Bedrock and Bedrock AgentCore
+- Open-source contributions or startup experience
+- Master's or PhD in AI, Machine Learning or related field
+
+Apply via CareerJunction. Only shortlisted candidates will be contacted.
