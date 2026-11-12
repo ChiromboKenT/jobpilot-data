@@ -1,5 +1,199 @@
 skills:
-  - {name: ASP.NET Core, aliases: [.NET Core, ASP.NET, dotnet core], level: expert}
-  - {name: C#, aliases: [C Sharp], level: expert}
-  - {name: Azure, aliases: [Microsoft Azure], level: proficient}
-  - {name: Kafka, aliases: [Apache Kafka], level: exposure}
+- name: Python
+  aliases: []
+  level: expert
+- name: Machine Learning
+  aliases: []
+  level: expert
+- name: AWS
+  aliases: []
+  level: expert
+- name: CI/CD
+  aliases: []
+  level: expert
+- name: AWS Sagemaker
+  aliases: []
+  level: proficient
+- name: LLMs
+  aliases: []
+  level: proficient
+- name: PyQt5
+  aliases: []
+  level: proficient
+- name: AWS Lambda
+  aliases: []
+  level: proficient
+- name: AWS API Gateway
+  aliases: []
+  level: proficient
+- name: AWS CodePipeline
+  aliases: []
+  level: proficient
+- name: AWS CodeBuild
+  aliases: []
+  level: proficient
+- name: JavaScript
+  aliases: []
+  level: proficient
+- name: TypeScript
+  aliases: []
+  level: proficient
+- name: Node.js
+  aliases: []
+  level: proficient
+- name: React
+  aliases: []
+  level: proficient
+- name: React Native
+  aliases: []
+  level: proficient
+- name: Docker
+  aliases: []
+  level: proficient
+- name: GitHub
+  aliases: []
+  level: proficient
+- name: Critical thinking
+  aliases: []
+  level: proficient
+- name: Problem-solving
+  aliases: []
+  level: proficient
+- name: Project Management
+  aliases: []
+  level: proficient
+- name: Organizational skills
+  aliases: []
+  level: proficient
+- name: Time management
+  aliases: []
+  level: proficient
+- name: Communication skills
+  aliases: []
+  level: proficient
+- name: C#
+  aliases: []
+  level: working
+- name: Dot Net
+  aliases: []
+  level: working
+- name: C++
+  aliases: []
+  level: working
+- name: PyTorch
+  aliases: []
+  level: working
+- name: GraphQL
+  aliases: []
+  level: working
+- name: LangChain
+  aliases: []
+  level: working
+- name: TruLens
+  aliases: []
+  level: working
+- name: OAuth
+  aliases: []
+  level: working
+- name: NestJs
+  aliases: []
+  level: working
+- name: Google Cloud Platform
+  aliases: []
+  level: working
+- name: VertexAi
+  aliases: []
+  level: working
+- name: LlamaIndex
+  aliases: []
+  level: working
+- name: AI
+  aliases: []
+  level: proficient
+- name: ML pipelines
+  aliases: []
+  level: proficient
+- name: Web Development
+  aliases: []
+  level: proficient
+- name: Mobile App Development
+  aliases: []
+  level: proficient
+- name: Performance Benchmarking
+  aliases: []
+  level: working
+- name: Security
+  aliases: []
+  level: working
+- name: GUI Development
+  aliases: []
+  level: proficient
+- name: Decision Support System
+  aliases: []
+  level: proficient
+- name: Predictive Modeling
+  aliases: []
+  level: proficient
+- name: Model Evaluation
+  aliases: []
+  level: proficient
+- name: Data Analysis
+  aliases: []
+  level: proficient
+- name: CI/CD/CT
+  aliases: []
+  level: proficient
+- name: Documentation
+  aliases: []
+  level: proficient
+- name: Desktop Application Development
+  aliases: []
+  level: proficient
+- name: Software Development
+  aliases: []
+  level: proficient
+- name: Research
+  aliases: []
+  level: proficient
+- name: Cloud Architecture
+  aliases: []
+  level: proficient
+- name: Containerization
+  aliases: []
+  level: proficient
+- name: Monitoring
+  aliases: []
+  level: proficient
+- name: Automation
+  aliases: []
+  level: proficient
+- name: E-commerce
+  aliases: []
+  level: working
+- name: Backend Development
+  aliases: []
+  level: proficient
+- name: Front-End Development
+  aliases: []
+  level: proficient
+- name: Serverless
+  aliases: []
+  level: proficient
+- name: Open-Source Development
+  aliases: []
+  level: working
+- name: SRE
+  aliases: []
+  level: working
+- name: Data Platforms
+  aliases: []
+  level: working
+- name: Toolforge
+  aliases: []
+  level: exposure
+- name: Liftwing
+  aliases: []
+  level: working
+- name: Istio
+  aliases: []
+  level: exposure

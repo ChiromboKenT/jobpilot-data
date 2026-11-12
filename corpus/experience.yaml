@@ -1,14 +1,168 @@
 roles:
-  - id: redpanda-senior
-    company: Red Panda Software
-    title: Senior Software Engineer
-    location: Johannesburg
-    start: Mar 2021
-    end: Present
-    claims:
-      - id: rp-01
-        text: Rebuilt the billing API in ASP.NET Core, cutting p95 latency from 1,200 ms to 300 ms for 40 clients
-        skills: [ASP.NET Core, C#]
-      - id: rp-02
-        text: Led a team of 4 engineers migrating 12 services to Azure App Service with zero downtime
-        skills: [Azure]
+- id: dreamverse-holdings-1
+  company: Dreamverse Holdings
+  title: Technical Lead
+  location: Johannesburg, Gauteng
+  start: Jan 2024
+  end: Present
+  claims:
+  - id: dreamverse-holdings-1-01
+    text: Developed and deployed AI/ML models at scale focusing on automating production workloads, monitoring performance, and maintaining ML pipelines for real-time applications
+    skills:
+    - AI
+    - Machine Learning
+    - ML pipelines
+  - id: dreamverse-holdings-1-02
+    text: Integrated large language models (LLMs) and advanced ML algorithms into production systems, optimizing models for real-time deployment improving decision-making and automation for client systems.
+    skills:
+    - LLMs
+    - Machine Learning
+  - id: dreamverse-holdings-1-03
+    text: Built web apps and mobile apps for clients, performed performance benchmarks, ensured high availability and security, and leveraged modern technologies to build automation pipelines for building and deploying web applications.
+    skills:
+    - Web Development
+    - Mobile App Development
+    - Performance Benchmarking
+    - Security
+    - CI/CD
+- id: wikimedia-2
+  company: Wikimedia
+  title: Volunteer Software Developer
+  location: ''
+  start: Oct 2023
+  end: Present
+  claims:
+  - id: wikimedia-2-01
+    text: I actively contribute to the Anti-Harassment team, Machine Learning team and the Data-Platform-SRE Group.
+    skills:
+    - Open-Source Development
+    - Machine Learning
+    - SRE
+  - id: wikimedia-2-02
+    text: Developing and maintaining backend services and features crucial for operational quality, particularly focusing on the Anti-Harassment tools to ensure a safe and inclusive environment for all users.
+    skills:
+    - Backend Development
+  - id: wikimedia-2-03
+    text: Contributing to the development and maintenance of front-end features, ensuring robustness and seamless user interaction.
+    skills:
+    - Front-End Development
+  - id: wikimedia-2-04
+    text: Performing backlog tasks (Admin and development) regarding operations and lower-level engineering of multiple Data Platforms teams, including the Machine Learning Team which develops machine learning services for Wikimedia sites.
+    skills:
+    - Data Platforms
+    - Machine Learning
+  - id: wikimedia-2-05
+    text: Involved in migrating machine-generated article descriptions from toolforge to Liftwing, ensuring the smooth and efficient operation of article-description inference services.
+    skills:
+    - Toolforge
+    - Liftwing
+    - Machine Learning
+  - id: wikimedia-2-06
+    text: Assisting in the improvement of Istio's mesh traffic transparent proxy capabilities for external domains accessed by Lift Wing, enhancing service connectivity and performance.
+    skills:
+    - Istio
+    - Liftwing
+  - id: wikimedia-2-07
+    text: Engaging in community-based initiatives such as Pilot-Flag and Test-Grounds to empower community involvement and improve the quality and relevance of machine learning models.
+    skills:
+    - Machine Learning
+- id: university-of-johann-3
+  company: 'UNIVERSITY OF JOHANNESBURG PROCESS, ENERGY AND ENVIRONMENTAL (UJ PEETS) '
+  title: 'Research Associate: Python Developer'
+  location: Johannesburg, Gauteng
+  start: Jan 2021
+  end: Dec 2023
+  claims:
+  - id: university-of-johann-3-01
+    text: Developed machine learning models for industrial water quality risk assessment, significantly enhancing decision-making processes.
+    skills:
+    - Machine Learning
+  - id: university-of-johann-3-02
+    text: Designed a Python-based GUI Decision Support System (DSS) for Risk-Based Water Quality Guidelines, improving user accessibility and interaction.
+    skills:
+    - Python
+    - GUI Development
+    - Decision Support System
+  - id: university-of-johann-3-03
+    text: Utilized PyQt5 to create sophisticated and user-friendly graphical interfaces for the DSS tool, ensuring an intuitive user experience.
+    skills:
+    - PyQt5
+    - GUI Development
+  - id: university-of-johann-3-04
+    text: Employed modern machine learning techniques to prototype predictive models for water quality risk, enhancing accuracy and reliability.
+    skills:
+    - Machine Learning
+    - Predictive Modeling
+  - id: university-of-johann-3-05
+    text: Conducted comprehensive model evaluations, comparing various machine learning models and traditional formulas to refine model selections.
+    skills:
+    - Machine Learning
+    - Model Evaluation
+  - id: university-of-johann-3-06
+    text: Established scalable and efficient automated processes for data analysis, model development, and implementation, focusing on continuous improvement.
+    skills:
+    - Data Analysis
+    - Machine Learning
+  - id: university-of-johann-3-07
+    text: Leveraged AWS SageMaker to implement and maintain continuous integration, delivery, and testing (CI/CD/CT) workflows for machine learning models.
+    skills:
+    - AWS Sagemaker
+    - CI/CD
+    - CI/CD/CT
+    - Machine Learning
+  - id: university-of-johann-3-08
+    text: Documented and communicated results, insights, and patterns to stakeholders, ensuring transparency and effective information sharing.
+    skills:
+    - Communication skills
+    - Documentation
+  - id: university-of-johann-3-09
+    text: Developed a desktop application for the Water Research Commission, demonstrating versatility in software development and application deployment.
+    skills:
+    - Desktop Application Development
+    - Software Development
+  - id: university-of-johann-3-10
+    text: Led and contributed to various research projects for various clients.
+    skills:
+    - Project Management
+    - Research
+- id: penyesa-sa-4
+  company: Penyesa SA
+  title: Full Stack Developer
+  location: Sandton, Gauteng
+  start: Dec 2018
+  end: Dec 2020
+  claims:
+  - id: penyesa-sa-4-01
+    text: Monitored automated build and continuous software integration process to drive build/release failure resolution.
+    skills:
+    - CI/CD
+  - id: penyesa-sa-4-02
+    text: Gained experience in cloud architectures, containerization based on application infrastructure, deployment, alerting, monitoring, and automation.
+    skills:
+    - Cloud Architecture
+    - Containerization
+    - Monitoring
+    - Automation
+  - id: penyesa-sa-4-03
+    text: End to end development of an innovative ecommerce web store to cater to a global audience.
+    skills:
+    - Web Development
+    - E-commerce
+  - id: penyesa-sa-4-04
+    text: 'Implemented and maintained state of the art CI/CD workflows (Authoring CI/CD pipelines using AWS developer tools e.g., AWS Code Pipeline, Code Build) '
+    skills:
+    - CI/CD
+    - AWS
+    - AWS CodePipeline
+    - AWS CodeBuild
+  - id: penyesa-sa-4-05
+    text: Scripted AWS Lambda functions to serve as ecommerce backend
+    skills:
+    - AWS Lambda
+    - Backend Development
+  - id: penyesa-sa-4-06
+    text: Responsible for integrating serverless API with AWS API Gateway and AWS Services.
+    skills:
+    - Serverless
+    - AWS API Gateway
+    - AWS
