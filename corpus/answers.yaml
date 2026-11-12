@@ -1,4 +1,8 @@
 answers:
-  - {q: Notice period, a: 30 days}
-  - {q: Salary expectation, a: "R xxx per month, negotiable"}
-  - {q: Work authorisation, a: South African citizen}
+- q: Notice period
+  a: To be confirmed against current contract.
+- q: Salary expectation
+  a: Negotiable depending on the role and total package.
+- q: Work authorisation
+  a: I hold a valid South African Life Partner visa with secondary activity authorisation permitting employment; this authorisation
+    is not tied to a specific employer.
