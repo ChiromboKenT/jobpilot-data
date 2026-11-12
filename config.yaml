@@ -1,0 +1,67 @@
+portal_url: https://jobs.example.com
+
+search:
+  # A job passes if its location is empty or contains one of these (case-insensitive).
+  locations: [Johannesburg, Sandton, Pretoria, Centurion, Gauteng, Remote, South Africa]
+  # A job is filtered out if its title contains one of these as a whole word.
+  exclude_words: [Junior, Intern, Internship, Graduate, Sales]
+  shortlist_score: 70        # Today shows jobs at or above this
+  shortlist_max: 10          # and at most this many
+  # source name -> sender addresses. An entry starting with @ matches the whole domain.
+  # Fill from `python -m jobpilot doctor`, which lists the senders found in your mailbox.
+  alert_senders:
+    linkedin: [jobalerts-noreply@linkedin.com]
+    indeed: []
+    pnet: []
+    careerjunction: []
+    careers24: []
+    offerzen: []
+  adzuna:
+    country: za
+    searches:
+      - {what: ".NET developer", where: Johannesburg}
+
+models:
+  # LiteLLM model names. fallback is tried when the model fails twice. null = none.
+  # reasoning: LiteLLM reasoning_effort (none|minimal|low|medium|high), used for both models.
+  # Leave it out and Gemini 3 thinks at "high": slower and dearer.
+  fast:   {model: gemini/gemini-3.8-flash,        fallback: gemini/gemini-3.5-flash-lite, reasoning: low}
+  strong: {model: gemini/gemini-3.1-pro-preview,  fallback: gemini/gemini-3.8-flash,      reasoning: high}
+
+mail:
+  lookback_days: 3           # each run reads this many days, so a missed run is caught up
+  review_below: 0.7          # classifications under this confidence wait for you
+
+followup:                    # defaults copied onto each new application
+  enabled: true              # not "on": YAML reads a bare `on` key as the boolean true
+  days: 7
+  max: 2
+  mode: draft                # draft | auto
+  no_response_days: 21
+
+docs:
+  cv_template: cv.docx
+  letter_template: letter.docx
+  max_pages: 2
+  max_bullets_recent: 6      # per role, first two roles
+  max_bullets_older: 3       # per role, the rest
+  banned_phrases:
+    - results-driven
+    - passionate
+    - proven track record
+    - team player
+    - dynamic
+    - leverage
+    - spearheaded
+    - synergy
+    - detail-oriented
+    - fast-paced
+  email_subject: "Application: {title}"
+  email_body: |
+    Dear Hiring Manager,
+
+    Please find my CV attached for the {title} position at {company}.
+
+    Kind regards,
+    {name}
+    {phone}

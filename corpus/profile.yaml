@@ -1,0 +1,11 @@
+name: Your Name
+email: you@example.com
+phone: "+27 82 000 0000"
+location: Johannesburg
+linkedin: https://www.linkedin.com/in/you
+github: ""                   # optional, empty to leave out
+years_experience: 8
+education:
+  - {qualification: BSc Computer Science, institution: University of Pretoria, year: "2016"}
+certifications:              # may be empty
+  - {name: "AZ-204", issuer: Microsoft, year: "2023"}

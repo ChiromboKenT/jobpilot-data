@@ -1,0 +1,5 @@
+skills:
+  - {name: ASP.NET Core, aliases: [.NET Core, ASP.NET, dotnet core], level: expert}
+  - {name: C#, aliases: [C Sharp], level: expert}
+  - {name: Azure, aliases: [Microsoft Azure], level: proficient}
+  - {name: Kafka, aliases: [Apache Kafka], level: exposure}

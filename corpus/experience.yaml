@@ -1,0 +1,14 @@
+roles:
+  - id: redpanda-senior
+    company: Red Panda Software
+    title: Senior Software Engineer
+    location: Johannesburg
+    start: Mar 2021
+    end: Present
+    claims:
+      - id: rp-01
+        text: Rebuilt the billing API in ASP.NET Core, cutting p95 latency from 1,200 ms to 300 ms for 40 clients
+        skills: [ASP.NET Core, C#]
+      - id: rp-02
+        text: Led a team of 4 engineers migrating 12 services to Azure App Service with zero downtime
+        skills: [Azure]
