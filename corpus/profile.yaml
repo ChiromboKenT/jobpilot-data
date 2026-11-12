@@ -1,11 +1,15 @@
-name: Your Name
-email: you@example.com
-phone: "+27 82 000 0000"
-location: Johannesburg
-linkedin: https://www.linkedin.com/in/you
-github: ""                   # optional, empty to leave out
+name: Kenny Chirombo
+email: chirombokenny@gmail.com
+phone: +27 81 264 4132
+location: Johannesburg, Gauteng, South Africa
+linkedin: https://www.linkedin.com/in/chirombokenny
+github: 'https://github.com/ChiromboKenT/'
 years_experience: 8
 education:
-  - {qualification: BSc Computer Science, institution: University of Pretoria, year: "2016"}
-certifications:              # may be empty
-  - {name: "AZ-204", issuer: Microsoft, year: "2023"}
+- qualification: Electrical and Electronics Engineering (BEng studies; incomplete)
+  institution: University of Johannesburg
+  year: 2017–2018
+certifications:
+- name: AWS Certified Cloud Practitioner (expired)
+  issuer: Amazon Web Services
+  year: '2018'
