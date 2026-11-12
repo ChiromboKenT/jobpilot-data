@@ -3,46 +3,46 @@ skills:
   aliases: []
   level: expert
 - name: Machine Learning
-  aliases: []
+  aliases: [ML]
   level: expert
 - name: AWS
-  aliases: []
+  aliases: [Amazon Web Services]
   level: expert
 - name: CI/CD
-  aliases: []
+  aliases: [CI/CD pipelines, Continuous Integration, Continuous Delivery]
   level: expert
 - name: AWS Sagemaker
-  aliases: []
+  aliases: [SageMaker, Amazon SageMaker]
   level: proficient
 - name: LLMs
-  aliases: []
+  aliases: [LLM, Large Language Models, GenAI, Generative AI]
   level: proficient
 - name: PyQt5
   aliases: []
   level: proficient
 - name: AWS Lambda
-  aliases: []
+  aliases: [Lambda]
   level: proficient
 - name: AWS API Gateway
-  aliases: []
+  aliases: [API Gateway]
   level: proficient
 - name: AWS CodePipeline
-  aliases: []
+  aliases: [CodePipeline]
   level: proficient
 - name: AWS CodeBuild
-  aliases: []
+  aliases: [CodeBuild]
   level: proficient
 - name: JavaScript
-  aliases: []
+  aliases: [JS]
   level: proficient
 - name: TypeScript
-  aliases: []
+  aliases: [TS]
   level: proficient
 - name: Node.js
-  aliases: []
+  aliases: [Node, NodeJS]
   level: proficient
 - name: React
-  aliases: []
+  aliases: [React.js, ReactJS]
   level: proficient
 - name: React Native
   aliases: []
@@ -69,13 +69,13 @@ skills:
   aliases: []
   level: proficient
 - name: Communication skills
-  aliases: []
+  aliases: [Communication]
   level: proficient
 - name: C#
   aliases: []
   level: working
 - name: Dot Net
-  aliases: []
+  aliases: [".NET", dotnet]
   level: working
 - name: C++
   aliases: []
@@ -99,25 +99,25 @@ skills:
   aliases: []
   level: working
 - name: Google Cloud Platform
-  aliases: []
+  aliases: [GCP, Google Cloud]
   level: working
 - name: VertexAi
-  aliases: []
+  aliases: [Vertex AI]
   level: working
 - name: LlamaIndex
   aliases: []
   level: working
 - name: AI
-  aliases: []
+  aliases: [Artificial Intelligence]
   level: proficient
 - name: ML pipelines
-  aliases: []
+  aliases: [MLOps]
   level: proficient
 - name: Web Development
-  aliases: []
+  aliases: [Web Applications]
   level: proficient
 - name: Mobile App Development
-  aliases: []
+  aliases: [Mobile Development]
   level: proficient
 - name: Performance Benchmarking
   aliases: []
@@ -132,13 +132,13 @@ skills:
   aliases: []
   level: proficient
 - name: Predictive Modeling
-  aliases: []
+  aliases: [Predictive Modelling]
   level: proficient
 - name: Model Evaluation
   aliases: []
   level: proficient
 - name: Data Analysis
-  aliases: []
+  aliases: [Data Analytics]
   level: proficient
 - name: CI/CD/CT
   aliases: []
@@ -159,7 +159,7 @@ skills:
   aliases: []
   level: proficient
 - name: Containerization
-  aliases: []
+  aliases: [Containers]
   level: proficient
 - name: Monitoring
   aliases: []
@@ -171,19 +171,19 @@ skills:
   aliases: []
   level: working
 - name: Backend Development
-  aliases: []
+  aliases: [Backend, Back-end]
   level: proficient
 - name: Front-End Development
-  aliases: []
+  aliases: [Frontend, Front end]
   level: proficient
 - name: Serverless
   aliases: []
   level: proficient
 - name: Open-Source Development
-  aliases: []
+  aliases: [Open Source]
   level: working
 - name: SRE
-  aliases: []
+  aliases: [Site Reliability Engineering]
   level: working
 - name: Data Platforms
   aliases: []
@@ -192,7 +192,7 @@ skills:
   aliases: []
   level: exposure
 - name: Liftwing
-  aliases: []
+  aliases: [Lift Wing]
   level: working
 - name: Istio
   aliases: []
