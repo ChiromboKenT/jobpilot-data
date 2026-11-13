@@ -1,0 +1,118 @@
+base_cv: full-stack
+template: cv.docx
+cv:
+  headline: Backend Engineer
+  summary: Developer experienced in building and maintaining backend services, web
+    applications, and serverless APIs with AWS Lambda and AWS API Gateway. Background
+    includes Python development, running performance benchmarks, maintaining high
+    availability and security, and creating CI/CD pipelines for deployment.
+  summary_claims:
+  - wikimedia-2-02
+  - penyesa-sa-4-06
+  - penyesa-sa-4-05
+  - dreamverse-holdings-1-03
+  - university-of-johann-3-02
+  skills:
+  - Backend Development
+  - C#
+  - Dot Net
+  - Python
+  - Serverless
+  - AWS
+  - AWS API Gateway
+  - AWS Lambda
+  - Cloud Architecture
+  - Containerization
+  - CI/CD
+  - Performance Benchmarking
+  - Monitoring
+  - Security
+  - SRE
+  - Web Development
+  - Software Development
+  - Project Management
+  roles:
+  - role_id: dreamverse-holdings-1
+    bullets:
+    - claim_id: dreamverse-holdings-1-03
+      text: Built web and mobile apps for clients, ran performance benchmarks, maintained
+        high availability and security, and created CI/CD pipelines for building and
+        deploying web applications.
+    - claim_id: dreamverse-holdings-1-01
+      text: Developed and deployed AI and machine learning models at scale for production
+        workloads, tracking performance and maintaining ML pipelines for real-time
+        applications.
+    - claim_id: dreamverse-holdings-1-02
+      text: Integrated large language models (LLMs) and machine learning algorithms
+        into production systems, optimizing models for real-time deployment to improve
+        client decision-making.
+  - role_id: wikimedia-2
+    bullets:
+    - claim_id: wikimedia-2-02
+      text: Developed and maintained backend services and features for operational
+        quality, focusing on Anti-Harassment tools to support a safe user environment.
+    - claim_id: wikimedia-2-05
+      text: Migrated machine-generated article description inference services from
+        Toolforge to Liftwing to maintain smooth and efficient operation.
+    - claim_id: wikimedia-2-06
+      text: Improved Istio mesh traffic transparent proxy capabilities for external
+        domains accessed by Lift Wing, increasing service connectivity and performance.
+    - claim_id: wikimedia-2-01
+      text: Contributed to the Anti-Harassment, Machine Learning, and Data-Platform-SRE
+        teams.
+    - claim_id: wikimedia-2-04
+      text: Completed operations and engineering backlog tasks across multiple Data
+        Platforms teams, including the Machine Learning team building services for
+        Wikimedia sites.
+  - role_id: university-of-johann-3
+    bullets:
+    - claim_id: university-of-johann-3-02
+      text: Designed a Python GUI Decision Support System for risk-based water quality
+        guidelines, improving user accessibility and interaction.
+    - claim_id: university-of-johann-3-07
+      text: Used SageMaker to implement and maintain CI/CD/CT workflows for machine
+        learning models.
+    - claim_id: university-of-johann-3-10
+      text: Led and contributed to research projects for multiple clients.
+  - role_id: penyesa-sa-4
+    bullets:
+    - claim_id: penyesa-sa-4-06
+      text: Integrated a serverless API with AWS API Gateway and AWS services.
+    - claim_id: penyesa-sa-4-05
+      text: Scripted AWS Lambda functions to serve as the backend.
+    - claim_id: penyesa-sa-4-02
+      text: Worked with cloud architectures, containerization, application deployment,
+        alerting, monitoring, and automation.
+  gaps:
+  - 4+ years building web APIs with C# and ASP.NET Core
+  - Experience running services on Microsoft Azure
+  - Experience leading small engineering teams
+  - Experience building and running payment APIs
+  - Experience mentoring engineers
+letter:
+  paragraphs:
+  - I am applying for the Backend Engineer (V2 TEST) position at V2 Test Company.
+    My background in developing backend services, integrating cloud APIs, running
+    performance benchmarks, and building software in Python aligns well with the core
+    responsibilities of this role.
+  - In my previous backend and API work, I was responsible for integrating a serverless
+    API using AWS API Gateway and AWS Services. Alongside API integration, I have
+    built web and mobile applications for clients where I performed performance benchmarks,
+    ensured high availability and security, and used modern technologies to construct
+    automation pipelines for building and deploying web applications.
+  - My background also includes migrating services and working with Python. Specifically,
+    I participated in migrating machine-generated article descriptions from Toolforge
+    to Liftwing, which ensured the smooth and efficient operation of article-description
+    inference services. Additionally, matching your interest in Python skills, I designed
+    a Python-based GUI Decision Support System for Risk-Based Water Quality Guidelines
+    that improved user accessibility and interaction.
+  - I am drawn to V2 Test Company because the opportunity to build and run payment
+    APIs while improving API performance and migrating services to the cloud directly
+    connects to the engineering challenges I enjoy solving. I would welcome a conversation
+    to discuss how my backend, API, and cloud migration experience can support your
+    engineering goals.
+  claim_ids:
+  - penyesa-sa-4-06
+  - dreamverse-holdings-1-03
+  - wikimedia-2-05
+  - university-of-johann-3-02
