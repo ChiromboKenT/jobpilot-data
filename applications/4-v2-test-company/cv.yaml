@@ -91,26 +91,9 @@ cv:
   - Experience mentoring engineers
 letter:
   paragraphs:
-  - I am applying for the Backend Engineer (V2 TEST) position at V2 Test Company.
-    My background in developing backend services, integrating cloud APIs, running
-    performance benchmarks, and building software in Python aligns well with the core
-    responsibilities of this role.
-  - In my previous backend and API work, I was responsible for integrating a serverless
-    API using AWS API Gateway and AWS Services. Alongside API integration, I have
-    built web and mobile applications for clients where I performed performance benchmarks,
-    ensured high availability and security, and used modern technologies to construct
-    automation pipelines for building and deploying web applications.
-  - My background also includes migrating services and working with Python. Specifically,
-    I participated in migrating machine-generated article descriptions from Toolforge
-    to Liftwing, which ensured the smooth and efficient operation of article-description
-    inference services. Additionally, matching your interest in Python skills, I designed
-    a Python-based GUI Decision Support System for Risk-Based Water Quality Guidelines
-    that improved user accessibility and interaction.
-  - I am drawn to V2 Test Company because the opportunity to build and run payment
-    APIs while improving API performance and migrating services to the cloud directly
-    connects to the engineering challenges I enjoy solving. I would welcome a conversation
-    to discuss how my backend, API, and cloud migration experience can support your
-    engineering goals.
+  - This is a test email sent by JobPilot to check the email apply flow. It is not
+    a real application.
+  - Please find my CV attached.
   claim_ids:
   - penyesa-sa-4-06
   - dreamverse-holdings-1-03
