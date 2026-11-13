@@ -86,7 +86,8 @@ cv:
       text: Authored and maintained CI/CD pipelines using AWS developer tools including
         AWS CodePipeline and AWS CodeBuild.
     - claim_id: penyesa-sa-4-06
-      text: Integrated serverless APIs with AWS API Gateway and AWS services.
+      text: Responsible for integrating serverless API with AWS API Gateway and AWS
+        Services.
     - claim_id: penyesa-sa-4-02
       text: Worked on cloud architectures, application containerization, deployment,
         alerting, monitoring, and automation.
