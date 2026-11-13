@@ -1,0 +1,39 @@
+Full Stack Software Engineer (Python, C#, React) - Johannesburg, onsite
+
+Our client, a provider of Data & Analytics Solutions, is looking for a Full Stack Software Engineer.
+
+Responsibilities
+Software development
+- Build, test and maintain high-quality frontend and backend applications for web and enterprise systems
+- Create secure, scalable APIs; meet performance and security targets; troubleshoot and optimise systems
+Systems integration
+- Integrate internal and external systems, design RESTful APIs and web services, support third-party integrations
+Database management
+- Design and maintain database structures, write queries, stored procedures and reports, support migrations
+Cloud and deployment
+- Deploy and maintain applications in the cloud, implement CI/CD pipelines, support releases and production
+DevOps and support
+- Monitor application health, resolve production issues, maintain documentation and technical standards
+Collaboration
+- Gather requirements from business stakeholders, work with project managers, developers and designers, help with planning and estimation
+
+Requirements
+- Bachelor's degree or diploma in Computer Science, Software Engineering, IT or related field
+- 3 to 5 years of software development experience, including deploying production-ready applications
+- Frontend and backend development experience, APIs, integrations and enterprise applications
+- Experience with a major cloud platform (Azure, AWS or Google Cloud)
+- Experience with source control and supporting systems in production
+
+Tech stack
+- Languages: JavaScript/TypeScript, Python, C#, SQL
+- Frontend: React, Angular, HTML5, CSS3
+- Backend: Node.js, NestJS, ASP.NET, .NET Core, Flask
+- Databases: Microsoft SQL Server, PostgreSQL, MySQL, MongoDB
+- Cloud: Microsoft Azure, AWS, Google Cloud Platform
+- DevOps: Git, Docker, Kubernetes, Azure DevOps, Jenkins, CI/CD pipelines
+
+Nice to have
+- Exposure to DevOps practices and CI/CD pipelines
+- Experience with AI, automation or machine learning solutions
+
+Apply via CareerJunction (job 2644253).

@@ -1,0 +1,121 @@
+base_cv: full-stack
+template: cv.docx
+cv:
+  headline: Full Stack Software Engineer
+  summary: Builds web and mobile applications, front-end features, and backend services
+    while ensuring high availability and security. Integrates a serverless API with
+    AWS API Gateway and authors CI/CD pipelines using AWS developer tools. Designs
+    Python-based systems and integrates machine learning algorithms into production
+    systems to improve automation and decision-making.
+  summary_claims:
+  - dreamverse-holdings-1-03
+  - wikimedia-2-03
+  - wikimedia-2-02
+  - penyesa-sa-4-06
+  - penyesa-sa-4-04
+  - university-of-johann-3-02
+  - dreamverse-holdings-1-02
+  skills:
+  - Python
+  - JavaScript
+  - TypeScript
+  - C#
+  - React
+  - Node.js
+  - NestJs
+  - Dot Net
+  - AWS
+  - Google Cloud Platform
+  - Docker
+  - CI/CD
+  - Backend Development
+  - Front-End Development
+  - Web Development
+  - AWS API Gateway
+  - Data Analysis
+  - Machine Learning
+  roles:
+  - role_id: dreamverse-holdings-1
+    bullets:
+    - claim_id: dreamverse-holdings-1-03
+      text: Built client web and mobile applications, ran performance benchmarks,
+        ensured high availability and security, and created automation pipelines to
+        build and deploy web applications.
+    - claim_id: dreamverse-holdings-1-02
+      text: Integrated large language models and machine learning algorithms into
+        production systems, optimizing real-time deployment to improve client decision-making
+        and automation.
+    - claim_id: dreamverse-holdings-1-01
+      text: Developed and deployed AI and machine learning models at scale to automate
+        production workloads, monitor performance, and maintain ML pipelines for real-time
+        applications.
+  - role_id: wikimedia-2
+    bullets:
+    - claim_id: wikimedia-2-02
+      text: Developed and maintained backend services and Anti-Harassment tools for
+        operational quality, ensuring a safe and inclusive environment for users.
+    - claim_id: wikimedia-2-03
+      text: Developed and maintained front-end features, ensuring robustness and seamless
+        user interaction.
+    - claim_id: wikimedia-2-04
+      text: Completed operations and lower-level engineering backlog tasks across
+        multiple Data Platforms teams, including the Machine Learning Team.
+    - claim_id: wikimedia-2-01
+      text: Contributed to the Anti-Harassment, Machine Learning, and Data-Platform-SRE
+        teams.
+  - role_id: university-of-johann-3
+    bullets:
+    - claim_id: university-of-johann-3-02
+      text: Designed a Python-based GUI Decision Support System for Risk-Based Water
+        Quality Guidelines, improving user accessibility and interaction.
+    - claim_id: university-of-johann-3-06
+      text: Established scalable automated processes for data analysis, model development,
+        and implementation to support continuous improvement.
+    - claim_id: university-of-johann-3-08
+      text: Documented and communicated results, insights, and patterns to stakeholders,
+        ensuring transparency and effective information sharing.
+  - role_id: penyesa-sa-4
+    bullets:
+    - claim_id: penyesa-sa-4-03
+      text: Completed end-to-end web development of an ecommerce web store for a global
+        audience.
+    - claim_id: penyesa-sa-4-06
+      text: Integrated a serverless API with AWS API Gateway and AWS Services.
+    - claim_id: penyesa-sa-4-04
+      text: Implemented and maintained CI/CD pipelines using AWS developer tools including
+        AWS CodePipeline and AWS CodeBuild.
+  gaps:
+  - Bachelor's degree or diploma in Computer Science, Software Engineering, IT or
+    related field
+  - SQL, database structure design, stored procedures, migrations, and listed databases
+    (Microsoft SQL Server, PostgreSQL, MySQL, MongoDB) in recorded claims
+  - Role claims supporting C#, ASP.NET, .NET Core, Flask, Node.js, and NestJS
+  - Role claims supporting React, Angular, HTML5, and CSS3
+  - Microsoft Azure, Azure DevOps, Kubernetes, Jenkins, and Git in recorded claims
+  - RESTful API design
+letter:
+  paragraphs:
+  - I am writing to apply for the onsite Full Stack Software Engineer position in
+    Johannesburg advertised through CareerJunction. My background building secure
+    web applications, designing Python-based software, and integrating serverless
+    APIs on AWS fits your requirements for developing, integrating, and deploying
+    software applications.
+  - In my software development work, I built web applications and mobile applications
+    for clients, performing performance benchmarks and ensuring both high availability
+    and security across those client systems. To support application delivery, I also
+    used modern technologies to build automation pipelines dedicated to building and
+    deploying those web applications.
+  - On the cloud and systems integration side, I was responsible for integrating a
+    serverless API with AWS API Gateway and AWS services, matching your stated requirement
+    for API integration and major cloud platform experience. Additionally, I designed
+    a Python-based GUI Decision Support System for Risk-Based Water Quality Guidelines,
+    which improved user accessibility and interaction.
+  - Working with a provider of Data & Analytics Solutions appeals to me because the
+    role brings together frontend and backend development, systems integration, and
+    cloud deployment for web and enterprise systems. I would welcome a conversation
+    to discuss how my experience with web development, Python, and AWS can support
+    your software engineering projects in Johannesburg.
+  claim_ids:
+  - dreamverse-holdings-1-03
+  - penyesa-sa-4-06
+  - university-of-johann-3-02
