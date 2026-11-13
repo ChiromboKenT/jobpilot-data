@@ -2,7 +2,7 @@ portal_url: https://myjobs.dream2host.shop
 
 search:
   # A job passes if its location is empty or contains one of these (case-insensitive).
-  locations: [Johannesburg, Sandton, Pretoria, Centurion, Gauteng, Remote, South Africa]
+  locations: [Johannesburg, Sandton, Pretoria, Centurion, Midrand, Gauteng, Remote, Home Based, South Africa]
   # A job is filtered out if its title contains one of these as a whole word.
   exclude_words: [Junior, Intern, Internship, Graduate, Sales]
   shortlist_score: 70        # Today shows jobs at or above this
