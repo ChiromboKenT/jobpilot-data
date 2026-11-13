@@ -11,8 +11,8 @@ search:
   # Fill from `python -m jobpilot doctor`, which lists the senders found in your mailbox.
   alert_senders:
     linkedin: [jobalerts-noreply@linkedin.com]
-    indeed: []
-    pnet: []
+    indeed: [donotreply@jobalert.indeed.com, donotreply@match.indeed.com]
+    pnet: [info@jobalerts.pnet.co.za]
     careerjunction: []
     careers24: []
     offerzen: []
