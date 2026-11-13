@@ -1,0 +1,125 @@
+base_cv: ai-ml
+template: cv.docx
+cv:
+  headline: Senior ML Engineer
+  summary: Machine Learning Engineer experienced in developing and deploying AI and
+    ML models at scale, maintaining ML pipelines, and monitoring performance for real-time
+    production workloads. Integrated large language models and ML algorithms into
+    production systems to improve automation and decision-making. Implemented CI/CD/CT
+    workflows for ML models on AWS SageMaker and worked on cloud architectures, containerization,
+    deployment, and alerting.
+  summary_claims:
+  - dreamverse-holdings-1-01
+  - dreamverse-holdings-1-02
+  - university-of-johann-3-07
+  - penyesa-sa-4-02
+  skills:
+  - Machine Learning
+  - Python
+  - ML pipelines
+  - LLMs
+  - AI
+  - Docker
+  - Containerization
+  - CI/CD
+  - Monitoring
+  - Automation
+  - AWS Sagemaker
+  - VertexAi
+  - LangChain
+  - LlamaIndex
+  - PyTorch
+  - Cloud Architecture
+  - Backend Development
+  - Communication skills
+  roles:
+  - role_id: dreamverse-holdings-1
+    bullets:
+    - claim_id: dreamverse-holdings-1-01
+      text: Developed and deployed AI and ML models at scale, maintaining ML pipelines,
+        monitoring performance, and automating production workloads for real-time
+        applications.
+    - claim_id: dreamverse-holdings-1-02
+      text: Integrated LLMs and ML algorithms into production systems and optimized
+        models for real-time deployment, improving client decision-making and automation.
+    - claim_id: dreamverse-holdings-1-03
+      text: Built client web and mobile applications, ran performance benchmarks,
+        and created CI/CD pipelines for building and deploying applications with high
+        availability and security.
+  - role_id: wikimedia-2
+    bullets:
+    - claim_id: wikimedia-2-05
+      text: Migrated machine-generated article descriptions from Toolforge to Liftwing,
+        ensuring smooth and efficient operation of article-description inference services.
+    - claim_id: wikimedia-2-04
+      text: Completed operations and lower-level engineering tasks across Data Platforms
+        teams, including the Machine Learning Team building ML services for Wikimedia
+        sites.
+    - claim_id: wikimedia-2-06
+      text: Improved Istio mesh traffic transparent proxy capabilities for external
+        domains accessed by Lift Wing, enhancing service connectivity and performance.
+    - claim_id: wikimedia-2-02
+      text: Developed and maintained backend services and features for Anti-Harassment
+        tools, ensuring operational quality and a safe environment for users.
+    - claim_id: wikimedia-2-01
+      text: Contributed to the Machine Learning, Data-Platform-SRE, and Anti-Harassment
+        teams.
+    - claim_id: wikimedia-2-07
+      text: Participated in Pilot-Flag and Test-Grounds initiatives to support community
+        involvement and improve the quality and relevance of ML models.
+  - role_id: university-of-johann-3
+    bullets:
+    - claim_id: university-of-johann-3-07
+      text: Used AWS SageMaker to implement and maintain continuous integration, delivery,
+        and testing (CI/CD/CT) workflows for ML models.
+    - claim_id: university-of-johann-3-06
+      text: Established scalable automated processes for data analysis, model development,
+        and implementation to support continuous improvement.
+    - claim_id: university-of-johann-3-02
+      text: Designed a Python-based GUI Decision Support System for risk-based water
+        quality guidelines, improving user accessibility and interaction.
+  - role_id: penyesa-sa-4
+    bullets:
+    - claim_id: penyesa-sa-4-02
+      text: Worked on cloud architectures, application containerization, deployment,
+        alerting, monitoring, and automation.
+    - claim_id: penyesa-sa-4-04
+      text: Authored and maintained CI/CD pipelines using AWS developer tools including
+        AWS CodePipeline and AWS CodeBuild.
+    - claim_id: penyesa-sa-4-06
+      text: Integrated a serverless API with AWS API Gateway and other AWS services.
+  gaps:
+  - Matric and tertiary qualification (degree)
+  - Databricks and MLflow
+  - Kubernetes and Azure Kubernetes Service (AKS)
+  - SQL
+  - Distributed computing and large-scale data processing such as Spark
+  - RAG solutions and AI agents
+  - Mentoring junior engineers
+  - Azure, Databricks, Kubernetes, MLOps, AWS, or Google Cloud certifications
+letter:
+  paragraphs:
+  - I am applying for the Senior ML Engineer role advertised by Sabenza IT & Recruitment
+    in Johannesburg, Gauteng. I fit this position because of my experience integrating
+    large language models into production systems, maintaining real-time ML pipelines
+    at scale, and implementing continuous integration, delivery, and testing workflows
+    for machine learning models.
+  - In my previous work, I developed and deployed AI and machine learning models at
+    scale, focusing on automating production workloads, monitoring performance, and
+    maintaining machine learning pipelines for real-time applications. Additionally,
+    I integrated large language models and advanced machine learning algorithms into
+    production systems, optimizing those models for real-time deployment to improve
+    decision-making and automation for client systems.
+  - To maintain reliable model delivery and automated testing, I used AWS SageMaker
+    to implement and maintain continuous integration, delivery, and testing (CI/CD/CT)
+    workflows specifically for machine learning models.
+  - I am drawn to this role with Sabenza IT & Recruitment because of its focus on
+    turning prototypes into production-ready AI and machine learning solutions on
+    Databricks and Azure Kubernetes Service while collaborating across data science,
+    cloud, and infrastructure teams to meet enterprise standards. I welcome the opportunity
+    to have a conversation about how my experience deploying models and maintaining
+    production pipelines can support your requirements.
+  claim_ids:
+  - dreamverse-holdings-1-01
+  - dreamverse-holdings-1-02
+  - university-of-johann-3-07

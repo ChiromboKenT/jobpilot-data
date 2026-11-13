@@ -1,0 +1,39 @@
+Senior ML Engineer - Sabenza IT & Recruitment - Johannesburg, Gauteng
+
+Responsibilities
+- Deploy and monitor machine learning models and data science pipelines on Databricks
+- Build and support AI agents, generative AI applications and RAG solutions on Databricks
+- Develop reusable ML pipelines following MLOps practices: CI/CD, automated testing, monitoring and governance
+- Deploy and manage open-source AI and ML models on Azure Kubernetes Service (AKS)
+- Build custom APIs and microservices on AKS exposing AI capabilities to business applications
+- Containerise solutions with Docker and Kubernetes for scalable, secure deployments
+- Track model performance, drift, reliability and operational health in production
+- Work with Data Scientists to turn prototypes into production-ready solutions
+- Coordinate with platform, security, cloud and infrastructure teams to meet enterprise standards
+- Troubleshoot production issues across models, pipelines, APIs and AI applications
+- Optimise AI/ML solutions for performance, scalability, cost and reliability
+- Contribute to engineering standards, reusable frameworks and best practices
+- Mentor junior engineers and encourage knowledge sharing
+
+Requirements
+- Matric and a tertiary qualification (degree)
+- Experience building, deploying and supporting ML solutions in production
+- Proficiency in Python, with SQL and API development experience
+- Experience with Databricks, MLflow, Model Serving and cloud-native AI/ML platforms
+- Hands-on experience with Kubernetes, Docker and containerised deployments
+- Experience deploying ML and GenAI solutions on AKS
+- Knowledge of CI/CD pipelines, infrastructure automation and platform monitoring
+- Experience with distributed computing and large-scale data processing such as Spark
+- Understanding of ML, LLMs, RAG and AI agents
+- Experience taking end-to-end AI/ML use cases from development to production
+- Strong communication skills for stakeholders and cross-functional teams
+- Self-driven and adaptable in a fast-paced environment
+
+Desirable
+- Microsoft Azure certifications (AZ-104, AZ-305 or AI-102)
+- Databricks certifications
+- Kubernetes certifications (CKA or CKAD)
+- DevOps, MLOps or platform engineering certifications
+- AWS or Google Cloud certifications
+
+Apply via CareerJunction: https://www.careerjunction.co.za/jobs/view/2644736
