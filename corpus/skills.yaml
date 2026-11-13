@@ -197,3 +197,6 @@ skills:
 - name: Istio
   aliases: []
   level: exposure
+- name: SQL
+  aliases: []
+  level: proficient
