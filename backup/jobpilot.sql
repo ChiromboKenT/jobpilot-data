@@ -26,7 +26,7 @@ INSERT INTO "applications" VALUES(4,4,'rejected','email','kenmbi290@gmail.com','
 INSERT INTO "applications" VALUES(5,5,'assessment','website','','','cv.docx',0,'applications/5-website-test-company','','','2026-11-13T09:01:20Z','2026-11-13T09:02:45Z',1,7,2,'draft','');
 INSERT INTO "applications" VALUES(6,162,'applied','email','kenmbi290@gmail.com','','cv.docx',0,'applications/6-alpha-test-holdings','','','2026-11-13T16:41:37Z','2026-11-05T16:48:16Z',1,7,2,'draft','');
 INSERT INTO "applications" VALUES(7,163,'applied','email','kenmbi290@gmail.com','','cv.docx',0,'applications/7-bravo-test-holdings','','','2026-11-13T16:41:45Z','2026-11-05T16:45:37Z',1,7,2,'auto','');
-INSERT INTO "applications" VALUES(8,164,'no_response','website','','','cv.docx',0,'applications/8-charlie-test-holdings','','','2026-11-13T16:41:52Z','2026-10-22T16:48:29Z',1,7,2,'draft','');
+INSERT INTO "applications" VALUES(8,164,'applied','website','','','cv.docx',0,'applications/8-charlie-test-holdings','','','2026-11-13T16:41:52Z','2026-10-22T16:48:29Z',1,7,2,'draft','');
 CREATE TABLE events (
   id             INTEGER PRIMARY KEY,
   application_id INTEGER REFERENCES applications(id),  -- NULL for run events
@@ -65,6 +65,8 @@ INSERT INTO "events" VALUES(27,NULL,'2026-11-13T16:43:50Z','run','{"at": "2026-1
 INSERT INTO "events" VALUES(28,NULL,'2026-11-13T16:46:28Z','run','{"at": "2026-11-13T16:45:48Z", "errors": [], "fingerprints": {"changed": 0, "merged": 0}, "mail": {"alerts": 0, "new_jobs": 0, "reply": 0, "review": 0, "ignored": 0}, "adzuna": {"new_jobs": 0}, "score": {"scored": 0}, "followups": {"closed": 0, "drafted": 1, "sent": 1}, "backup": {"file": "jobpilot-20261113.db"}}','');
 INSERT INTO "events" VALUES(29,NULL,'2026-11-13T16:47:32Z','run','{"at": "2026-11-13T16:47:14Z", "errors": [], "fingerprints": {"changed": 0, "merged": 0}, "mail": {"alerts": 0, "new_jobs": 0, "reply": 0, "review": 0, "ignored": 0}, "adzuna": {"new_jobs": 0}, "score": {"scored": 0}, "followups": {"closed": 0, "drafted": 0, "sent": 0}, "backup": {"file": "jobpilot-20261113.db"}}','');
 INSERT INTO "events" VALUES(30,8,'2026-11-13T16:49:14Z','status','no_response','rule');
+INSERT INTO "events" VALUES(31,NULL,'2026-11-13T16:49:16Z','run','{"at": "2026-11-13T16:48:40Z", "errors": [], "fingerprints": {"changed": 0, "merged": 0}, "mail": {"alerts": 0, "new_jobs": 0, "reply": 0, "review": 0, "ignored": 0}, "adzuna": {"new_jobs": 0}, "score": {"scored": 0}, "followups": {"closed": 1, "drafted": 1, "sent": 0}, "backup": {"file": "jobpilot-20261113.db"}}','');
+INSERT INTO "events" VALUES(32,8,'2026-11-13T16:49:59Z','status','applied','message:367');
 CREATE TABLE jobs (
   id           INTEGER PRIMARY KEY,
   fingerprint  TEXT NOT NULL UNIQUE,
@@ -1013,6 +1015,8 @@ I am writing to follow up on my application submitted on 5 November 2026 for the
 Kind regards,
 Kenny Chirombo
 +27 81 264 4132','','2026-11-13T16:49:14Z','',NULL,'','',0);
+INSERT INTO "messages" VALUES(367,'local-6cddc5db-9769-4f1d-ac78-97c4bc247cfa',8,'in','reply','done','','','','','','2026-11-13T16:49:59Z','other',1.0,'Recruiter called','',0);
+INSERT INTO "messages" VALUES(368,'<179458855662.568.18389434705590585985@gmail.com>',NULL,'out','ignored','done','chirombokenny@gmail.com','','','','','2026-11-13T16:49:18Z','',NULL,'','',0);
 CREATE INDEX messages_app ON messages(application_id);
 CREATE INDEX events_app ON events(application_id);
 CREATE VIEW v_applications AS
