@@ -97,24 +97,24 @@ letter:
   paragraphs:
   - I am writing to apply for the onsite Full Stack Software Engineer position in
     Johannesburg advertised through CareerJunction. My background building secure
-    web applications, designing Python-based software, and integrating serverless
-    APIs on AWS fits your requirements for developing, integrating, and deploying
-    software applications.
-  - In my software development work, I built web applications and mobile applications
-    for clients, performing performance benchmarks and ensuring both high availability
-    and security across those client systems. To support application delivery, I also
-    used modern technologies to build automation pipelines dedicated to building and
-    deploying those web applications.
+    web applications, designing Python-based software, and integrating a serverless
+    API with AWS API Gateway fits your requirements for developing, integrating, and
+    deploying software applications.
+  - As Technical Lead at Dreamverse Holdings, I built web applications and mobile
+    applications for clients, performing performance benchmarks and ensuring both
+    high availability and security across those client systems. To support application
+    delivery, I also used modern technologies to build automation pipelines dedicated
+    to building and deploying those web applications.
   - On the cloud and systems integration side, I was responsible for integrating a
-    serverless API with AWS API Gateway and AWS services, matching your stated requirement
-    for API integration and major cloud platform experience. Additionally, I designed
-    a Python-based GUI Decision Support System for Risk-Based Water Quality Guidelines,
-    which improved user accessibility and interaction.
+    serverless API with AWS API Gateway and AWS services, matching your requirements
+    for systems integration and cloud deployment. Additionally, I designed a Python-based
+    GUI Decision Support System for Risk-Based Water Quality Guidelines, which improved
+    user accessibility and interaction.
   - Working with a provider of Data & Analytics Solutions appeals to me because the
-    role brings together frontend and backend development, systems integration, and
-    cloud deployment for web and enterprise systems. I would welcome a conversation
-    to discuss how my experience with web development, Python, and AWS can support
-    your software engineering projects in Johannesburg.
+    role brings together systems integration and cloud deployment for web and enterprise
+    systems. I would welcome a conversation to discuss how my experience with web
+    development, Python, and AWS can support your software engineering projects in
+    Johannesburg.
   claim_ids:
   - dreamverse-holdings-1-03
   - penyesa-sa-4-06
