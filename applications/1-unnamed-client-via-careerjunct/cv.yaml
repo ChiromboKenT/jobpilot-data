@@ -115,12 +115,11 @@ letter:
   - To manage model deployment reliably, I used AWS SageMaker to implement and maintain
     continuous integration, delivery, and testing workflows for machine learning models.
     This hands-on work with automated testing and delivery workflows prepares me to
-    support your MLOps practices and AWS-based cloud infrastructure for AI applications.
-  - I am drawn to your client's focus on building production machine learning solutions,
-    AI-powered applications, and intelligent agents while supporting deployment into
-    an AI marketplace environment. I would welcome a conversation to discuss how my
-    background in machine learning pipelines and AWS SageMaker workflows can contribute
-    to your team.
+    support your AWS-based cloud infrastructure for AI applications.
+  - I am drawn to your client's focus on building production machine learning solutions
+    and intelligent agents while supporting deployment into an AI marketplace environment.
+    I would welcome a conversation to discuss how my background in machine learning
+    pipelines and AWS SageMaker workflows can contribute to your team.
   claim_ids:
   - dreamverse-holdings-1-01
   - dreamverse-holdings-1-02
