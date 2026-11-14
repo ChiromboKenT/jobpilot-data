@@ -1,121 +1,165 @@
 base_cv: full-stack
 template: cv.docx
 cv:
-  headline: Full Stack Software Engineer
-  summary: Builds web and mobile applications, front-end features, and backend services
-    while ensuring high availability and security. Integrates a serverless API with
-    AWS API Gateway and authors CI/CD pipelines using AWS developer tools. Designs
-    Python-based systems and integrates machine learning algorithms into production
-    systems to improve automation and decision-making.
+  headline: Full Stack Software Engineer (Python, C#, React)
+  summary: Full-stack software engineer building Python, C# .NET and React applications.
+    Designed FastAPI and Node.js REST APIs for partner profiles and document uploads,
+    and built account-status synchronisation in C# .NET with PostgreSQL migrations.
+    Shipped responsive banking journeys in React, Next.js and TypeScript.
   summary_claims:
-  - dreamverse-holdings-1-03
-  - wikimedia-2-03
-  - wikimedia-2-02
-  - penyesa-sa-4-06
-  - penyesa-sa-4-04
-  - university-of-johann-3-02
-  - dreamverse-holdings-1-02
+  - rp-account-01
+  - dreamverse-leadfull-02
+  - access-frontend-01
   skills:
   - Python
-  - JavaScript
-  - TypeScript
   - C#
   - React
+  - Dot Net
+  - TypeScript
+  - JavaScript
+  - SQL
   - Node.js
   - NestJs
-  - Dot Net
+  - PostgreSQL
+  - MongoDB
+  - REST APIs
   - AWS
-  - Google Cloud Platform
   - Docker
   - CI/CD
-  - Backend Development
-  - Front-End Development
-  - Web Development
-  - AWS API Gateway
-  - Data Analysis
+  - Git
+  - Azure DevOps
   - Machine Learning
   roles:
+  - role_id: redpanda
+    bullets:
+    - claim_id: rp-account-01
+      text: Built account-status synchronisation in a C# .NET customer service with
+        PostgreSQL migrations that replaced a legacy status column and kept a status
+        history.
+    - claim_id: rp-loans-01
+      text: Developed loan-application screens in React for a retail-credit lender's
+        online portal, covering contact details, bank-account checks, document upload
+        and the loan summary.
+    - claim_id: rp-alloc-01
+      text: Wrote account-allocation rules with unit tests in a C# .NET collections
+        service to route customer accounts to follow-up queues by priority.
+    - claim_id: rp-api-01
+      text: Moved a branch-integration event service off direct reads of the Customer
+        and Deal databases onto those services' RESTful APIs.
+    - claim_id: rp-sec-01
+      text: Closed an account-enumeration gap in password reset and added a file-type
+        allowlist and count checks to document uploads.
+    - claim_id: rp-kyc-01
+      text: Added selfie and liveness-check handling to the customer document-verification
+        flow.
   - role_id: dreamverse-holdings-1
     bullets:
-    - claim_id: dreamverse-holdings-1-03
-      text: Built client web and mobile applications, ran performance benchmarks,
-        ensured high availability and security, and created automation pipelines to
-        build and deploy web applications.
-    - claim_id: dreamverse-holdings-1-02
-      text: Integrated large language models and machine learning algorithms into
-        production systems, optimizing real-time deployment to improve client decision-making
-        and automation.
-    - claim_id: dreamverse-holdings-1-01
-      text: Developed and deployed AI and machine learning models at scale to automate
-        production workloads, monitor performance, and maintain ML pipelines for real-time
-        applications.
-  - role_id: wikimedia-2
+    - claim_id: dreamverse-leadfull-02
+      text: Designed Python FastAPI and Node.js RESTful APIs for partner profiles,
+        document uploads, search and administration.
+    - claim_id: dreamverse-swe2-01
+      text: Implemented FastAPI and PostgreSQL RESTful API endpoints for partner onboarding,
+        file upload and review workflows.
+    - claim_id: dreamverse-leadfull-01
+      text: Built multi-step onboarding and partner workflows with Next.js, React
+        and TypeScript, keeping form validation separate from server-side persistence.
+    - claim_id: dreamverse-leadfull-03
+      text: Modelled PostgreSQL data for approval workflows, activity states and reporting,
+        keeping business rules out of frontend components.
+    - claim_id: dreamverse-founder-03
+      text: Set up authentication and authorization boundaries for apps with public,
+        partner and admin surfaces, including OTP and session workflows.
+    - claim_id: dreamverse-swe2-05
+      text: Created React admin screens where state, permissions and responsive layouts
+        were easy to get wrong.
+  - role_id: access-bank
     bullets:
-    - claim_id: wikimedia-2-02
-      text: Developed and maintained backend services and Anti-Harassment tools for
-        operational quality, ensuring a safe and inclusive environment for users.
-    - claim_id: wikimedia-2-03
-      text: Developed and maintained front-end features, ensuring robustness and seamless
-        user interaction.
-    - claim_id: wikimedia-2-04
-      text: Completed operations and lower-level engineering backlog tasks across
-        multiple Data Platforms teams, including the Machine Learning Team.
-    - claim_id: wikimedia-2-01
-      text: Contributed to the Anti-Harassment, Machine Learning, and Data-Platform-SRE
-        teams.
+    - claim_id: access-frontend-01
+      text: Built responsive banking application journeys with Next.js, React, TypeScript
+        and Tailwind CSS.
+    - claim_id: access-swe2-03
+      text: Connected form submission to Next.js server routes backed by Prisma and
+        PostgreSQL.
+  - role_id: dazn
+    bullets:
+    - claim_id: dazn-swe2-01
+      text: Maintained Node.js and NestJS microservices behind DAZN's metadata ingestion
+        and enrichment workflows.
+    - claim_id: dazn-leadfull-01
+      text: Built React operator screens for campaign tooling on top of NestJS redemption
+        APIs and DynamoDB.
+  - role_id: league-digital
+    bullets:
+    - claim_id: league-01
+      text: Built and maintained features for the MyDStv mobile app in React Native,
+        writing shared code for Android and iOS.
+    - claim_id: league-02
+      text: Profiled React Native components and fixed slow renders to make the Android
+        app more responsive.
   - role_id: university-of-johann-3
     bullets:
     - claim_id: university-of-johann-3-02
-      text: Designed a Python-based GUI Decision Support System for Risk-Based Water
-        Quality Guidelines, improving user accessibility and interaction.
-    - claim_id: university-of-johann-3-06
-      text: Established scalable automated processes for data analysis, model development,
-        and implementation to support continuous improvement.
-    - claim_id: university-of-johann-3-08
-      text: Documented and communicated results, insights, and patterns to stakeholders,
-        ensuring transparency and effective information sharing.
+      text: Designed a Python desktop Decision Support System (DSS) for risk-based
+        water-quality guidelines.
+    - claim_id: uj-research-06
+      text: Used Python, SQL and AWS SageMaker to organise data analysis and repeatable
+        model experiments.
+  - role_id: vincii
+    bullets:
+    - claim_id: vincii-react-01
+      text: Built and maintained features for a retailer-facing CMS dashboard in React
+        and TypeScript.
+    - claim_id: vincii-react-02
+      text: Turned Figma mockups into reusable React components and checked them against
+        real dashboard content.
   - role_id: penyesa-sa-4
     bullets:
     - claim_id: penyesa-sa-4-03
-      text: Completed end-to-end web development of an ecommerce web store for a global
-        audience.
-    - claim_id: penyesa-sa-4-06
-      text: Integrated a serverless API with AWS API Gateway and AWS Services.
-    - claim_id: penyesa-sa-4-04
-      text: Implemented and maintained CI/CD pipelines using AWS developer tools including
-        AWS CodePipeline and AWS CodeBuild.
+      text: Built an e-commerce web store end to end for a global audience.
+    - claim_id: penyesa-sa-4-05
+      text: Wrote AWS Lambda functions as the e-commerce backend.
+  - role_id: wikimedia-2
+    bullets:
+    - claim_id: wikimedia-2-02
+      text: Developed and maintained backend services for the Anti-Harassment tools
+        that keep the community safe and inclusive.
+    - claim_id: wikimedia-2-03
+      text: Built and maintained front-end features for community-facing tools.
   gaps:
   - Bachelor's degree or diploma in Computer Science, Software Engineering, IT or
     related field
-  - SQL, database structure design, stored procedures, migrations, and listed databases
-    (Microsoft SQL Server, PostgreSQL, MySQL, MongoDB) in recorded claims
-  - Role claims supporting C#, ASP.NET, .NET Core, Flask, Node.js, and NestJS
-  - Role claims supporting React, Angular, HTML5, and CSS3
-  - Microsoft Azure, Azure DevOps, Kubernetes, Jenkins, and Git in recorded claims
-  - RESTful API design
+  - Angular
+  - HTML5 and CSS3
+  - ASP.NET
+  - Flask
+  - Microsoft SQL Server
+  - MySQL
+  - Stored procedures
+  - Microsoft Azure
+  - Kubernetes
+  - Jenkins
 letter:
   paragraphs:
-  - I am writing to apply for the onsite Full Stack Software Engineer position in
-    Johannesburg advertised through CareerJunction. My background building secure
-    web applications, designing Python-based software, and integrating a serverless
-    API with AWS API Gateway fits your requirements for developing, integrating, and
-    deploying software applications.
-  - As Technical Lead at Dreamverse Holdings, I built web applications and mobile
-    applications for clients, performing performance benchmarks and ensuring both
-    high availability and security across those client systems. To support application
-    delivery, I also used modern technologies to build automation pipelines dedicated
-    to building and deploying those web applications.
-  - On the cloud and systems integration side, I was responsible for integrating a
-    serverless API with AWS API Gateway and AWS services, matching your requirements
-    for systems integration and cloud deployment. Additionally, I designed a Python-based
-    GUI Decision Support System for Risk-Based Water Quality Guidelines, which improved
-    user accessibility and interaction.
-  - Working with a provider of Data & Analytics Solutions appeals to me because the
-    role brings together systems integration and cloud deployment for web and enterprise
-    systems. I would welcome a conversation to discuss how my experience with web
-    development, Python, and AWS can support your software engineering projects in
-    Johannesburg.
+  - Your advert for a Full Stack Software Engineer asks for someone who can build
+    backend applications and manage database structures and migrations. On a C# .NET
+    customer service, I built account-status synchronisation with PostgreSQL migrations
+    that replaced a legacy status column and kept a status history.
+  - Integration and API design are central to the role. When a branch-integration
+    event service was reading directly from the Customer and Deal databases, I moved
+    it onto those services' REST APIs instead. On another project, I designed Python
+    FastAPI and Node.js RESTful APIs to handle partner profiles, document uploads,
+    search and administration.
+  - On the frontend and security side, I built loan-application screens in React for
+    a retail-credit lender's online portal, covering contact details, bank-account
+    checks, document upload and the loan summary. I also closed an account-enumeration
+    gap in password reset and added a file-type allowlist and count checks to document
+    uploads.
+  - Building web and enterprise systems onsite in Johannesburg for a Data & Analytics
+    Solutions provider fits the mix of frontend, API and database work I have focused
+    on. I would be glad to talk through my work with your team.
   claim_ids:
-  - dreamverse-holdings-1-03
-  - penyesa-sa-4-06
-  - university-of-johann-3-02
+  - rp-account-01
+  - rp-api-01
+  - dreamverse-leadfull-02
+  - rp-loans-01
+  - rp-sec-01
