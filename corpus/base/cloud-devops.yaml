@@ -1,0 +1,35 @@
+headline: "Cloud / DevOps Engineer: AWS, Docker, Terraform"
+summary: >-
+  Cloud engineer with 8 years shipping and running services on AWS with Docker, Terraform, GitHub Actions and CloudWatch, and OpenTelemetry, Prometheus and Grafana for observability. At DAZN built Terraform modules and p95 latency dashboards and traced production incidents across Lambda, DynamoDB and downstream APIs.
+claims:
+- rp-ops-01
+- rp-api-01
+- rp-java-01
+- rp-account-01
+- rp-sec-01
+- rp-review-01
+- dv-jobpilot-05
+- dreamverse-platform-06
+- dv-core-02
+- dreamverse-cloud-03
+- dreamverse-cloud-05
+- dreamverse-cloud-01
+- access-cloud-01
+- access-cloud-02
+- access-cloud-04
+- dazn-platform-05
+- dazn-platform-06
+- dazn-cloud-02
+- league-05
+- league-01
+- university-of-johann-3-07
+- uj-research-06
+- vincii-react-04
+- vincii-swe2-05
+- penyesa-sa-4-04
+- penyesa-sa-4-06
+- wikimedia-2-06
+- wikimedia-ml-04
+# Dreamverse is your own company, so its title follows the kind of role this base CV aims at.
+titles:
+  dreamverse-holdings-1: Cloud and Platform Engineer

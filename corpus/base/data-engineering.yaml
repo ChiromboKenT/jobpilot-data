@@ -1,0 +1,35 @@
+headline: "Data Engineer: Python, SQL, AWS"
+summary: >-
+  Engineer with 8 years in Python, SQL and AWS who builds the data paths that models and services depend on: water-quality ingestion, validation and repeatable analysis at UJ PEETS, metadata ingestion at DAZN, and PostgreSQL data models for approval workflows at Dreamverse.
+claims:
+- rp-account-01
+- rp-alloc-01
+- rp-report-01
+- rp-api-01
+- rp-java-01
+- rp-ops-01
+- dreamverse-leadfull-03
+- dv-jobpilot-01
+- dreamverse-mlops-04
+- dreamverse-cloud-02
+- dreamverse-mlops-03
+- dreamverse-swe2-01
+- access-frontend-03
+- access-fullstack-04
+- access-lead-03
+- dazn-backend-01
+- dazn-swe2-02
+- dazn-cloud-06
+- league-05
+- league-01
+- uj-data-01
+- uj-data-03
+- vincii-swe2-04
+- vincii-react-01
+- penyesa-sa-4-06
+- penyesa-sa-4-05
+- wikimedia-2-04
+- wikimedia-2-05
+# Dreamverse is your own company, so its title follows the kind of role this base CV aims at.
+titles:
+  dreamverse-holdings-1: Data and ML Engineer

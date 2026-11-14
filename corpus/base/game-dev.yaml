@@ -1,0 +1,35 @@
+headline: "Software Engineer: Game Development"
+summary: >-
+  Software engineer with 8 years building production systems who prototypes games at Dreamverse: a fixed-timestep browser game loop, a tvOS rugby arcade with local multiplayer, a deterministic match-state model for replays, and state-machine AI opponents with tunable difficulty.
+claims:
+- rp-loans-01
+- rp-alloc-01
+- rp-account-01
+- rp-api-01
+- rp-kyc-01
+- rp-review-01
+- dreamverse-games-01
+- dreamverse-games-03
+- dreamverse-games-06
+- dreamverse-games-02
+- dreamverse-games-05
+- dreamverse-games-07
+- access-frontend-01
+- access-lead-05
+- access-frontend-02
+- dazn-leadfull-01
+- dazn-swe2-05
+- dazn-platform-06
+- league-01
+- league-02
+- university-of-johann-3-03
+- uj-software2-03
+- vincii-react-03
+- vincii-react-01
+- penyesa-sa-4-03
+- penyesa-sa-4-05
+- wikimedia-2-03
+- wikimedia-2-02
+# Dreamverse is your own company, so its title follows the kind of role this base CV aims at.
+titles:
+  dreamverse-holdings-1: Game Developer

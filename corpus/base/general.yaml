@@ -1,15 +1,32 @@
-headline: Technical Lead
-summary: ''
+headline: "Software Engineer: Python, TypeScript, AWS"
+summary: >-
+  Software engineer with 8 years across Python, TypeScript and AWS, building APIs, web apps and LLM features and running them in production. Recent work includes a shared FastAPI platform package on PyPI, idempotent gift-code redemption at DAZN and banking onboarding for Access Bank.
 claims:
-- dreamverse-holdings-1-01
-- dreamverse-holdings-1-02
-- dreamverse-holdings-1-03
-- wikimedia-2-01
-- wikimedia-2-02
-- wikimedia-2-03
+- rp-account-01
+- rp-alloc-01
+- rp-loans-01
+- rp-api-01
+- rp-sec-01
+- rp-java-01
+- dv-core-01
+- dreamverse-ai-01
+- dv-jobpilot-01
+- dreamverse-swe2-01
+- dreamverse-platform-06
+- dreamverse-leadfull-01
+- access-frontend-01
+- access-swe2-03
+- access-frontend-04
+- dazn-swe2-01
+- dazn-leadfull-02
+- dazn-platform-05
+- league-01
+- league-02
 - university-of-johann-3-01
 - university-of-johann-3-02
-- university-of-johann-3-03
-- penyesa-sa-4-01
-- penyesa-sa-4-02
-- penyesa-sa-4-03
+- vincii-react-01
+- vincii-react-03
+- penyesa-sa-4-05
+- penyesa-sa-4-06
+- wikimedia-2-05
+- wikimedia-2-02

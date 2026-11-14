@@ -1,4 +1,52 @@
+# One role per real engagement. Every role here appears on every CV, so never add a
+# second title for the same job: base CVs change the emphasis, not the history.
+# A claim's skills are the only skills a tailored bullet may name, so tag only what
+# the claim's text says. Comment markers: (cv) from a CV you sent before,
+# (confirmed) ticked by you in the 13 Nov 2026 interview, (repo) seen in your code.
 roles:
+- id: redpanda
+  # (repo) your commits in Documents/RedPanda, Oct 2025 to Nov 2026; (timesheet) Sep 2025
+  # timesheets give the title. Client names are left out on purpose. TODO: confirm start month.
+  company: redPanda Software
+  title: Software Engineer
+  location: Johannesburg, Gauteng
+  start: Sep 2025
+  end: Present
+  claims:
+  - id: rp-account-01  # (repo)
+    text: Built account-status synchronisation in a C# .NET customer service, with PostgreSQL migrations that replaced a legacy status column and kept a status history
+    skills: [C#, Dot Net, PostgreSQL, Data modelling]
+  - id: rp-alloc-01  # (repo)
+    text: Wrote account-allocation rules in a C# collections service that route customer accounts to follow-up queues by priority, with unit tests
+    skills: [C#, Dot Net, Testing]
+  - id: rp-loans-01  # (repo)
+    text: Built loan-application screens in React for a retail-credit lender's online portal, covering contact details, bank-account checks, document upload and the loan summary
+    skills: [React, JavaScript, Front-End Development]
+  - id: rp-api-01  # (repo)
+    text: Moved a branch-integration event service off direct reads of the Customer and Deal databases and onto those services' APIs
+    skills: [Microservices, REST APIs, Dot Net]
+  - id: rp-sec-01  # (repo)
+    text: Closed an account-enumeration gap in password reset and added a file-type allowlist and count checks to document uploads
+    skills: [Security, Authentication]
+  - id: rp-sms-01  # (repo)
+    text: Added SMS templates that tell applicants why the Provenir decisioning engine declined their credit application
+    skills: [Backend Development]
+  - id: rp-kyc-01  # (repo)
+    text: Added selfie and liveness-check handling to the customer document-verification flow
+    skills: [JavaScript, Front-End Development]
+  - id: rp-report-01  # (repo)
+    text: Added a follow-up-by-category report to the collections back-office web app
+    skills: [React, Data Analysis]
+  - id: rp-java-01  # (timesheet) Sep 2025, PTP project
+    text: Developed a Java Spring Boot ticket service backed by AWS DynamoDB for a retail group's client project
+    skills: [Java, Spring Boot, DynamoDB]
+  - id: rp-ops-01  # (repo)
+    text: Maintained QA, UAT and production configuration for services running on Docker Swarm, including the switch of the mail provider from Mailgun to SMTP
+    skills: [Docker Swarm, Docker]
+  - id: rp-review-01  # (repo)
+    text: Shipped changes through Azure DevOps pull requests and code review across .NET services and React front ends
+    skills: [Azure DevOps, Code reviews, Dot Net, React]
+
 - id: dreamverse-holdings-1
   company: Dreamverse Holdings
   title: Technical Lead
@@ -6,66 +54,332 @@ roles:
   start: Jan 2024
   end: Present
   claims:
-  - id: dreamverse-holdings-1-01
-    text: Developed and deployed AI/ML models at scale focusing on automating production workloads, monitoring performance, and maintaining ML pipelines for real-time applications
-    skills:
-    - AI
-    - Machine Learning
-    - ML pipelines
-  - id: dreamverse-holdings-1-02
-    text: Integrated large language models (LLMs) and advanced ML algorithms into production systems, optimizing models for real-time deployment improving decision-making and automation for client systems.
-    skills:
-    - LLMs
-    - Machine Learning
-  - id: dreamverse-holdings-1-03
-    text: Built web apps and mobile apps for clients, performed performance benchmarks, ensured high availability and security, and leveraged modern technologies to build automation pipelines for building and deploying web applications.
-    skills:
-    - Web Development
-    - Mobile App Development
-    - Performance Benchmarking
-    - Security
-    - CI/CD
-- id: wikimedia-2
-  company: Wikimedia
-  title: Volunteer Software Developer
-  location: Remote
-  start: Oct 2023
-  end: Present
+  # --- AI / LLM ---
+  - id: dreamverse-holdings-1-01  # (cv)
+    text: Developed and deployed AI/ML models that automate production workloads, with performance monitoring and maintained ML pipelines for real-time applications
+    skills: [AI, Machine Learning, ML pipelines]
+  - id: dreamverse-holdings-1-02  # (cv)
+    text: Integrated large language models and ML algorithms into client production systems, tuning them for real-time use to automate decisions
+    skills: [LLMs, Machine Learning]
+  - id: dreamverse-ai-01  # (cv)
+    text: Integrated LLM-backed workflows into Python and TypeScript services, keeping model calls behind APIs with explicit prompts, scope checks and error handling
+    skills: [LLMs, Python, TypeScript, Prompt engineering]
+  - id: dreamverse-ai-02  # (cv)
+    text: Used retrieval-augmented generation (RAG) for source-sensitive answers instead of relying on unconstrained generation
+    skills: [RAG, LLMs]
+  - id: dreamverse-mlops-01  # (confirmed)
+    text: Wrapped an LLM inference service behind a FastAPI gateway with model versioning, timeouts, request budgets and structured response checks
+    skills: [FastAPI, LLMs, Model serving]
+  - id: dreamverse-mlops-02  # (confirmed)
+    text: Benchmarked vLLM throughput on AMD MI300X GPUs to choose quantization and batching settings within a fixed budget
+    skills: [vLLM, AMD MI300X, Quantization, Model serving]
+  - id: dreamverse-ai-03  # (cv)
+    text: Evaluated self-hosted model serving with vLLM and ROCm on AMD MI300X hardware
+    skills: [vLLM, ROCm, AMD MI300X, Model serving]
+  - id: dreamverse-mlops-03  # (confirmed)
+    text: Built a RAG evaluation set covering source relevance, groundedness and negative test questions before changing embedding models
+    skills: [RAG, LLM evaluation]
+  - id: dreamverse-mlops-04  # (confirmed)
+    text: Added per-request token and GPU cost reporting so a prompt change that made inference more expensive was visible to product teams
+    skills: [LLMs, Model serving]
+  - id: dreamverse-ai-05  # (cv)
+    text: Weighed quantization against response latency when deciding whether a model could run on a constrained GPU or edge device
+    skills: [Quantization, LLMs]
+  - id: dreamverse-ai-06  # (cv)
+    text: Used repeatable checks for LLM outputs and model-configuration changes rather than judging quality by eye
+    skills: [LLM evaluation, LLMs]
+  - id: dreamverse-ai-04  # (cv)
+    text: Built an image-generation workflow around ComfyUI and LoRA models, with prompt tracking, S3 artifact storage and SHA-256 verification
+    skills: [ComfyUI, LoRA, AWS S3]
+  # --- JobPilot (repo) ---
+  - id: dv-jobpilot-01  # (repo)
+    text: Built JobPilot, a Python job-search assistant that reads LinkedIn, Indeed and PNet alert emails and the Adzuna API, merges duplicate jobs across boards and scores each job with an LLM
+    skills: [Python, LLMs, SQLite]
+  - id: dv-jobpilot-02  # (repo)
+    text: Wrote code checks that compare every LLM-tailored CV bullet with a corpus of recorded claims, so generated CVs cannot add skills, numbers or employers that are not on record
+    skills: [LLM evaluation, Python, Pydantic]
+  - id: dv-jobpilot-03  # (repo) Verification Log V4.1
+    text: Checked JobPilot's alert-email parsing against live mail by hand; it found 40 of 40 jobs across LinkedIn, Indeed and PNet
+    skills: [Testing, Python]
+  - id: dv-jobpilot-04  # (repo)
+    text: Generated tailored Word CVs and PDFs from templates through Gotenberg, with every version committed to a Git repository
+    skills: [Python, Git, Docker]
+  - id: dv-jobpilot-05  # (repo)
+    text: Shipped JobPilot as a non-root, read-only Docker image built for amd64 and arm64 in GitHub Actions and deployed with Coolify on Oracle Cloud, with a daily scheduled run that cannot overlap itself
+    skills: [Docker, GitHub Actions, CI/CD, Oracle Cloud]
+  - id: dv-jobpilot-06  # (repo)
+    text: Pinned LiteLLM and locked all Python dependencies with hashes after two malicious LiteLLM releases were published to PyPI
+    skills: [Security, Python]
+  # --- platform / backend ---
+  - id: dv-core-01  # (repo) dreamverse-core 1.11.1
+    text: Built and published dreamverse-core to PyPI, a shared FastAPI package that gives Dreamverse services authentication, audit logging, idempotency, feature flags and observability
+    skills: [Python, FastAPI, Authentication, Audit logging, Idempotency, Feature flags, Observability]
+  - id: dv-core-02  # (repo)
+    text: Tested dreamverse-core with pytest and Hypothesis property-based tests, releasing through changesets and GitHub Actions trusted publishing with no long-lived PyPI token
+    skills: [Testing, Python, GitHub Actions, CI/CD]
+  - id: dreamverse-platform-03  # (cv rewrite)
+    text: Fixed cross-service authorization bugs where the browser, API and session provider disagreed about whether a request was authenticated
+    skills: [Authorization, Authentication]
+  - id: dreamverse-platform-06  # (confirmed)
+    text: Introduced OpenTelemetry, Prometheus and Grafana service dashboards across all Dreamverse ventures
+    skills: [OpenTelemetry, Prometheus, Grafana, Observability]
+  - id: dreamverse-leadfull-02  # (cv rewrite)
+    text: Designed Python FastAPI and Node.js APIs for partner profiles, document uploads, search and administration
+    skills: [FastAPI, Python, Node.js, REST APIs]
+  - id: dreamverse-swe2-01  # (cv rewrite)
+    text: Implemented FastAPI and PostgreSQL REST endpoints for partner onboarding, file upload and review workflows
+    skills: [FastAPI, PostgreSQL, REST APIs]
+  - id: dreamverse-leadfull-03  # (cv rewrite)
+    text: Modelled PostgreSQL data for approval workflows, activity states and reporting, keeping business rules out of frontend components
+    skills: [PostgreSQL, Data modelling]
+  - id: dreamverse-founder-03  # (cv rewrite)
+    text: Designed authentication and authorization boundaries for apps with public, partner and admin surfaces, including OTP and session workflows
+    skills: [Authentication, Authorization, OTP]
+  - id: dreamverse-swe2-04  # (cv rewrite)
+    text: Built passwordless sign-in with expiring OTPs, resend invalidation and predictable error responses
+    skills: [Authentication, OTP]
+  - id: dreamverse-swe2-02  # (cv rewrite)
+    text: Diagnosed a 500 error on an image-upload endpoint by tracing the request through validation, storage and the malware-scanner integration
+    skills: [Troubleshooting]
+  - id: dreamverse-cloud-06  # (cv rewrite)
+    text: Designed the upload workflow so an optional malware-scanning service could fail without taking the whole upload down
+    skills: [System design]
+  - id: dreamverse-founder-04  # (cv rewrite)
+    text: Worked through production-readiness issues including upload error handling, malware-scanner dependency failures, CORS and environment configuration
+    skills: [CORS, Security]
+  # --- frontend / full stack ---
+  - id: dreamverse-holdings-1-03  # (cv)
+    text: Built web and mobile apps for clients, ran performance benchmarks, kept them available and secure, and built pipelines that build and deploy them automatically
+    skills: [Web Development, Mobile App Development, Performance Benchmarking, Security, CI/CD]
+  - id: dreamverse-leadfull-01  # (cv rewrite)
+    text: Built multi-step onboarding and partner workflows with Next.js, TypeScript and React Hook Form, keeping form validation separate from server-side persistence
+    skills: [Next.js, TypeScript, React Hook Form, React]
+  - id: dreamverse-leadfull-04  # (cv rewrite)
+    text: Connected frontend request handling to auth session state so expired OTPs and revoked sessions returned clear, recoverable errors
+    skills: [Authentication, OTP]
+  - id: dreamverse-swe2-05  # (cv rewrite)
+    text: Built React admin screens where state, permissions and responsive layouts were easy to get wrong
+    skills: [React, Responsive design]
+  # --- cloud / devops ---
+  - id: dreamverse-cloud-01  # (cv rewrite)
+    text: Ran low-budget product deployments across Cloudflare, AWS and Google Cloud and adjusted them as traffic changed
+    skills: [Cloudflare, AWS, Google Cloud Platform]
+  - id: dreamverse-cloud-02  # (cv rewrite)
+    text: Built Docker runtimes for Python APIs, TypeScript services and PostgreSQL-backed applications
+    skills: [Docker, Python, TypeScript, PostgreSQL]
+  - id: dreamverse-cloud-03  # (cv rewrite)
+    text: Investigated failed container startups caused by missing secrets, invalid environment variables and unavailable downstream services
+    skills: [Docker, Troubleshooting]
+  - id: dreamverse-cloud-05  # (cv rewrite)
+    text: Mapped public, internal and admin API access paths and tightened CORS, authentication and secrets handling on each
+    skills: [CORS, Authentication, Security]
+  - id: dreamverse-leadfull-05  # (cv rewrite)
+    text: Set up Docker development environments and CI/CD checks that covered service contracts before new builds were promoted
+    skills: [Docker, CI/CD]
+  - id: dreamverse-swe2-06  # (cv rewrite)
+    text: Used pull-request review and regression tests to catch breakage from changes to shared API error handling
+    skills: [Code reviews, Testing]
+  # --- leadership ---
+  - id: dreamverse-founder-01  # (cv rewrite)
+    text: Set the technical direction for Dreamverse projects while staying hands-on across Next.js, TypeScript, Python and PostgreSQL
+    skills: [Technical leadership, Next.js, TypeScript, Python, PostgreSQL]
+  - id: dreamverse-founder-02  # (cv rewrite)
+    text: Turned venture ideas such as Dream2Host and AidLink into bounded product scopes, service contracts and deployment plans
+    skills: [System design, Technical leadership]
+  - id: dreamverse-founder-06  # (cv rewrite)
+    text: Tied architecture decisions to operating constraints such as cloud cost, incident diagnosis and the ability to support a product after launch
+    skills: [System design]
+  # --- games (confirmed) ---
+  - id: dreamverse-games-01  # (confirmed)
+    text: Prototyped a browser game loop with a fixed-timestep simulation, keyboard and controller input, and reusable entity components
+    skills: [Game development]
+  - id: dreamverse-games-02  # (confirmed)
+    text: Designed a rugby arcade game prototype for Apple tvOS around short sessions and local multiplayer with controllers
+    skills: [Game development, Apple tvOS]
+  - id: dreamverse-games-03  # (confirmed)
+    text: Built a deterministic match-state model so replays, scoring and referee decisions could be tested outside the rendering loop
+    skills: [Game development, Testing]
+  - id: dreamverse-games-04  # (confirmed)
+    text: Created a lightweight asset pipeline for sprites, animations and sound cues, keeping gameplay logic independent of art assets
+    skills: [Game development]
+  - id: dreamverse-games-05  # (confirmed)
+    text: Tested controller mapping and input latency on target hardware instead of assuming desktop controls would carry over to TV
+    skills: [Game development, Apple tvOS]
+  - id: dreamverse-games-06  # (confirmed)
+    text: Built AI opponent behaviour with finite state machines and tunable difficulty rather than scripted movement
+    skills: [Game development, Game AI]
+  - id: dreamverse-games-07  # (repo) pre-production only: a project set-up and design brief
+    text: Set up a Godot 4.4 project in C# for an open-world driving game set in Johannesburg and wrote its design brief
+    skills: [Godot, C#, Game development]
+
+# TODO before use: Access Bank end month, and the title on your GoSoft contract.
+- id: access-bank
+  company: GoSoft (client Access Bank)
+  title: Frontend Engineer
+  location: Johannesburg, Gauteng
+  start: Jun 2024
+  end: ''
   claims:
-  - id: wikimedia-2-01
-    text: Contribute to the Anti-Harassment, Machine Learning and Data-Platform-SRE teams.
-    skills:
-    - Open-Source Development
-    - Machine Learning
-    - SRE
-  - id: wikimedia-2-02
-    text: Developing and maintaining backend services and features crucial for operational quality, particularly focusing on the Anti-Harassment tools to ensure a safe and inclusive environment for all users.
-    skills:
-    - Backend Development
-  - id: wikimedia-2-03
-    text: Contributing to the development and maintenance of front-end features, ensuring robustness and seamless user interaction.
-    skills:
-    - Front-End Development
-  - id: wikimedia-2-04
-    text: Performing backlog tasks (Admin and development) regarding operations and lower-level engineering of multiple Data Platforms teams, including the Machine Learning Team which develops machine learning services for Wikimedia sites.
-    skills:
-    - Data Platforms
-    - Machine Learning
-  - id: wikimedia-2-05
-    text: Involved in migrating machine-generated article descriptions from toolforge to Liftwing, ensuring the smooth and efficient operation of article-description inference services.
-    skills:
-    - Toolforge
-    - Liftwing
-    - Machine Learning
-  - id: wikimedia-2-06
-    text: Assisting in the improvement of Istio's mesh traffic transparent proxy capabilities for external domains accessed by Lift Wing, enhancing service connectivity and performance.
-    skills:
-    - Istio
-    - Liftwing
-  - id: wikimedia-2-07
-    text: Engaging in community-based initiatives such as Pilot-Flag and Test-Grounds to empower community involvement and improve the quality and relevance of machine learning models.
-    skills:
-    - Machine Learning
+  - id: access-frontend-01  # (cv)
+    text: Built responsive banking application journeys with Next.js, React, TypeScript and Tailwind CSS
+    skills: [Next.js, React, TypeScript, Tailwind CSS, Responsive design]
+  - id: access-frontend-02  # (cv)
+    text: Built multi-step forms with React Hook Form and schema validation so applicants could resume and correct an application without losing valid input
+    skills: [React Hook Form, React]
+  - id: access-swe2-03  # (confirmed)
+    text: Connected form submission to Next.js server routes backed by Prisma and PostgreSQL
+    skills: [Next.js, Prisma, PostgreSQL]
+  - id: access-fullstack-02  # (confirmed)
+    text: Mapped the application lifecycle into explicit draft, resumed and submitted states instead of scattering those checks across form components
+    skills: [System design]
+  - id: access-frontend-03  # (cv)
+    text: Used Prisma and PostgreSQL to save applications and restore the right state for applicants returning to an unfinished process
+    skills: [Prisma, PostgreSQL]
+  - id: access-fullstack-04  # (confirmed)
+    text: Reviewed how Prisma schema changes affected previously saved applications before releasing them
+    skills: [Prisma, Data modelling]
+  - id: access-frontend-04  # (cv)
+    text: Integrated SuperTokens authentication and sessions into form and API access paths
+    skills: [SuperTokens, Authentication]
+  - id: access-swe2-04  # (cv rewrite)
+    text: Used SuperTokens session boundaries so a draft application could only be retrieved by the session that owned it
+    skills: [SuperTokens, Authentication, Security]
+  - id: access-lead-03  # (confirmed)
+    text: Added audit records for application-state changes and document actions without writing sensitive values to logs
+    skills: [Audit logging, Security]
+  - id: access-lead-05  # (confirmed)
+    text: Wrote contract tests for the application submit and resume flows across frontend and backend packages
+    skills: [Contract testing, Testing]
+  - id: access-swe2-06  # (cv rewrite)
+    text: Added regression tests for returning applicants, partly completed steps and invalid field transitions
+    skills: [Testing]
+  - id: access-aiml-01  # (confirmed)
+    text: Prototyped document OCR that pre-filled banking applications while keeping every extracted field editable by the applicant
+    skills: [OCR, AI]
+  - id: access-cloud-01  # (confirmed)
+    text: Containerised the Next.js and API components with Docker and defined promotion checks for the bank's on-premise runtime
+    skills: [Docker, Next.js, CI/CD]
+  - id: access-frontend-05  # (cv)
+    text: Used Docker to keep environments consistent from development through on-premise deployment
+    skills: [Docker]
+  - id: access-cloud-02  # (confirmed)
+    text: Configured secrets, database connectivity and session-provider health checks without embedding credentials in builds
+    skills: [Security, Docker]
+  - id: access-cloud-04  # (confirmed)
+    text: Added repeatable Prisma migration checks to a controlled deployment pipeline
+    skills: [Prisma, CI/CD]
+  - id: access-cloud-05  # (confirmed)
+    text: Set up alerts for document-upload failures and external service timeouts
+    skills: [Monitoring]
+  - id: access-fullstack-05  # (cv rewrite)
+    text: Implemented PDF export and document upload as part of the application journey
+    skills: []
+  - id: access-frontend-06  # (cv)
+    text: Worked with product and engineering peers in sprint planning and reviews to reconcile form requirements with the real API contract
+    skills: [Agile]
+
+- id: dazn
+  company: GoSoft (client DAZN)
+  title: Cloud Engineer
+  location: Johannesburg (remote, with DAZN's Poland team)
+  start: Aug 2022
+  end: Dec 2023
+  claims:
+  - id: dazn-swe2-01  # (cv rewrite)
+    text: Built and maintained Node.js and NestJS microservices behind DAZN's metadata ingestion and enrichment workflows
+    skills: [Node.js, NestJs, Microservices]
+  - id: dazn-backend-02  # (cv rewrite)
+    text: Contributed to the rewards and campaign APIs behind partner subscriptions, gift codes and referrals
+    skills: [REST APIs]
+  - id: dazn-leadfull-02  # (confirmed)
+    text: Designed idempotent gift-code redemption endpoints so a retried network request could not use the same benefit twice
+    skills: [Idempotency, REST APIs]
+  - id: dazn-backend-03  # (cv rewrite)
+    text: Improved failure handling in asynchronous AWS Lambda workflows and DynamoDB reads where partial upstream responses could break a redemption
+    skills: [AWS Lambda, DynamoDB]
+  - id: dazn-leadfull-03  # (confirmed)
+    text: Introduced contract tests between the subscription, eligibility and redemption services to catch breaking API changes before deployment
+    skills: [Contract testing, Microservices]
+  - id: dazn-swe2-02  # (cv rewrite)
+    text: Connected internal service APIs to PostgreSQL and DynamoDB, handling schema assumptions and error cases across service boundaries
+    skills: [PostgreSQL, DynamoDB]
+  - id: dazn-backend-01  # (cv rewrite)
+    text: Worked on video-on-demand metadata ingestion, reshaping upstream media data into the form downstream DAZN services needed
+    skills: [Data pipelines]
+  - id: dazn-swe2-04  # (cv rewrite)
+    text: Maintained shared npm packages so several teams could reuse the same TypeScript types and integration conventions
+    skills: [Node.js, TypeScript]
+  - id: dazn-cloud-06  # (cv)
+    text: Maintained the AWS Lambda, DynamoDB and S3 integrations used by streaming-metadata and campaign services
+    skills: [AWS Lambda, DynamoDB, AWS S3]
+  - id: dazn-platform-05  # (confirmed)
+    text: Built Terraform modules for DAZN AWS accounts, including reusable IAM, VPC and CloudWatch configuration behind security review gates
+    skills: [Terraform, AWS, IAM, AWS VPC, CloudWatch]
+  - id: dazn-platform-06  # (confirmed)
+    text: Introduced OpenTelemetry tracing and p95 latency dashboards for campaign microservices
+    skills: [OpenTelemetry, Observability, Microservices]
+  - id: dazn-cloud-01  # (cv)
+    text: Traced production failures in the gift-code redemption and referral journeys across Node.js services, AWS resources and downstream APIs
+    skills: [Node.js, AWS, Troubleshooting]
+  - id: dazn-cloud-02  # (cv)
+    text: Worked through CloudWatch alarms and application logs to find where the redemption flow failed before preparing a narrowly scoped fix
+    skills: [CloudWatch, Incident response]
+  - id: dazn-platform-02  # (cv rewrite)
+    text: Investigated production alarms before changing infrastructure, separating application regressions from dependency failures and configuration drift
+    skills: [Incident response, AWS]
+  - id: dazn-cloud-03  # (cv)
+    text: Used Drone CI in release cycles and checked deployment outcomes instead of treating a green build as proof the user journey worked
+    skills: [Drone CI, CI/CD]
+  - id: dazn-backend-05  # (cv rewrite)
+    text: Shipped production fixes through GitHub Actions, Docker and the team release pipeline
+    skills: [GitHub Actions, Docker, CI/CD]
+  - id: dazn-platform-04  # (cv rewrite)
+    text: Kept deployment automation and GitHub Actions configuration in step with service changes as shared packages evolved
+    skills: [GitHub Actions, CI/CD]
+  - id: dazn-leadfull-01  # (confirmed)
+    text: Built React operator screens for campaign tooling on top of NestJS redemption APIs and DynamoDB
+    skills: [React, NestJs, DynamoDB]
+  - id: dazn-leadfull-05  # (confirmed)
+    text: Moved campaign configuration into an auditable admin interface with feature flags, so a new partner no longer needed a code change
+    skills: [Feature flags, React]
+  - id: dazn-swe2-05  # (cv rewrite)
+    text: Added automated tests around service behaviour and investigated production defects with logs and reproducible requests
+    skills: [Testing, Troubleshooting]
+  - id: dazn-cloud-04  # (cv)
+    text: Kept Shield Services infrastructure notes current as configuration and dependencies changed, so the next engineer had a usable record
+    skills: [Documentation]
+  - id: dazn-cloud-05  # (cv)
+    text: Reviewed other engineers' service changes and checked integration assumptions with neighbouring DAZN teams
+    skills: [Code reviews]
+  - id: dazn-dotnet-01  # (cv) your 2024 CV: C# and .NET for Video on Demand systems
+    text: Wrote C# and .NET code for DAZN's video-on-demand systems
+    skills: [C#, Dot Net]
+
+- id: league-digital
+  # (cv) from your League Digital CVs; your supplier agreement (signed 21 Jun 2023) names the
+  # MyDStv app. Two CV entries combined: website Nov 2022 to Apr 2023, app Apr to Sep 2023.
+  company: League Digital (client MultiChoice, DStv)
+  title: React Native Developer
+  location: Johannesburg (remote)
+  start: Nov 2022
+  end: Sep 2023
+  claims:
+  - id: league-01  # (cv)
+    text: Built and maintained features for the MyDStv mobile app in React Native, writing shared code for Android and iOS
+    skills: [React Native, Mobile App Development]
+  - id: league-02  # (cv)
+    text: Profiled React Native components and fixed slow renders to make the Android app more responsive
+    skills: [React Native, Performance optimisation]
+  - id: league-03  # (cv)
+    text: Maintained the DStv website and added features to it
+    skills: [Web Development, Front-End Development]
+  - id: league-04  # (cv)
+    text: Gave estimates in daily stand-ups and estimation sessions and demoed finished work to the client
+    skills: [Agile]
+  - id: league-05  # (cv)
+    text: Monitored automated builds and fixed failing releases before they reached the client
+    skills: [CI/CD, Troubleshooting]
+
 - id: university-of-johann-3
   company: UJ PEETS
   title: 'Research Associate: Python Developer'
@@ -73,58 +387,99 @@ roles:
   start: Jan 2021
   end: Dec 2023
   claims:
-  - id: university-of-johann-3-01
-    text: Developed machine learning models for industrial water quality risk assessment, significantly enhancing decision-making processes.
-    skills:
-    - Machine Learning
-  - id: university-of-johann-3-02
-    text: Designed a Python-based GUI Decision Support System (DSS) for Risk-Based Water Quality Guidelines, improving user accessibility and interaction.
-    skills:
-    - Python
-    - GUI Development
-    - Decision Support System
-  - id: university-of-johann-3-03
-    text: Utilized PyQt5 to create sophisticated and user-friendly graphical interfaces for the DSS tool, ensuring an intuitive user experience.
-    skills:
-    - PyQt5
-    - GUI Development
-  - id: university-of-johann-3-04
-    text: Employed modern machine learning techniques to prototype predictive models for water quality risk, enhancing accuracy and reliability.
-    skills:
-    - Machine Learning
-    - Predictive Modeling
-  - id: university-of-johann-3-05
-    text: Conducted comprehensive model evaluations, comparing various machine learning models and traditional formulas to refine model selections.
-    skills:
-    - Machine Learning
-    - Model Evaluation
-  - id: university-of-johann-3-06
-    text: Established scalable and efficient automated processes for data analysis, model development, and implementation, focusing on continuous improvement.
-    skills:
-    - Data Analysis
-    - Machine Learning
-  - id: university-of-johann-3-07
-    text: Leveraged AWS SageMaker to implement and maintain continuous integration, delivery, and testing (CI/CD/CT) workflows for machine learning models.
-    skills:
-    - AWS Sagemaker
-    - CI/CD
-    - CI/CD/CT
-    - Machine Learning
-  - id: university-of-johann-3-08
-    text: Documented and communicated results, insights, and patterns to stakeholders, ensuring transparency and effective information sharing.
-    skills:
-    - Communication skills
-    - Documentation
-  - id: university-of-johann-3-09
-    text: Developed a desktop application for the Water Research Commission, demonstrating versatility in software development and application deployment.
-    skills:
-    - Desktop Application Development
-    - Software Development
-  - id: university-of-johann-3-10
-    text: Led and contributed to various research projects for various clients.
-    skills:
-    - Project Management
-    - Research
+  - id: university-of-johann-3-01  # (cv)
+    text: Developed machine learning models for industrial water-quality risk assessment to support decision-making
+    skills: [Machine Learning]
+  - id: university-of-johann-3-02  # (cv)
+    text: Designed a Python desktop Decision Support System (DSS) for risk-based water-quality guidelines
+    skills: [Python, GUI Development, Decision Support System]
+  - id: university-of-johann-3-03  # (cv)
+    text: Built the DSS user interface in PyQt5
+    skills: [PyQt5, GUI Development]
+  - id: university-of-johann-3-04  # (cv)
+    text: Prototyped predictive models for water-quality risk
+    skills: [Machine Learning, Predictive Modeling]
+  - id: university-of-johann-3-05  # (cv)
+    text: Evaluated and compared machine learning models against traditional formulas to choose the model to use
+    skills: [Machine Learning, Model Evaluation]
+  - id: university-of-johann-3-06  # (cv)
+    text: Automated the data analysis, model development and implementation steps so they could be repeated
+    skills: [Data Analysis, Machine Learning, Automation]
+  - id: university-of-johann-3-07  # (cv)
+    text: Used AWS SageMaker to run continuous integration, delivery and testing (CI/CD/CT) workflows for machine learning models
+    skills: [AWS Sagemaker, CI/CD, CI/CD/CT, Machine Learning]
+  - id: university-of-johann-3-08  # (cv)
+    text: Documented and presented results, insights and patterns to stakeholders
+    skills: [Communication skills, Documentation]
+  - id: university-of-johann-3-09  # (cv)
+    text: Developed a desktop application for the Water Research Commission
+    skills: [Desktop Application Development, Software Development]
+  - id: university-of-johann-3-10  # (cv)
+    text: Led and contributed to research projects for several clients
+    skills: [Project Management, Research]
+  - id: uj-research-06  # (cv)
+    text: Used Python, SQL and AWS SageMaker to organise data analysis and repeatable model experiments
+    skills: [Python, SQL, AWS Sagemaker]
+  - id: uj-data-01  # (cv rewrite)
+    text: Created Python data-processing steps for the water-quality measurements used in risk evaluation and desktop reporting
+    skills: [Python, Data pipelines]
+  - id: uj-data-02  # (cv rewrite)
+    text: Normalised input units and validation rules before data reached the decision-support tool
+    skills: [Data validation]
+  - id: uj-data-03  # (cv rewrite)
+    text: Maintained SQL queries and repeatable analysis scripts so changes in source data could not silently change model comparisons
+    skills: [SQL, Python]
+  - id: uj-data-04  # (cv rewrite)
+    text: Separated raw observations from derived metrics to make the assessment path easier to audit
+    skills: [Data modelling]
+  - id: uj-aiml-01  # (cv rewrite)
+    text: Prepared water-quality datasets for risk modelling, handling missing observations and inconsistent units before training
+    skills: [Data validation, Machine Learning]
+  - id: uj-aiml-05  # (cv rewrite)
+    text: Chose models through error analysis and domain constraints rather than a single aggregate metric
+    skills: [Model Evaluation, Machine Learning]
+  - id: uj-software2-03  # (cv rewrite)
+    text: Separated the risk formulas and model evaluation from UI code so the assessment logic could be tested directly
+    skills: [Python, Testing]
+  - id: uj-software2-05  # (cv rewrite)
+    text: Debugged differences between a calculated guideline result and an experimental machine-learning prediction
+    skills: [Troubleshooting, Machine Learning]
+  - id: uj-aiml-06  # (cv rewrite)
+    text: Explained technical assumptions to research stakeholders who needed the decision-support tool to stay interpretable
+    skills: [Communication skills]
+
+- id: vincii
+  company: Vincii
+  title: React Developer
+  location: Cape Town (remote)
+  start: Jan 2022
+  end: Jul 2022
+  claims:
+  - id: vincii-react-01  # (cv)
+    text: Built and maintained features for a retailer-facing CMS dashboard in React and TypeScript
+    skills: [React, TypeScript]
+  - id: vincii-react-02  # (cv)
+    text: Turned Figma mockups into reusable React components and checked them against real dashboard content
+    skills: [Figma, React]
+  - id: vincii-swe2-02  # (cv rewrite)
+    text: Built responsive screens from Figma layouts with reusable form and table patterns
+    skills: [Figma, Responsive design]
+  - id: vincii-react-03  # (cv)
+    text: Profiled React components to find unnecessary re-renders and expensive UI updates
+    skills: [React, Performance optimisation]
+  - id: vincii-swe2-04  # (cv rewrite)
+    text: Worked with MongoDB-backed application data and the frontend state built on it during integration tasks
+    skills: [MongoDB]
+  - id: vincii-react-04  # (cv)
+    text: Fixed automated builds and integration failures so feature branches could be tested and released
+    skills: [CI/CD, Troubleshooting]
+  - id: vincii-swe2-05  # (cv rewrite)
+    text: Monitored GitHub Actions and fixed build issues that blocked releases
+    skills: [GitHub Actions]
+  - id: vincii-react-05  # (cv)
+    text: Built on the existing data and UI conventions instead of rewriting a working retail workflow for each new feature
+    skills: []
+
 - id: penyesa-sa-4
   company: Penyesa SA
   title: Full Stack Developer
@@ -132,37 +487,59 @@ roles:
   start: Dec 2018
   end: Dec 2020
   claims:
-  - id: penyesa-sa-4-01
-    text: Monitored automated build and continuous software integration process to drive build/release failure resolution.
-    skills:
-    - CI/CD
-  - id: penyesa-sa-4-02
-    text: Gained experience in cloud architectures, containerization based on application infrastructure, deployment, alerting, monitoring, and automation.
-    skills:
-    - Cloud Architecture
-    - Containerization
-    - Monitoring
-    - Automation
-  - id: penyesa-sa-4-03
-    text: End to end development of an innovative ecommerce web store to cater to a global audience.
-    skills:
-    - Web Development
-    - E-commerce
-  - id: penyesa-sa-4-04
-    text: 'Implemented and maintained state of the art CI/CD workflows (Authoring CI/CD pipelines using AWS developer tools e.g., AWS Code Pipeline, Code Build) '
-    skills:
-    - CI/CD
-    - AWS
-    - AWS CodePipeline
-    - AWS CodeBuild
-  - id: penyesa-sa-4-05
-    text: Scripted AWS Lambda functions to serve as ecommerce backend
-    skills:
-    - AWS Lambda
-    - Backend Development
-  - id: penyesa-sa-4-06
-    text: Responsible for integrating serverless API with AWS API Gateway and AWS Services.
-    skills:
-    - Serverless
-    - AWS API Gateway
-    - AWS
+  - id: penyesa-sa-4-03  # (cv)
+    text: Built an e-commerce web store end to end for a global audience
+    skills: [Web Development, E-commerce]
+  - id: penyesa-sa-4-05  # (cv)
+    text: Wrote AWS Lambda functions as the e-commerce backend
+    skills: [AWS Lambda, Backend Development, Serverless]
+  - id: penyesa-sa-4-06  # (cv)
+    text: Integrated the serverless API with AWS API Gateway and other AWS services
+    skills: [Serverless, AWS API Gateway, AWS]
+  - id: penyesa-sa-4-04  # (cv)
+    text: Built and maintained CI/CD pipelines with AWS CodePipeline and CodeBuild
+    skills: [CI/CD, AWS, AWS CodePipeline, AWS CodeBuild]
+  - id: penyesa-sa-4-01  # (cv)
+    text: Monitored automated builds and continuous integration to drive build and release failures to resolution
+    skills: [CI/CD]
+  - id: penyesa-sa-4-02  # (cv)
+    text: Worked on cloud architecture, containerised deployment, alerting, monitoring and automation for the application infrastructure
+    skills: [Cloud Architecture, Containerization, Monitoring, Automation]
+
+- id: wikimedia-2
+  company: Wikimedia
+  title: Volunteer Software Developer
+  location: Remote
+  start: Oct 2023
+  end: Present
+  claims:
+  - id: wikimedia-2-05  # (cv)
+    text: Helped migrate machine-generated article descriptions from Toolforge to Lift Wing, keeping the article-description inference service running smoothly
+    skills: [Toolforge, Liftwing, Machine Learning]
+  - id: wikimedia-ml-01  # (cv rewrite)
+    text: Paid attention to the API and service-behaviour changes users would see in the Toolforge-to-Lift Wing move for article-description inference
+    skills: [Liftwing, Model serving]
+  - id: wikimedia-2-06  # (cv)
+    text: Helped improve Istio's mesh traffic proxy for external domains reached by Lift Wing, improving service connectivity
+    skills: [Istio, Liftwing]
+  - id: wikimedia-2-01  # (cv)
+    text: Contributed to Wikimedia's Anti-Harassment team, Machine Learning team and Data Platform SRE group
+    skills: [Open-Source Development, Machine Learning, SRE]
+  - id: wikimedia-2-02  # (cv)
+    text: Developed and maintained backend services for the Anti-Harassment tools that keep the community safe and inclusive
+    skills: [Backend Development]
+  - id: wikimedia-2-03  # (cv)
+    text: Built and maintained front-end features for community-facing tools
+    skills: [Front-End Development]
+  - id: wikimedia-2-04  # (cv)
+    text: Took on admin and development backlog tasks for several Data Platform teams, including the Machine Learning team that builds ML services for Wikimedia sites
+    skills: [Data Platforms, Machine Learning]
+  - id: wikimedia-ml-04  # (cv rewrite)
+    text: Handled ML backlog items with operational reliability in mind, including request routing and service configuration
+    skills: [SRE]
+  - id: wikimedia-sre-03  # (cv rewrite)
+    text: Documented how a model-serving service was reached through the Toolforge and Lift Wing environments
+    skills: [Documentation, Model serving]
+  - id: wikimedia-2-07  # (cv)
+    text: Took part in community initiatives such as Pilot-Flag and Test-Grounds that improve the quality and relevance of ML models
+    skills: [Machine Learning]

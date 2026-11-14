@@ -1,16 +1,35 @@
-headline: Full-Stack Developer
-summary: Software engineer with 8 years building web, mobile and desktop applications, from front-end features to serverless AWS backends, with automated CI/CD pipelines for build and deployment.
+headline: "Full-Stack Developer"
+summary: >-
+  Full-stack developer with 8 years building Next.js, React and TypeScript front ends on Node.js, NestJS and FastAPI services backed by PostgreSQL and DynamoDB. Shipped resumable multi-step banking onboarding for Access Bank, campaign tooling at DAZN and partner onboarding at Dreamverse.
 claims:
-- dreamverse-holdings-1-03
-- dreamverse-holdings-1-02
-- wikimedia-2-02
-- wikimedia-2-03
+- rp-loans-01
+- rp-account-01
+- rp-alloc-01
+- rp-api-01
+- rp-kyc-01
+- rp-sec-01
+- dreamverse-leadfull-01
+- dreamverse-swe2-01
+- dreamverse-leadfull-02
+- dreamverse-founder-03
+- dreamverse-swe2-05
+- dreamverse-leadfull-03
+- access-frontend-01
+- access-frontend-02
+- access-swe2-03
+- dazn-leadfull-01
+- dazn-swe2-01
+- dazn-leadfull-02
+- league-01
+- league-02
 - university-of-johann-3-02
 - university-of-johann-3-03
-- university-of-johann-3-09
-- penyesa-sa-4-01
-- penyesa-sa-4-02
+- vincii-react-01
+- vincii-react-02
 - penyesa-sa-4-03
-- penyesa-sa-4-04
 - penyesa-sa-4-05
-- penyesa-sa-4-06
+- wikimedia-2-02
+- wikimedia-2-03
+# Dreamverse is your own company, so its title follows the kind of role this base CV aims at.
+titles:
+  dreamverse-holdings-1: Lead Full-Stack Engineer

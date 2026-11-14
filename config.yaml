@@ -45,18 +45,46 @@ docs:
   letter_template: letter.docx
   max_pages: 2
   max_bullets_recent: 6      # per role, first two roles
-  max_bullets_older: 3       # per role, the rest
+  max_bullets_older: 2       # per role, the rest
   banned_phrases:
     - results-driven
     - passionate
     - proven track record
     - team player
     - dynamic
-    - leverage
-    - spearheaded
-    - synergy
+    - leverag
+    - spearhead
+    - synerg
     - detail-oriented
     - fast-paced
+    - utilis
+    - utiliz
+    - seamless
+    - robust
+    - cutting-edge
+    - innovative
+    - delve
+    - tapestry
+    - showcas
+    - harness
+    - testament to
+    - pivotal
+    - meticulous
+    - world-class
+    - best-in-class
+    - game-changer
+    - ever-evolving
+    - in today's
+    - wealth of experience
+    - hit the ground running
+    - self-starter
+    - go-getter
+    - add value
+    - i am writing to
+    - i am excited
+    - i am thrilled
+    - hope this email finds you well
+    - —
   email_subject: "Application: {title}"
   email_body: |
     Dear Hiring Manager,

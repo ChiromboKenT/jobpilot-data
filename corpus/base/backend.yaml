@@ -1,0 +1,35 @@
+headline: "Backend Engineer: Python, Node.js, AWS"
+summary: >-
+  Backend engineer with 8 years building APIs and services in Python (FastAPI) and Node.js (NestJS) on PostgreSQL, DynamoDB and AWS Lambda. Designed idempotent redemption endpoints and service contract tests at DAZN, and published a shared FastAPI package that gives Dreamverse services authentication, audit logging and idempotency.
+claims:
+- rp-account-01
+- rp-alloc-01
+- rp-api-01
+- rp-java-01
+- rp-sec-01
+- rp-sms-01
+- dv-core-01
+- dreamverse-swe2-01
+- dreamverse-leadfull-02
+- dreamverse-founder-03
+- dreamverse-leadfull-03
+- dreamverse-platform-03
+- access-swe2-03
+- access-fullstack-02
+- access-lead-03
+- dazn-leadfull-02
+- dazn-swe2-01
+- dazn-backend-03
+- league-05
+- league-01
+- uj-data-03
+- university-of-johann-3-07
+- vincii-swe2-04
+- vincii-react-04
+- penyesa-sa-4-05
+- penyesa-sa-4-06
+- wikimedia-2-02
+- wikimedia-2-05
+# Dreamverse is your own company, so its title follows the kind of role this base CV aims at.
+titles:
+  dreamverse-holdings-1: Lead Backend Engineer

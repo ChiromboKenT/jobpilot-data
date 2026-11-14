@@ -1,8 +1,20 @@
+# Copy-ready answers for website application forms (Apply page, Website method).
+# TODO: salary figure, from you.
 answers:
 - q: Notice period
-  a: To be confirmed against current contract.
+  a: Flexible. I can match the start date the role needs.
 - q: Salary expectation
   a: Negotiable depending on the role and total package.
 - q: Work authorisation
   a: I hold a valid South African Life Partner visa with secondary activity authorisation permitting employment; this authorisation
     is not tied to a specific employer.
+- q: Work arrangement
+  a: Fully remote from Johannesburg (SAST, UTC+2).
+- q: Years of experience
+  a: 8 years in software engineering.
+- q: Why are you interested in this role?
+  a: Write two sentences tied to this advert. Name one thing the company is building and one piece of your own work that matches it.
+- q: LinkedIn
+  a: https://www.linkedin.com/in/chirombokenny
+- q: GitHub
+  a: https://github.com/ChiromboKenT/

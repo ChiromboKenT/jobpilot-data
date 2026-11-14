@@ -1,0 +1,35 @@
+headline: "Frontend Engineer: React, Next.js, TypeScript"
+summary: >-
+  Frontend engineer with 8 years in React, Next.js and TypeScript, most recently building resumable multi-step banking forms with React Hook Form and Tailwind CSS for Access Bank. Works down the stack too: Next.js server routes, Prisma and PostgreSQL, and auth sessions.
+claims:
+- rp-loans-01
+- rp-kyc-01
+- rp-report-01
+- rp-sec-01
+- rp-review-01
+- rp-account-01
+- dreamverse-leadfull-01
+- dreamverse-swe2-05
+- dreamverse-leadfull-04
+- dreamverse-holdings-1-03
+- dreamverse-founder-01
+- dreamverse-swe2-06
+- access-frontend-01
+- access-frontend-02
+- access-fullstack-02
+- dazn-leadfull-01
+- dazn-leadfull-05
+- dazn-swe2-04
+- league-01
+- league-02
+- university-of-johann-3-03
+- university-of-johann-3-02
+- vincii-react-01
+- vincii-react-02
+- penyesa-sa-4-03
+- penyesa-sa-4-04
+- wikimedia-2-03
+- wikimedia-2-02
+# Dreamverse is your own company, so its title follows the kind of role this base CV aims at.
+titles:
+  dreamverse-holdings-1: Lead Frontend Engineer

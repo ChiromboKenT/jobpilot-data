@@ -1,199 +1,153 @@
+# Aliases are how an advert's wording maps onto your skills: an ATS looking for
+# "Postgres" or "RESTful APIs" matches because the alias is here. Keep aliases to
+# real synonyms; never alias a skill you lack. Avoid aliases that are everyday
+# words ("Next", "Auth"): the truth check treats them as skill mentions.
+# Levels: "exposure" skills are kept out of headlines and summaries.
+# Lines marked "# new" were added on 13 Nov 2026; check each level.
 skills:
-- name: Python
-  aliases: []
-  level: expert
-- name: Machine Learning
-  aliases: [ML]
-  level: expert
-- name: AWS
-  aliases: [Amazon Web Services]
-  level: expert
-- name: CI/CD
-  aliases: [CI/CD pipelines, Continuous Integration, Continuous Delivery]
-  level: expert
-- name: AWS Sagemaker
-  aliases: [SageMaker, Amazon SageMaker]
-  level: proficient
-- name: LLMs
-  aliases: [LLM, Large Language Models, GenAI, Generative AI]
-  level: proficient
-- name: PyQt5
-  aliases: []
-  level: proficient
-- name: AWS Lambda
-  aliases: [Lambda]
-  level: proficient
-- name: AWS API Gateway
-  aliases: [API Gateway]
-  level: proficient
-- name: AWS CodePipeline
-  aliases: [CodePipeline]
-  level: proficient
-- name: AWS CodeBuild
-  aliases: [CodeBuild]
-  level: proficient
-- name: JavaScript
-  aliases: [JS]
-  level: proficient
-- name: TypeScript
-  aliases: [TS]
-  level: proficient
-- name: Node.js
-  aliases: [Node, NodeJS]
-  level: proficient
-- name: React
-  aliases: [React.js, ReactJS]
-  level: proficient
-- name: React Native
-  aliases: []
-  level: proficient
-- name: Docker
-  aliases: []
-  level: proficient
-- name: GitHub
-  aliases: []
-  level: proficient
-- name: Critical thinking
-  aliases: []
-  level: proficient
-- name: Problem-solving
-  aliases: []
-  level: proficient
-- name: Project Management
-  aliases: []
-  level: proficient
-- name: Organizational skills
-  aliases: []
-  level: proficient
-- name: Time management
-  aliases: []
-  level: proficient
-- name: Communication skills
-  aliases: [Communication]
-  level: proficient
-- name: C#
-  aliases: []
-  level: working
-- name: Dot Net
-  aliases: [".NET", dotnet]
-  level: working
-- name: C++
-  aliases: []
-  level: working
-- name: PyTorch
-  aliases: []
-  level: working
-- name: GraphQL
-  aliases: []
-  level: working
-- name: LangChain
-  aliases: []
-  level: working
-- name: TruLens
-  aliases: []
-  level: working
-- name: OAuth
-  aliases: []
-  level: working
-- name: NestJs
-  aliases: []
-  level: working
-- name: Google Cloud Platform
-  aliases: [GCP, Google Cloud]
-  level: working
-- name: VertexAi
-  aliases: [Vertex AI]
-  level: working
-- name: LlamaIndex
-  aliases: []
-  level: working
-- name: AI
-  aliases: [Artificial Intelligence]
-  level: proficient
-- name: ML pipelines
-  aliases: [MLOps]
-  level: proficient
-- name: Web Development
-  aliases: [Web Applications]
-  level: proficient
-- name: Mobile App Development
-  aliases: [Mobile Development]
-  level: proficient
-- name: Performance Benchmarking
-  aliases: []
-  level: working
-- name: Security
-  aliases: []
-  level: working
-- name: GUI Development
-  aliases: []
-  level: proficient
-- name: Decision Support System
-  aliases: []
-  level: proficient
-- name: Predictive Modeling
-  aliases: [Predictive Modelling]
-  level: proficient
-- name: Model Evaluation
-  aliases: []
-  level: proficient
-- name: Data Analysis
-  aliases: [Data Analytics]
-  level: proficient
-- name: CI/CD/CT
-  aliases: []
-  level: proficient
-- name: Documentation
-  aliases: []
-  level: proficient
-- name: Desktop Application Development
-  aliases: []
-  level: proficient
-- name: Software Development
-  aliases: []
-  level: proficient
-- name: Research
-  aliases: []
-  level: proficient
-- name: Cloud Architecture
-  aliases: []
-  level: proficient
-- name: Containerization
-  aliases: [Containers]
-  level: proficient
-- name: Monitoring
-  aliases: []
-  level: proficient
-- name: Automation
-  aliases: []
-  level: proficient
-- name: E-commerce
-  aliases: []
-  level: working
-- name: Backend Development
-  aliases: [Backend, Back-end]
-  level: proficient
-- name: Front-End Development
-  aliases: [Frontend, Front end]
-  level: proficient
-- name: Serverless
-  aliases: []
-  level: proficient
-- name: Open-Source Development
-  aliases: [Open Source]
-  level: working
-- name: SRE
-  aliases: [Site Reliability Engineering]
-  level: working
-- name: Data Platforms
-  aliases: []
-  level: working
-- name: Toolforge
-  aliases: []
-  level: exposure
-- name: Liftwing
-  aliases: [Lift Wing]
-  level: working
-- name: Istio
-  aliases: []
-  level: exposure
+# --- languages ---
+- {name: Python, aliases: [], level: expert}
+- {name: TypeScript, aliases: [TS], level: proficient}
+- {name: JavaScript, aliases: [JS, ES6], level: proficient}
+- {name: SQL, aliases: [], level: proficient}  # new
+- {name: C#, aliases: [], level: working}
+- {name: Dot Net, aliases: [.NET, dotnet], level: working}
+- {name: C++, aliases: [], level: working}
+- {name: Java, aliases: [], level: working}  # new: redPanda timesheet
+
+# --- AI / ML ---
+- {name: AI, aliases: [Artificial Intelligence], level: proficient}
+- {name: Machine Learning, aliases: [ML], level: expert}
+- {name: LLMs, aliases: [LLM, Large Language Models, GenAI, Generative AI], level: proficient}
+- {name: RAG, aliases: [Retrieval-Augmented Generation, Retrieval Augmented Generation], level: proficient}  # new
+- {name: Prompt engineering, aliases: [Prompt design], level: proficient}  # new
+- {name: LLM evaluation, aliases: [LLM evals, AI evaluation, Evals], level: proficient}  # new
+- {name: Model serving, aliases: [Model inference, LLM inference, Model deployment], level: proficient}  # new
+- {name: vLLM, aliases: [], level: working}  # new
+- {name: ROCm, aliases: [], level: working}  # new
+- {name: AMD MI300X, aliases: [MI300X], level: working}  # new
+- {name: Quantization, aliases: [Quantisation, Model quantization], level: working}  # new
+- {name: ComfyUI, aliases: [], level: working}  # new
+- {name: LoRA, aliases: [], level: working}  # new
+- {name: OCR, aliases: [Optical character recognition], level: working}  # new
+- {name: ML pipelines, aliases: [MLOps], level: proficient}
+- {name: AWS Sagemaker, aliases: [SageMaker, Amazon SageMaker], level: proficient}
+- {name: Predictive Modeling, aliases: [Predictive Modelling], level: proficient}
+- {name: Model Evaluation, aliases: [], level: proficient}
+- {name: PyTorch, aliases: [], level: working}
+- {name: LangChain, aliases: [], level: working}
+- {name: LlamaIndex, aliases: [], level: working}
+- {name: TruLens, aliases: [], level: working}
+- {name: VertexAi, aliases: [Vertex AI], level: working}
+- {name: Pydantic, aliases: [], level: proficient}  # new
+
+# --- backend ---
+- {name: Backend Development, aliases: [Backend, Back-end], level: proficient}
+- {name: Node.js, aliases: [Node, NodeJS], level: proficient}
+- {name: NestJs, aliases: [], level: working}
+- {name: Spring Boot, aliases: [], level: working}  # new: redPanda timesheet
+- {name: FastAPI, aliases: [], level: proficient}  # new
+- {name: REST APIs, aliases: [REST, RESTful APIs, API development, Web APIs], level: proficient}  # new
+- {name: Microservices, aliases: [Microservice architecture], level: proficient}  # new
+- {name: GraphQL, aliases: [], level: working}
+- {name: PostgreSQL, aliases: [Postgres], level: proficient}  # new
+- {name: DynamoDB, aliases: [AWS DynamoDB, Amazon DynamoDB], level: proficient}  # new
+- {name: MongoDB, aliases: [], level: working}  # new
+- {name: SQLite, aliases: [], level: working}  # new
+- {name: Prisma, aliases: [Prisma ORM], level: proficient}  # new
+- {name: Data modelling, aliases: [Data modeling, Database design, Schema design], level: proficient}  # new
+- {name: Idempotency, aliases: [], level: proficient}  # new
+- {name: Authentication, aliases: [Authn], level: proficient}  # new
+- {name: Authorization, aliases: [Authorisation, Access control], level: proficient}  # new
+- {name: OTP, aliases: [One-time passwords, Passwordless authentication], level: working}  # new
+- {name: OAuth, aliases: [], level: working}
+- {name: SuperTokens, aliases: [], level: working}  # new
+- {name: CORS, aliases: [], level: working}  # new
+- {name: Audit logging, aliases: [Audit trails, Audit trail], level: working}  # new
+- {name: Feature flags, aliases: [Feature toggles], level: working}  # new
+- {name: Serverless, aliases: [], level: proficient}
+- {name: E-commerce, aliases: [Ecommerce], level: working}
+
+# --- frontend ---
+- {name: Front-End Development, aliases: [Frontend, Front end], level: proficient}
+- {name: React, aliases: [React.js, ReactJS], level: proficient}
+- {name: Next.js, aliases: [NextJS], level: proficient}  # new
+- {name: React Hook Form, aliases: [], level: proficient}  # new
+- {name: Tailwind CSS, aliases: [Tailwind, TailwindCSS], level: proficient}  # new
+- {name: Responsive design, aliases: [Responsive UI], level: proficient}  # new
+- {name: Figma, aliases: [], level: working}  # new
+- {name: Performance optimisation, aliases: [Performance optimization, Performance tuning], level: working}  # new
+- {name: React Native, aliases: [], level: proficient}
+- {name: Web Development, aliases: [Web Applications], level: proficient}
+- {name: Mobile App Development, aliases: [Mobile Development], level: proficient}
+- {name: GUI Development, aliases: [], level: proficient}
+- {name: PyQt5, aliases: [PyQt], level: proficient}
+- {name: Desktop Application Development, aliases: [], level: proficient}
+
+# --- cloud / devops / platform ---
+- {name: AWS, aliases: [Amazon Web Services], level: expert}
+- {name: AWS Lambda, aliases: [Lambda], level: proficient}
+- {name: AWS API Gateway, aliases: [API Gateway], level: proficient}
+- {name: AWS S3, aliases: [S3, Amazon S3], level: proficient}  # new
+- {name: CloudWatch, aliases: [AWS CloudWatch, Amazon CloudWatch], level: proficient}  # new
+- {name: IAM, aliases: [AWS IAM], level: working}  # new
+- {name: AWS VPC, aliases: [VPC], level: working}  # new
+- {name: AWS CodePipeline, aliases: [CodePipeline], level: proficient}
+- {name: AWS CodeBuild, aliases: [CodeBuild], level: proficient}
+- {name: Google Cloud Platform, aliases: [GCP, Google Cloud], level: working}
+- {name: Oracle Cloud, aliases: [OCI, Oracle Cloud Infrastructure], level: working}  # new
+- {name: Cloudflare, aliases: [], level: working}  # new
+- {name: Terraform, aliases: [Infrastructure as Code, IaC], level: working}  # new
+- {name: Docker, aliases: [], level: proficient}
+- {name: Docker Swarm, aliases: [], level: working}  # new: redPanda repos
+- {name: Containerization, aliases: [Containers, Containerisation], level: proficient}
+- {name: CI/CD, aliases: [CI/CD pipelines, Continuous Integration, Continuous Delivery], level: expert}
+- {name: CI/CD/CT, aliases: [], level: proficient}
+- {name: GitHub Actions, aliases: [], level: proficient}  # new
+- {name: Azure DevOps, aliases: [Azure Pipelines, Azure Repos], level: working}  # new: redPanda repos
+- {name: Drone CI, aliases: [], level: working}  # new
+- {name: Git, aliases: [Version control], level: proficient}  # new
+- {name: GitHub, aliases: [], level: proficient}
+- {name: Observability, aliases: [], level: proficient}  # new
+- {name: OpenTelemetry, aliases: [OTel], level: working}  # new
+- {name: Prometheus, aliases: [], level: working}  # new
+- {name: Grafana, aliases: [], level: working}  # new
+- {name: Monitoring, aliases: [Alerting], level: proficient}
+- {name: Incident response, aliases: [Production support], level: working}  # new
+- {name: SRE, aliases: [Site Reliability Engineering], level: working}
+- {name: Cloud Architecture, aliases: [], level: proficient}
+- {name: Automation, aliases: [], level: proficient}
+- {name: Security, aliases: [], level: working}
+- {name: Istio, aliases: [], level: exposure}
+- {name: Toolforge, aliases: [], level: exposure}
+- {name: Liftwing, aliases: [Lift Wing], level: working}
+
+# --- data ---
+- {name: Data pipelines, aliases: [ETL, ELT, Data ingestion], level: working}  # new
+- {name: Data validation, aliases: [Data quality], level: working}  # new
+- {name: Data Analysis, aliases: [Data Analytics], level: proficient}
+- {name: Data Platforms, aliases: [], level: working}
+- {name: Decision Support System, aliases: [], level: proficient}
+
+# --- games ---
+- {name: Game development, aliases: [Game dev, Game programming], level: working}  # new
+- {name: Game AI, aliases: [], level: working}  # new
+- {name: Godot, aliases: [Godot Engine], level: exposure}  # new: project set-up only
+- {name: Unity, aliases: [Unity3D], level: exposure}  # new: listed on your 2019-2024 CVs; no project found
+- {name: Apple tvOS, aliases: [tvOS], level: working}  # new
+
+# --- practice ---
+- {name: Testing, aliases: [Automated testing, Unit testing, Integration testing, Test automation], level: proficient}  # new
+- {name: Contract testing, aliases: [API contract testing], level: working}  # new
+- {name: Troubleshooting, aliases: [Debugging, Root cause analysis], level: proficient}  # new
+- {name: Code reviews, aliases: [Code review], level: proficient}  # new
+- {name: System design, aliases: [Software architecture, Solution architecture], level: proficient}  # new
+- {name: Technical leadership, aliases: [Engineering leadership], level: proficient}  # new
+- {name: Agile, aliases: [Scrum], level: proficient}  # new
+- {name: Documentation, aliases: [], level: proficient}
+- {name: Software Development, aliases: [], level: proficient}
+- {name: Open-Source Development, aliases: [Open Source], level: working}
+- {name: Performance Benchmarking, aliases: [], level: working}
+- {name: Research, aliases: [], level: proficient}
+- {name: Project Management, aliases: [], level: proficient}
+- {name: Communication skills, aliases: [Communication], level: proficient}
