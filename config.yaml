@@ -19,11 +19,11 @@ search:
   adzuna:
     country: za
     searches:
-      - {what: ".NET developer", where: Johannesburg}
+      - {what: "developer", where: Johannesburg}
   # Remote job boards, read once in the daily run from the feeds the boards publish.
   remote:
     boards: [remotive, himalayas, wwr]
-    keywords: [".NET", "C#", Python, Backend, Full Stack, Software Engineer]
+    keywords: [".NET", "C#", "Python", "Backend", "Full Stack", "Software Engineer","Developer","Data Engineer" ]
     regions: [Worldwide, Anywhere, Africa, South Africa, EMEA]
   # Pay moves a job up the shortlist by at most `boost` points; target is a year's pay in `currency`.
   salary:
@@ -37,7 +37,7 @@ models:
   # reasoning: LiteLLM reasoning_effort (none|minimal|low|medium|high), used for both models.
   # Leave it out and Gemini thinks at its default "high": slower and dearer.
   # fast = repetitive work (extract, score, analyse, classify, follow-up). strong = tailor, letter, import.
-  fast:   {model: gemini/gemini-3.8-flash, fallback: gemini/gemini-3.5-flash-lite,  reasoning: high}
+  fast:   {model: gemini/gemini-3.8-flash, fallback: gemini/gemini-3.5-flash-lite,  reasoning: medium}
   strong: {model: gemini/gemini-4-hydrogen, fallback: gemini/gemini-3.8-flash,      reasoning: medium}
 
 mail:
@@ -52,9 +52,9 @@ followup:                    # defaults copied onto each new application
   no_response_days: 21
 
 docs:
-  cv_template: cv.docx
+  cv_template: Template.docx
   letter_template: letter.docx
-  max_pages: 2
+  max_pages: 4
   max_bullets_recent: 6      # per role, first two roles
   max_bullets_older: 2       # per role, the rest
   banned_phrases:
@@ -63,7 +63,7 @@ docs:
     - proven track record
     - team player
     - dynamic
-    - leverag
+    - leverage
     - spearhead
     - synerg
     - detail-oriented
@@ -76,7 +76,7 @@ docs:
     - innovative
     - delve
     - tapestry
-    - showcas
+    - showcase
     - harness
     - testament to
     - pivotal
