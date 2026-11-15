@@ -1,0 +1,139 @@
+base_cv: ai-ml
+template: cv.docx
+cv:
+  headline: Full Stack Software Engineer
+  summary: Full stack engineer building TypeScript, Python, Next.js and React applications
+    backed by PostgreSQL. Delivered LLM-backed workflows behind APIs with explicit
+    prompts and scope checks, plus loan-application front-end screens. Hardened authentication
+    and document-upload security by closing account-enumeration gaps and adding file-type
+    allowlists.
+  summary_claims:
+  - dreamverse-founder-01
+  - dreamverse-ai-01
+  - rp-loans-01
+  - rp-sec-01
+  skills:
+  - TypeScript
+  - Python
+  - React
+  - Next.js
+  - Node.js
+  - FastAPI
+  - PostgreSQL
+  - REST APIs
+  - System design
+  - Security
+  - Authentication
+  - AWS
+  - Docker
+  - CI/CD
+  - LLMs
+  - Java
+  - Spring Boot
+  - Testing
+  roles:
+  - role_id: redpanda
+    bullets:
+    - claim_id: rp-loans-01
+      text: Built loan-application screens in React for a retail-credit lender's online
+        portal, covering contact details, bank-account checks, document upload and
+        the loan summary.
+    - claim_id: rp-java-01
+      text: Developed a Java Spring Boot ticket service backed by AWS DynamoDB for
+        a retail group's client project.
+    - claim_id: rp-sec-01
+      text: Closed an account-enumeration gap in password reset and added a file-type
+        allowlist and count checks to document uploads.
+    - claim_id: rp-api-01
+      text: Moved a branch-integration event service off direct reads of the Customer
+        and Deal databases and onto those services' APIs.
+    - claim_id: rp-account-01
+      text: Implemented account-status synchronisation in a C# .NET customer service,
+        with PostgreSQL migrations that replaced a legacy status column and kept a
+        status history.
+    - claim_id: rp-ops-01
+      text: Maintained QA, UAT and production configuration for services running on
+        Docker Swarm, including the switch of the mail provider from Mailgun to SMTP.
+  - role_id: dreamverse-holdings-1
+    bullets:
+    - claim_id: dreamverse-founder-01
+      text: Set the technical direction for Dreamverse projects while staying hands-on
+        across Next.js, TypeScript, Python and PostgreSQL.
+    - claim_id: dreamverse-leadfull-01
+      text: Built multi-step onboarding and partner workflows with Next.js, TypeScript
+        and React Hook Form, keeping form validation separate from server-side persistence.
+    - claim_id: dreamverse-ai-01
+      text: Integrated LLM-backed workflows into Python and TypeScript services, keeping
+        model calls behind APIs with explicit prompts, scope checks and error handling.
+    - claim_id: dv-core-01
+      text: Published dreamverse-core to PyPI, a shared FastAPI package that gives
+        Dreamverse services authentication, audit logging, idempotency, feature flags
+        and observability.
+    - claim_id: dreamverse-cloud-05
+      text: Mapped public, internal and admin API access paths and tightened CORS,
+        authentication and secrets handling on each.
+    - claim_id: dreamverse-leadfull-05
+      text: Established Docker development environments and CI/CD checks that covered
+        service contracts before new builds were promoted.
+  - role_id: access-bank
+    bullets:
+    - claim_id: access-frontend-01
+      text: Built responsive banking application journeys with Next.js, React, TypeScript
+        and Tailwind CSS.
+    - claim_id: access-swe2-03
+      text: Connected form submission to Next.js server routes backed by Prisma and
+        PostgreSQL.
+  - role_id: dazn
+    bullets:
+    - claim_id: dazn-swe2-01
+      text: Built and maintained Node.js and NestJS microservices behind DAZN's metadata
+        ingestion and enrichment workflows.
+    - claim_id: dazn-platform-05
+      text: Created Terraform modules for DAZN AWS accounts, including reusable IAM,
+        VPC and CloudWatch configuration behind security review gates.
+  - role_id: league-digital
+    bullets:
+    - claim_id: league-01
+      text: Built and maintained features for the MyDStv mobile app in React Native,
+        writing shared code for Android and iOS.
+    - claim_id: league-05
+      text: Monitored automated builds and fixed failing releases before they reached
+        the client.
+  - role_id: university-of-johann-3
+    bullets:
+    - claim_id: university-of-johann-3-07
+      text: Used AWS SageMaker to run continuous integration, delivery and testing
+        (CI/CD/CT) workflows for machine learning models.
+    - claim_id: uj-aiml-05
+      text: Chose models through error analysis and domain constraints rather than
+        a single aggregate metric.
+  - role_id: vincii
+    bullets:
+    - claim_id: vincii-react-01
+      text: Built and maintained features for a retailer-facing CMS dashboard in React
+        and TypeScript.
+    - claim_id: vincii-react-03
+      text: Profiled React components to find unnecessary re-renders and expensive
+        UI updates.
+  - role_id: penyesa-sa-4
+    bullets:
+    - claim_id: penyesa-sa-4-05
+      text: Wrote AWS Lambda functions as the e-commerce backend.
+    - claim_id: penyesa-sa-4-04
+      text: Built and maintained CI/CD pipelines with AWS CodePipeline and CodeBuild.
+  - role_id: wikimedia-2
+    bullets:
+    - claim_id: wikimedia-2-05
+      text: Helped migrate machine-generated article descriptions from Toolforge to
+        Lift Wing, keeping the article-description inference service running.
+    - claim_id: wikimedia-ml-01
+      text: Tracked API and service-behaviour changes users would see in the Toolforge-to-Lift
+        Wing move for article-description inference.
+  gaps:
+  - Hands-on experience using AI coding assistants or autonomous development agents
+    (such as Claude Code or Cursor) in everyday engineering workflows
+  - Reviewing, debugging, and improving AI-generated code from autonomous coding agents
+  - AI agent orchestration
+  - Angular
+  - Global workforce compliance domain experience
+letter: null
