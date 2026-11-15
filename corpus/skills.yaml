@@ -7,7 +7,7 @@
 skills:
 # --- languages ---
 - {name: Python, aliases: [], level: expert}
-- {name: TypeScript, aliases: [TS], level: proficient}
+- {name: TypeScript, aliases: [TS], level: expert}
 - {name: JavaScript, aliases: [JS, ES6], level: proficient}
 - {name: SQL, aliases: [], level: proficient}  # new
 - {name: C#, aliases: [], level: working}
