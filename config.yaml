@@ -20,6 +20,17 @@ search:
     country: za
     searches:
       - {what: ".NET developer", where: Johannesburg}
+  # Remote job boards, read once in the daily run from the feeds the boards publish.
+  remote:
+    boards: [remotive, himalayas, wwr]
+    keywords: [".NET", "C#", Python, Backend, Full Stack, Software Engineer]
+    regions: [Worldwide, Anywhere, Africa, South Africa, EMEA]
+  # Pay moves a job up the shortlist by at most `boost` points; target is a year's pay in `currency`.
+  salary:
+    currency: ZAR
+    rates: {USD: 17.0, EUR: 19.5, GBP: 22.5}
+    target: 840000     # R70,000 a month
+    boost: 10
 
 models:
   # LiteLLM model names. fallback is tried when the model fails twice. null = none.

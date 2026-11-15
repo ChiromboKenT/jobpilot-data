@@ -212,13 +212,13 @@ roles:
     text: Set up a Godot 4.4 project in C# for an open-world driving game set in Johannesburg and wrote its design brief
     skills: [Godot, C#, Game development]
 
-# TODO before use: Access Bank end month, and the title on your GoSoft contract.
+# TODO: confirm the Access Bank end month (Aug 2025 is deduced) and the title on your GoSoft contract.
 - id: access-bank
   company: GoSoft (client Access Bank)
   title: Frontend Engineer
   location: Johannesburg, Gauteng
   start: Jun 2024
-  end: ''
+  end: Aug 2025   # deduced from the gap before redPanda (Sep 2025), not confirmed
   claims:
   - id: access-frontend-01  # (cv)
     text: Built responsive banking application journeys with Next.js, React, TypeScript and Tailwind CSS

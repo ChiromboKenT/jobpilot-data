@@ -1,10 +1,10 @@
 # Copy-ready answers for website application forms (Apply page, Website method).
-# TODO: salary figure, from you.
+# Salary figure from Kenny, 15 Nov 2026: more than R70,000 a month.
 answers:
 - q: Notice period
   a: Flexible. I can match the start date the role needs.
 - q: Salary expectation
-  a: Negotiable depending on the role and total package.
+  a: From R70,000 per month, negotiable depending on the role and total package.
 - q: Work authorisation
   a: I hold a valid South African Life Partner visa with secondary activity authorisation permitting employment; this authorisation
     is not tied to a specific employer.
