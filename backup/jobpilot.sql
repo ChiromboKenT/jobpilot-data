@@ -53,6 +53,7 @@ INSERT INTO "events" VALUES(39,NULL,'2026-11-13T22:58:55Z','run','{"at": "2026-1
 INSERT INTO "events" VALUES(40,NULL,'2026-11-13T22:59:47Z','run','{"at": "2026-11-13T22:59:34Z", "errors": [], "fingerprints": {"changed": 0, "merged": 0}, "mail": {"alerts": 0, "new_jobs": 0, "reply": 0, "review": 0, "ignored": 0}, "adzuna": {"new_jobs": 0}, "score": {"scored": 0}, "followups": {"closed": 0, "drafted": 0, "sent": 0}, "backup": {"file": "jobpilot-20261114.db"}}','');
 INSERT INTO "events" VALUES(41,NULL,'2026-11-14T04:32:14Z','run','{"at": "2026-11-14T04:30:06Z", "errors": [], "fingerprints": {"changed": 0, "merged": 0}, "mail": {"alerts": 1, "new_jobs": 12, "reply": 0, "review": 0, "ignored": 12}, "adzuna": {"new_jobs": 2}, "score": {"scored": 13}, "followups": {"closed": 0, "drafted": 0, "sent": 0}, "backup": {"file": "jobpilot-20261114.db"}}','');
 INSERT INTO "events" VALUES(42,NULL,'2026-11-15T07:14:49Z','run','{"at": "2026-11-15T07:11:15Z", "errors": [], "fingerprints": {"changed": 0, "merged": 0}, "mail": {"alerts": 2, "new_jobs": 7, "reply": 0, "review": 0, "ignored": 24}, "adzuna": {"new_jobs": 13}, "remote": {"new_jobs": 0}, "score": {"scored": 32}, "followups": {"closed": 0, "drafted": 0, "sent": 0}, "backup": {"file": "jobpilot-20261115.db"}}','');
+INSERT INTO "events" VALUES(43,NULL,'2026-11-15T07:27:46Z','run','{"at": "2026-11-15T07:26:05Z", "errors": [], "fingerprints": {"changed": 0, "merged": 0}, "mail": {"alerts": 0, "new_jobs": 0, "reply": 0, "review": 0, "ignored": 1}, "adzuna": {"new_jobs": 0}, "remote": {"new_jobs": 28}, "score": {"scored": 28}, "followups": {"closed": 0, "drafted": 0, "sent": 0}, "backup": {"file": "jobpilot-20261115.db"}}','');
 CREATE TABLE jobs (
   id           INTEGER PRIMARY KEY,
   fingerprint  TEXT NOT NULL UNIQUE,
@@ -201,20 +202,20 @@ INSERT INTO "jobs" VALUES(20,'eaee8efc9b80a35241b88957acab96cd978276aa','Full St
 INSERT INTO "jobs" VALUES(21,'9aa7187c56ae607402cd2a2b45ec58464e8ea762','Java Fullstack Software Engineer (Spring Boot / Angular)','Jobgether','South Africa (Remote)','https://www.linkedin.com/jobs/view/4488357247','linkedin','','',30,'Mismatch on core tech stack requiring Java, Spring Boot, and Angular.','full-stack','','','new','2026-11-13T10:05:05Z','2026-11-13T10:05:05Z','',0);
 INSERT INTO "jobs" VALUES(22,'333ec19cd0246c2d99db561dd15b3da834ed96c3','Senior Software Engineer (Golang)','DigiCert','Western Cape, South Africa (Hybrid)','https://www.linkedin.com/jobs/view/4480226972','linkedin','','',25,'Candidate does not know Golang and is based in Johannesburg, not Western Cape.','general','','','new','2026-11-13T10:05:05Z','2026-11-13T10:05:05Z','',0);
 INSERT INTO "jobs" VALUES(23,'e26ac98d206b4d40c26087ddb9d34d50eca8ddd7','Senior .NET Engineer','ECM Ground (Pty) Ltd','Sandton (On-site)','https://www.linkedin.com/jobs/view/4487474178','linkedin','','',45,'Candidate possesses only working knowledge of .NET and C#, falling short for a senior role.','general','','','new','2026-11-13T10:05:05Z','2026-11-13T10:05:05Z','',0);
-INSERT INTO "jobs" VALUES(24,'3a664cc496a9d7ebcefca84000e68743b91dc0d0','AI Developer (Remote, Polokwane)','Blacksmith Agency','South Africa (Remote)','https://www.linkedin.com/jobs/view/4489114644','linkedin','','',95,'Exceptional match for AI and machine learning engineering background in Python.','ai-ml','','','new','2026-11-13T10:06:26Z','2026-11-13T10:06:26Z','',0);
+INSERT INTO "jobs" VALUES(24,'3a664cc496a9d7ebcefca84000e68743b91dc0d0','AI Developer (Remote, Polokwane)','Blacksmith Agency','South Africa (Remote)','https://www.linkedin.com/jobs/view/4489114644','linkedin','','',95,'Exceptional match for AI and machine learning engineering background in Python.','ai-ml','','','new','2026-11-13T10:06:26Z','2026-11-15T10:14:01Z','',0);
 INSERT INTO "jobs" VALUES(25,'180c6559914d2836dd0ccaf037b3047a0e679334','Senior Frontend Developer','Stock2Shop','Cape Town','https://www.linkedin.com/jobs/view/4489423508','linkedin','','',NULL,'','','','','filtered','2026-11-13T10:06:26Z','2026-11-13T10:06:26Z','',0);
 INSERT INTO "jobs" VALUES(26,'115446a0dc2123fb60d1117b97c35c21180dd612','Frontend Developer','Betway Global','City of Cape Town (Hybrid)','https://www.linkedin.com/jobs/view/4488207815','linkedin','','',NULL,'','','','','filtered','2026-11-13T10:10:18Z','2026-11-13T10:14:14Z','',0);
 INSERT INTO "jobs" VALUES(27,'372e5b71c096f6065c6915bcf17c0bbe78c0b3ce','Senior Frontend Developer','Jobgether','South Africa (Remote)','https://www.linkedin.com/jobs/view/4488656890','linkedin','','',72,'Matches senior level and React/JS skills, but candidate''s focus is broader full-stack and AI.','full-stack','','','new','2026-11-13T10:10:18Z','2026-11-13T10:14:14Z','',0);
 INSERT INTO "jobs" VALUES(28,'f5abc0ba0fbe763e8513667367b0b4f0cfa07d35','Senior Full Stack Engineer (Node/React) - Remote','Kake','South Africa (Remote)','https://www.linkedin.com/jobs/view/4487496418','linkedin','','',92,'Strong match with 8 years experience and proficiency in Node.js, React, and cloud architectures.','full-stack','','','new','2026-11-13T10:10:18Z','2026-11-13T10:14:14Z','',0);
 INSERT INTO "jobs" VALUES(29,'19c49cdfac1a7d9a581df5f7de766e276ee1559c','Senior Software Engineer - Digital Workplace','Canonical','Johannesburg (Remote)','https://www.linkedin.com/jobs/view/4489637388','linkedin','','',82,'Strong senior engineering match in candidate''s location with solid Python, Linux, and backend experience.','general','','','new','2026-11-13T10:10:18Z','2026-11-13T10:14:14Z','',0);
 INSERT INTO "jobs" VALUES(30,'b6ffb5f77d8270dbb65482b891c9dc2f8e3b19cf','Junior Web Developer','Rotate Digital','South Africa (Remote)','https://www.linkedin.com/jobs/view/4489000707','linkedin','','',NULL,'','','','','filtered','2026-11-13T10:11:29Z','2026-11-13T10:11:29Z','',0);
-INSERT INTO "jobs" VALUES(31,'1c8509984be3d50253f564f376ab304786a77467','AI Engineer (Remote, Johannesburg)','Blacksmith Agency','South Africa (Remote)','https://www.linkedin.com/jobs/view/4489636053','linkedin','','',96,'Excellent match; candidate is an expert in Python and Machine Learning with LLM proficiency.','ai-ml','','','new','2026-11-13T10:11:29Z','2026-11-15T07:04:46Z','',0);
+INSERT INTO "jobs" VALUES(31,'1c8509984be3d50253f564f376ab304786a77467','AI Engineer (Remote, Johannesburg)','Blacksmith Agency','South Africa (Remote)','https://www.linkedin.com/jobs/view/4489636053','linkedin','','',96,'Excellent match; candidate is an expert in Python and Machine Learning with LLM proficiency.','ai-ml','','','new','2026-11-13T10:11:29Z','2026-11-15T10:14:01Z','',0);
 INSERT INTO "jobs" VALUES(32,'45a66749cdf0cd78ea5f16f321790e642a72df9b','Intermediate JavaScript Software Engineer','Entelect','City of Johannesburg (Hybrid)','https://www.linkedin.com/jobs/view/4478869227','linkedin','','',58,'Candidate is overqualified with 8 years of experience for an intermediate JavaScript role.','full-stack','','','new','2026-11-13T10:11:29Z','2026-11-13T10:14:14Z','',0);
 INSERT INTO "jobs" VALUES(33,'edc5a6da642dfafb4f63ed91ed7da2cb27867bfb','Software Engineer, AI Integrations','Jobgether','South Africa (Remote)','https://www.linkedin.com/jobs/view/4488676727','linkedin','','',93,'Superb match for Python, LLM frameworks, API integrations, and cloud software development.','ai-ml','','','new','2026-11-13T10:11:29Z','2026-11-13T10:13:14Z','',0);
 INSERT INTO "jobs" VALUES(34,'2be6c1d9fd95be396550106db2654938a1645440','.NET Developer','Risingsun Softsol','Sandton (On-site)','https://www.linkedin.com/jobs/view/4488225550','linkedin','','',42,'Dot Net and C# are only secondary working skills; core expertise lies in Python and AI.','full-stack','','','new','2026-11-13T10:11:29Z','2026-11-13T10:13:14Z','',0);
 INSERT INTO "jobs" VALUES(35,'d6075f2213fc51141063d64b7f8f8ea8ebf4b613','Staff AI Product Engineer','Jobgether','South Africa (Remote)','https://www.linkedin.com/jobs/view/4488679330','linkedin','','',90,'Strong match for staff-level AI product building, leveraging Python, ML, and full-stack capabilities.','ai-ml','','','new','2026-11-13T10:13:14Z','2026-11-13T10:13:14Z','',0);
 INSERT INTO "jobs" VALUES(36,'d2cdd3b4e10797ac5a4fa736df525687aa90459f','Lead Software Engineer / Technical Lead | R120,000–R160,000 CTC per Month | UK Client | January 2027','NOSWEAT.CO.ZA','South Africa (Remote)','https://www.linkedin.com/jobs/view/4488652975','linkedin','','',85,'Matches candidate''s 8 years of experience and Technical Lead skills for remote UK-aligned work.','general','','','new','2026-11-13T10:13:14Z','2026-11-13T10:13:14Z','',0);
-INSERT INTO "jobs" VALUES(37,'3f4173f502efbcb83e58180f5584b9232927a6ef','Software Developer – Remote Staffing','Virtustant','South Africa (Remote)','https://www.linkedin.com/jobs/view/4488278646','linkedin','Actively recruiting','',72,'General software developer match covering candidate''s broad full-stack, cloud, and engineering background.','general','','','new','2026-11-13T10:16:02Z','2026-11-15T07:01:01Z','',0);
+INSERT INTO "jobs" VALUES(37,'3f4173f502efbcb83e58180f5584b9232927a6ef','Software Developer – Remote Staffing','Virtustant','South Africa (Remote)','https://www.linkedin.com/jobs/view/4488278646','linkedin','Actively recruiting','',72,'General software developer match covering candidate''s broad full-stack, cloud, and engineering background.','general','','','new','2026-11-13T10:16:02Z','2026-11-15T10:14:01Z','',0);
 INSERT INTO "jobs" VALUES(38,'b6a20a5d537593383cb0d025af3d07eed5ce3296','Full Stack Software Engineer - AI-First','Jobgether','South Africa (Remote)','https://www.linkedin.com/jobs/view/4489092435','linkedin','','',96,'Ideal match blending candidate''s proficient full-stack skills with expert AI and ML experience.','full-stack','','','new','2026-11-13T10:17:17Z','2026-11-13T11:57:08Z','',0);
 INSERT INTO "jobs" VALUES(39,'4c68ceb6ebef546aff5f792997a31bf078df2d8a','Software Engineer - AI Tooling','Jobgether','South Africa (Remote)','https://www.linkedin.com/jobs/view/4489083872','linkedin','','',94,'Highly aligned with candidate''s ML engineering, Python expertise, and experience with developer tooling.','ai-ml','','','new','2026-11-13T10:17:17Z','2026-11-13T11:57:09Z','',0);
 INSERT INTO "jobs" VALUES(40,'399a70b09d143ae6533e898e262043ea0cd8097c','Senior Software Engineer','Acuity Consultants','Johannesburg Metropolitan Area (Hybrid)','https://www.linkedin.com/jobs/view/4488504731','linkedin','','',85,'Fits senior engineering profile and local Johannesburg market with solid software architecture capabilities.','general','','','new','2026-11-13T10:17:17Z','2026-11-13T10:17:17Z','',0);
@@ -222,7 +223,7 @@ INSERT INTO "jobs" VALUES(41,'780374a1857624133dda9147cfb48fd82af2b6c3','Softwar
 INSERT INTO "jobs" VALUES(42,'569a4ef043e13821deb0b7c88dad2772ee820c7c','Junior Software Developer','Network IT','East Johannesburg, Johannesburg','https://www.adzuna.co.za/details/5964325032?utm_medium=api&utm_source=947c6c7e','adzuna','Reference: ITA006580-Rein-1 Our client is looking for a Junior Software Developer with a passion for software development and a solid foundation in the Microsoft technology stack. This is a permanent, full-time position based in Wadeville, Germiston, offering an excellent opportunity for a developer at the start of their career to gain exposure across the full software development lifecycle while working alongside experienced developers. The successful candidate will assist in developing, maint…','',NULL,'','','','','filtered','2026-11-13T10:17:20Z','2026-11-15T07:26:17Z','ZAR 180,000 to 240,000 a year',210000);
 INSERT INTO "jobs" VALUES(43,'bb5e6e3c5daf15054d160bf3f2bdbdf0b0c3e490','Senior .NET Developer','Subhujo Technologies','Central Johannesburg, Johannesburg','https://www.adzuna.co.za/details/5964324816?utm_medium=api&utm_source=947c6c7e','adzuna','Introduction Looking for a Senior .NET Developer Duties & Responsibilities Core Development & Architecture: · Build and enhance scalable systems within a distributed microservices architecture. · Design and implement RESTful APIs with strong versioning and documentation standards. · Develop event driven services using message queue technologies to support high volume, asynchronous workloads. · Design and optimize databases, queries, and indexing for ultra high throughput environments. · Impleme…','',45,'Requires senior-level .NET and C# expertise, which are only secondary working skills for candidate.','full-stack','','','new','2026-11-13T10:17:20Z','2026-11-15T07:26:17Z','',0);
 INSERT INTO "jobs" VALUES(44,'0100b799d619c949f8ed696f1d12aeaa22ae3cdc','Full Stack Developer','Network IT','North Johannesburg, Johannesburg','https://www.adzuna.co.za/details/5964323381?utm_medium=api&utm_source=947c6c7e','adzuna','Reference: ITE008277-Bia-1 Are you a skilled Full Stack Developer looking to work on modern web applications within a collaborative and growth-focused environment? We are seeking a developer who can contribute across the full development lifecycle, from building user-facing applications to developing robust APIs and backend services. In this role, you''ll work with a diverse technology stack including React, Web Forms, .NET Core, WCF, SQL Server, JavaScript, and C# , developing scalable solution…','',56,'Matches React and JavaScript skills, but backend emphasizes .NET Core and C# legacy frameworks.','full-stack','','','new','2026-11-13T10:17:20Z','2026-11-15T07:26:17Z','',0);
-INSERT INTO "jobs" VALUES(45,'e49369feae75c258b2805e2229b215eb8ba8e044','Back End Developer','Network IT','North Johannesburg, Johannesburg','https://www.adzuna.co.za/details/5964322431?utm_medium=api&utm_source=947c6c7e','adzuna','Reference: ITE008274-Bia-1 Are you a Backend C# Developer with a passion for cloud technologies and AI-driven solutions? We are looking for a developer who can build scalable APIs, microservices, and intelligent backend applications while leveraging the power of Azure Cloud Services and Azure OpenAI . In this role, you''ll work with modern .NET technologies, cloud-native architectures, and cutting-edge AI solutions to develop features that enhance automation, analytics, and user experiences. You…','',62,'AI and backend experience align well, but role centers on C# and Azure rather than Python and AWS.','ai-ml','','','new','2026-11-13T10:17:20Z','2026-11-15T07:26:17Z','',0);
+INSERT INTO "jobs" VALUES(45,'e49369feae75c258b2805e2229b215eb8ba8e044','Back End Developer','Network IT','North Johannesburg, Johannesburg','https://www.adzuna.co.za/details/5964322431?utm_medium=api&utm_source=947c6c7e','adzuna','Reference: ITE008274-Bia-1 Are you a Backend C# Developer with a passion for cloud technologies and AI-driven solutions? We are looking for a developer who can build scalable APIs, microservices, and intelligent backend applications while leveraging the power of Azure Cloud Services and Azure OpenAI . In this role, you''ll work with modern .NET technologies, cloud-native architectures, and cutting-edge AI solutions to develop features that enhance automation, analytics, and user experiences. You…','',62,'AI and backend experience align well, but role centers on C# and Azure rather than Python and AWS.','ai-ml','','','new','2026-11-13T10:17:20Z','2026-11-15T10:14:04Z','',0);
 INSERT INTO "jobs" VALUES(46,'2fcd863987c15b7c364c3a1bdc0d65ac41cfa4d5','Senior Cloud Devops Engineer Johannesburg North','Communicate IT','North Johannesburg, Johannesburg','https://www.adzuna.co.za/details/5964200252?utm_medium=api&utm_source=947c6c7e','adzuna','Reference: CTI007299-LB-1 If you''re the type of engineer who gets excited about automation, scalable cloud architecture, eliminating manual processes, and building platforms that can support real-world impact at scale, this opportunity is worth exploring. My client is looking for a Senior Cloud DevOps Engineer to join a growing technology business where you''ll have significant influence over cloud infrastructure, deployment strategy, security, reliability, and performance. You''ll work on modern…','',88,'Seniority matches well; expert AWS, CI/CD, automation, and cloud architecture strongly align with the DevOps requirements.','general','','','new','2026-11-13T10:17:20Z','2026-11-15T07:26:17Z','',0);
 INSERT INTO "jobs" VALUES(47,'d60a8e7a0b61b4fbf664eccf746e62047801c702','Backend Developer Johannesburg North','Network IT','North Johannesburg, Johannesburg','https://www.adzuna.co.za/details/5964200322?utm_medium=api&utm_source=947c6c7e','adzuna','Reference: ITE008274-Bia-1 Are you a Backend C# Developer with a passion for cloud technologies and AI-driven solutions? We are looking for a developer who can build scalable APIs, microservices, and intelligent backend applications while leveraging the power of Azure Cloud Services and Azure OpenAI . In this role, you''ll work with modern .NET technologies, cloud-native architectures, and cutting-edge AI solutions to develop features that enhance automation, analytics, and user experiences. You…','',62,'AI and backend experience align well, but role centers on C# and Azure rather than Python and AWS.','ai-ml','','','new','2026-11-13T10:17:20Z','2026-11-15T07:26:17Z','',0);
 INSERT INTO "jobs" VALUES(48,'2eba42f28efdd86507f9cf75e18cd39c9f1413f3','Full Stack .net Developer Johannesburg North','Network IT','North Johannesburg, Johannesburg','https://www.adzuna.co.za/details/5964200323?utm_medium=api&utm_source=947c6c7e','adzuna','Reference: ITE008279-Bia-1 Are you a skilled Full Stack .NET Developer looking to work with a diverse technology stack and contribute to business-critical applications? We are seeking a developer with strong experience in Web Forms, React, .NET Core APIs, and SQL Server to develop, enhance, and maintain modern web solutions. In this role, you''ll work across the full development lifecycle, building responsive front-end applications, developing scalable APIs, integrating backend systems, and supp…','',52,'React fits, but role heavily emphasizes .NET Core, Web Forms, and C# where candidate has limited experience.','full-stack','','','new','2026-11-13T10:17:20Z','2026-11-15T07:26:17Z','',0);
@@ -524,7 +525,7 @@ How to apply
 Email your portfolio, GitHub repository, and as an optional bonus, 1-2 other relevant projects to
 techjobs@fluencetraining.com
 , along with a short note on a security/privacy consideration you implemented (or would implement) in a healthcare or similar context.
-Fluence is proud to be an Equal Opportunity Employer. All employment decisions are based on business needs, job requirements and individual qualifications. We do not discriminate on the basis of race, color, ancestry, national origin, religion or religious creed, mental or physical disability, medical condition, genetic information, sex (including pregnancy, childbirth, and related medical conditions), sexual orientation, gender identity, gender expression, age, marital status, military or veteran status, citizenship, or other characteristics protected by state or federal law or local ordinance.',92,'Excellent match with React, Next.js, and AWS stack for full-stack role.','full-stack','','','new','2026-11-15T07:26:17Z','2026-11-15T07:26:17Z','USD 3,500 to 5,000 a month',867000);
+Fluence is proud to be an Equal Opportunity Employer. All employment decisions are based on business needs, job requirements and individual qualifications. We do not discriminate on the basis of race, color, ancestry, national origin, religion or religious creed, mental or physical disability, medical condition, genetic information, sex (including pregnancy, childbirth, and related medical conditions), sexual orientation, gender identity, gender expression, age, marital status, military or veteran status, citizenship, or other characteristics protected by state or federal law or local ordinance.',92,'Excellent match with React, Next.js, and AWS stack for full-stack role.','full-stack','','','new','2026-11-15T07:26:17Z','2026-11-15T10:14:05Z','USD 3,500 to 5,000 a month',867000);
 INSERT INTO "jobs" VALUES(224,'b3c04f0d9679ea77957ea81dc4899199d97668c4','Software Engineer, AI Coding Tasks','Askable','Remote, Worldwide','https://remotive.com/remote-jobs/software-development/software-engineer-ai-coding-tasks-2091158','himalayas,remotive','Salary: $1000 per task. We''re looking for experienced software engineers to build AI coding tasks from a codebase they know well. US$1,000 per task, and you can do as many tasks as you want. You turn a real change from a repository you know into a task that today''s best AI coding models struggle with: hard for the models, but fair for a skilled engineer. Your tasks are used to measure and train AI coding models. Remote, any location. US$1,000 per task that passes review. Minimum of one task a week, about 10 hours a week. How it works Apply. Complete a short screener interview and upload your resume. Propose. Once you','We''re looking for experienced software engineers to build AI coding tasks from a codebase they know well. US$1,000 per task, and you can do as many tasks as you want.
 You turn a real change from a repository you know into a task that today''s best AI coding models struggle with: hard for the models, but fair for a skilled engineer. Your tasks are used to measure and train AI coding models.
 Remote, any location. US$1,000 per task that passes review. Minimum of one task a week, about 10 hours a week.
@@ -554,7 +555,7 @@ US$1,000 for each task that passes our quality review, paid directly to you
 Once your proposal is qualified, you sign Askable''s contract and accept its terms
 The work is used for AI training. The change and your solution must be your own, and you must be free to license them to us
 Don''t publish the work anywhere: no public pull request or public fork
-Apply at https://www.askable.com/experts/roles/senior-software-engineer',72,'Good fit for software engineering and AI evaluation experience; task-based compensation.','ai-ml','','','new','2026-11-15T07:26:17Z','2026-11-15T07:26:22Z','USD 100 an hour',2992000);
+Apply at https://www.askable.com/experts/roles/senior-software-engineer',72,'Good fit for software engineering and AI evaluation experience; task-based compensation.','ai-ml','','','new','2026-11-15T07:26:17Z','2026-11-15T10:14:09Z','USD 100 an hour',2992000);
 INSERT INTO "jobs" VALUES(225,'12294652cf19982ac78e8213665899448f74f2d9','Senior React Full-stack Developer','lemon.io','Remote','https://himalayas.app/companies/lemon-io/jobs/senior-react-full-stack-developer?utm_source=api','himalayas','helps companies in the US and Europe hire experienced engineers, from funded startups to teams like Klarna, Retool, and Pinterest. We’ve been doing this since 2015, and more than 1,500 companies have hired engineers through us. New roles for Senior React Full-stack Engineers come in all the time, and several are open right now. Two ways to work with clients Contract: most roles are contract-based. You join the client’s team and work as part of it. Direct hire: some clients hire engineers full-time, and we support you through the process. Because companies trust our vetting, applying through is','helps companies in the US and Europe hire experienced engineers, from funded startups to teams like Klarna, Retool, and Pinterest. We’ve been doing this since 2015, and more than 1,500 companies have hired engineers through us.
 New roles for Senior React Full-stack Engineers come in all the time, and several are open right now.
 Two ways to work with clients
@@ -597,7 +598,7 @@ We''re placing Senior Developers (4+ yrs commercial experience) across AI Agent 
 We do not provide visa assistance, and our cooperation model does not include the benefits typically offered with direct hire.
 We work with developers from 75+ countries across Europe, Latin America, North America (the U.S. and Canada), selected countries in Asia (Japan, Singapore, South Korea, the Philippines, Indonesia, Malaysia, Vietnam, Thailand, Saudi Arabia, UAE, and Israel), Oceania (Australia, New Zealand, and Papua New Guinea), and Africa (including Morocco and South Africa).
 Originally posted on
-Himalayas [0]',85,'Strong match with senior full-stack experience in React and backend technologies.','full-stack','','','new','2026-11-15T07:26:18Z','2026-11-15T07:26:18Z','',0);
+Himalayas [0]',85,'Strong match with senior full-stack experience in React and backend technologies.','full-stack','','','new','2026-11-15T07:26:18Z','2026-11-15T10:14:06Z','',0);
 INSERT INTO "jobs" VALUES(226,'81cbbd275e4d4d73a989d7b1b9a23ac16d6f7fea','Senior Software Engineer','Alien Intellect','Remote, Worldwide','https://himalayas.app/companies/alien-intellect/jobs/senior-software-engineer-8699633569?utm_source=api','himalayas','We are an AI-first company building innovative agentic frameworks, the systems that let LLM-driven agents research, plan, and act reliably in production. That means orchestrating multi-step workflows with retries, skips, and parallel execution; keeping long-running work persistent and observable; and serving per-tenant retrieval at scale. This isn''t about wrapping an LLM in an API call, it''s the hard backend engineering that makes agents dependable. Our stack is Python ( FastAPI ) on AWS , with Terraform. We hire on engineering depth and judgment, not on a keyword count, and we work in whichev','We are an
 AI-first
 company building innovative agentic frameworks, the systems that let LLM-driven agents research, plan, and act reliably in production. That means orchestrating multi-step workflows with retries, skips, and parallel execution; keeping long-running work persistent and observable; and serving per-tenant retrieval at scale. This isn''t about wrapping an LLM in an API call, it''s the hard backend engineering that makes agents dependable.
@@ -666,7 +667,7 @@ A highly educated, agile senior team
 that values pragmatism, learning, and continuous improvement.
 If you would rather be judged on how you think than on a buzzword list, we would like to talk!
 Originally posted on
-Himalayas [0]',95,'Outstanding fit with Python, FastAPI, AWS, and production LLM agent orchestration experience.','ai-ml','','','new','2026-11-15T07:26:20Z','2026-11-15T07:26:20Z','USD 2,000 to 3,000 a month',510000);
+Himalayas [0]',95,'Outstanding fit with Python, FastAPI, AWS, and production LLM agent orchestration experience.','ai-ml','','','new','2026-11-15T07:26:20Z','2026-11-15T10:14:08Z','USD 2,000 to 3,000 a month',510000);
 INSERT INTO "jobs" VALUES(227,'d863b9fbb4b32b880bdd4f5ddf58995612aa3b68','Principal Software Engineer (Remote Eligible in Bulgaria)','Smartsheet','Remote, Anywhere in the World','https://weworkremotely.com/remote-jobs/smartsheet-principal-software-engineer-remote-eligible-in-bulgaria','wwr','Headquarters: -REMOTE, BULGARIA- For over 20 years, Smartsheet has empowered teams to manage work seamlessly and scale solutions smarter. Now, in our most ambitious chapter yet, we are uniting human teams with AI agents. By orchestrating the work agents do best, automating manual tasks and uncovering insights at scale, we create the space for people to focus on what truly matters: judgment, creativity, and big thinking. That is magic at work, and it’s what we show up for every day. We are looking for a skilled and motivated Principal Software Engineer who is passionate about continuous learnin','Headquarters:
 -REMOTE, BULGARIA-
 For over 20 years, Smartsheet has empowered teams to manage work seamlessly and scale solutions smarter. Now, in our most ambitious chapter yet, we are uniting human teams with AI agents. By orchestrating the work agents do best, automating manual tasks and uncovering insights at scale, we create the space for people to focus on what truly matters: judgment, creativity, and big thinking. That is magic at work, and it’s what we show up for every day.
@@ -702,7 +703,7 @@ Smartsheet is an Equal Opportunity (EEO) employer committed to fostering an incl
 If there are preparations we can make to help ensure you have a comfortable and positive interview experience, please let us know.
 #LI-Remote
 To apply:
-https://weworkremotely.com/remote-jobs/smartsheet-principal-software-engineer-remote-eligible-in-bulgaria [0]',40,'Candidate is based in South Africa, but this role requires residency in Bulgaria.','general','','','new','2026-11-15T07:26:22Z','2026-11-15T07:26:22Z','',0);
+https://weworkremotely.com/remote-jobs/smartsheet-principal-software-engineer-remote-eligible-in-bulgaria [0]',40,'Candidate is based in South Africa, but this role requires residency in Bulgaria.','general','','','new','2026-11-15T07:26:22Z','2026-11-15T10:14:11Z','',0);
 INSERT INTO "jobs" VALUES(228,'4a19ba9df8e2fbc5602eb0abba74ea9c21a19b03','Backend Product Software Engineer','Dropbox','Remote, Anywhere in the World','https://weworkremotely.com/remote-jobs/dropbox-backend-product-software-engineer-1','wwr','Headquarters: Remote - Mexico Role Description As a Product Engineer at Dropbox, you will play a pivotal role in shaping the future of collaboration and file sharing. Your responsibilities will revolve around developing and enhancing our suite of Dropbox Products to deliver exceptional user experiences. You will work closely with cross-functional teams, turning innovative ideas into robust, scalable, and user-friendly features. This year, Dropbox is on a mission to expedite the creation and implementation of AI-enable d products by providing a comprehensive technology stack that facilitates ra','Headquarters:
 Remote - Mexico
 Role Description
@@ -768,7 +769,7 @@ To learn more about why these skills matter and what the data shows about thrivi
 blog post [2]
 from our Chief People Officer, Melanie Rosenwasser.
 To apply:
-https://weworkremotely.com/remote-jobs/dropbox-backend-product-software-engineer-1 [3]',45,'Role appears restricted to Mexico, despite candidate having strong backend and AI-enabled product skills.','backend','','','new','2026-11-15T07:26:22Z','2026-11-15T07:26:22Z','',0);
+https://weworkremotely.com/remote-jobs/dropbox-backend-product-software-engineer-1 [3]',45,'Role appears restricted to Mexico, despite candidate having strong backend and AI-enabled product skills.','backend','','','new','2026-11-15T07:26:22Z','2026-11-15T10:14:11Z','',0);
 INSERT INTO "jobs" VALUES(229,'ef90bf42e3abf0a2d7eed3d22080b2d7022c35f0','Backend / Platform Developer Consultant (Temporal & Kubernetes)','Bitovi','Remote, Anywhere in the World','https://weworkremotely.com/remote-jobs/bitovi-backend-platform-developer-consultant-temporal-kubernetes','wwr','Headquarters: United States URL: https://bitovi.com [0] JOIN OUR TEAM! Bitovi is looking for a Backend / Platform Developer Consultant to join us as we transform technology delivery. We build and operate durable, distributed systems for enterprise clients — heavy on Java Services, Temporal for workflow orchestration, Kafka for event streaming, and Kubernetes-native platform engineering on AWS to run it all reliably. If you want to build exceptional systems, take orchestration, systems engineering, and infrastructure seriously, and have ideas for making delivery more collaborative, validation-d','Headquarters:
 United States
 URL:
@@ -852,7 +853,7 @@ ID Verification required if invited to an interview.
 All job offers are contingent on passing a background check.
 Candidates must be located in and authorized to work in the United States; we are unable to provide visa sponsorship at this time.
 To apply:
-https://weworkremotely.com/remote-jobs/bitovi-backend-platform-developer-consultant-temporal-kubernetes [1]',55,'Requires heavy Java, Temporal, Kafka, and Kubernetes; candidate primarily works with Python and AWS.','backend','','','new','2026-11-15T07:26:22Z','2026-11-15T07:26:22Z','',0);
+https://weworkremotely.com/remote-jobs/bitovi-backend-platform-developer-consultant-temporal-kubernetes [1]',55,'Requires heavy Java, Temporal, Kafka, and Kubernetes; candidate primarily works with Python and AWS.','backend','','','new','2026-11-15T07:26:22Z','2026-11-15T10:14:11Z','',0);
 INSERT INTO "jobs" VALUES(230,'d3baaf7af5b7207fb23311fc05cca4a279e6979b','Distribution Engineer','Vertex Marketing Group','Remote, Anywhere in the World','https://weworkremotely.com/remote-jobs/vertex-marketing-group-distribution-engineer','wwr','Headquarters: Bulgaria URL: https://vertexmg.com [0] Scale our distribution by code: a fleet of real devices, iPhones first and Android too, plus platform APIs and AI agents, posting across many accounts and surfaces. You work directly with the founder. Most content gets made and then dies at a few hundred views, because getting it out is still done by hand: a person, a phone, a few accounts. We want it engineered: iPhone and Android device automation at scale, platform APIs and agents posting across many accounts and surfaces, every link tracked. If you would rather build that fleet than tap ','Headquarters:
 Bulgaria
 URL:
@@ -883,7 +884,7 @@ Why Vertex?
 • The mission: become one of the best in the world at this, fast, then package what we build for other agencies
 • Fast decisions. You''ll know within 48 hours at every stage
 To apply:
-https://weworkremotely.com/remote-jobs/vertex-marketing-group-distribution-engineer [1]',52,'Niche device automation and social distribution role; partially overlaps with mobile and automation skills.','general','','','new','2026-11-15T07:26:22Z','2026-11-15T07:26:22Z','',0);
+https://weworkremotely.com/remote-jobs/vertex-marketing-group-distribution-engineer [1]',52,'Niche device automation and social distribution role; partially overlaps with mobile and automation skills.','general','','','new','2026-11-15T07:26:22Z','2026-11-15T10:14:11Z','',0);
 INSERT INTO "jobs" VALUES(231,'bec5940e873463c24eca84abd831fc80f47f6529','Senior Backend Developer (Python)','Proxify AB','Remote, Anywhere in the World','https://weworkremotely.com/remote-jobs/proxify-ab-senior-backend-developer-python-11','wwr','Headquarters: Sweden URL: http://career.proxify.io [0] The Role: We are looking for a Senior Python Developer for one of our clients. You are a perfect candidate if you are growth-oriented, you love what you do, and you enjoy working on new ideas to develop exciting products. What we are looking for: 5+ years of experience building products with Python and Django. High proficiency in SQL with experience using databases like PostgreSQL. Experience scaling cloud infrastructures with Docker or Kubernetes is a plus. Experience managing cloud infrastructures, specifically AWS or GCP. You follow the','Headquarters:
 Sweden
 URL:
@@ -923,7 +924,7 @@ A one-time contracting process for endless opportunities, with no extra assessme
 Compensation
 Enjoy the same pay, every month with positions landed through Proxify.
 To apply:
-https://weworkremotely.com/remote-jobs/proxify-ab-senior-backend-developer-python-11 [1]',92,'Strong match with 8 years of Python experience, AWS expertise, and PostgreSQL proficiency.','backend','','','new','2026-11-15T07:26:22Z','2026-11-15T07:26:22Z','',0);
+https://weworkremotely.com/remote-jobs/proxify-ab-senior-backend-developer-python-11 [1]',92,'Strong match with 8 years of Python experience, AWS expertise, and PostgreSQL proficiency.','backend','','','new','2026-11-15T07:26:22Z','2026-11-15T10:14:11Z','',0);
 INSERT INTO "jobs" VALUES(232,'2cc1c31f7ec69ff295ab87df490f786c5e2c916f','Staff Software Engineer, Revenue Systems','Squarespace','Remote, Anywhere in the World','https://weworkremotely.com/remote-jobs/squarespace-staff-software-engineer-revenue-systems','wwr','Headquarters: New York City; Remote Squarespace is seeking a talented Staff Software Engineer to support and evolve the systems at the core core of our monetization platform: billing, payments and orders. In this role, you will provide technical oversight over the critical monetization machinery that accepts orders, processes payments and bills subscriptions. You will regularly collaborate with engineering leadership and key product, strategy and finance stakeholders to align technical strategy with Squarespace’s business objectives. This is an opportunity to take on IC technical leadership re','Headquarters:
 New York City; Remote
 Squarespace is seeking a talented Staff Software Engineer to support and evolve the systems at the core core of our monetization platform: billing, payments and orders. In this role, you will provide technical oversight over the critical monetization machinery that accepts orders, processes payments and bills subscriptions. You will regularly collaborate with engineering leadership and key product, strategy and finance stakeholders to align technical strategy with Squarespace’s business objectives. This is an opportunity to take on IC technical leadership responsibilities and own system architecture for high-visibility initiatives tied directly to Squarespace''s core businesses.
@@ -975,7 +976,7 @@ If you plan to use AI in any capacity during your candidate journey, please revi
 Candidate AI Policy [1]
 .
 To apply:
-https://weworkremotely.com/remote-jobs/squarespace-staff-software-engineer-revenue-systems [2]',73,'Strong match on senior backend design and technical leadership, though specific tech stack is unspecified.','backend','','','new','2026-11-15T07:26:22Z','2026-11-15T07:26:22Z','',0);
+https://weworkremotely.com/remote-jobs/squarespace-staff-software-engineer-revenue-systems [2]',73,'Strong match on senior backend design and technical leadership, though specific tech stack is unspecified.','backend','','','new','2026-11-15T07:26:22Z','2026-11-15T10:14:11Z','',0);
 INSERT INTO "jobs" VALUES(233,'d2bfe15aa11095d91ce5dc3c6078ea701c979863','Data Engineer II, Credit Reporting','Sezzle','Remote, EMEA Only','https://weworkremotely.com/remote-jobs/sezzle-data-engineer-ii-credit-reporting','wwr','Headquarters: Turkey URL: https://sezzle.com [0] The salary range for this role is $2,800 - $4,500 per month (Gross in USD) About Sezzle: With a mission to financially empower the next generation, Sezzle is revolutionizing the shopping experience beyond payments, blending cutting-edge tech with seamless, interest-free installment plans that make shopping smarter and more accessible. We’re not just transforming payments; we’re redefining how people discover, interact with, and purchase the things they love while driving real impact on merchant sales through increased conversions and higher orde','Headquarters:
 Turkey
 URL:
@@ -1046,7 +1047,7 @@ What Makes Working at Sezzle Awesome?
 At Sezzle, we are more than just brilliant engineers, passionate data enthusiasts, out-of-the-box thinkers, and determined innovators; we are skilled musicians, yogis, cyclists, chefs, golfers, dog-lovers, and rock-climbers. We believe in surrounding ourselves with not only the best and the brightest individuals, but those that are unique and purpose-driven in all that they do. Our culture is not defined by a certain set of perks designed to give the illusion of the traditional startup culture, but rather, it is the visible example living in every employee that we hire.
 #Li-remote #Full-time
 To apply:
-https://weworkremotely.com/remote-jobs/sezzle-data-engineer-ii-credit-reporting [1]',82,'Location fits EMEA; strong match with Python, SQL, and AWS data engineering capabilities.','data-engineering','','','new','2026-11-15T07:26:23Z','2026-11-15T07:26:23Z','USD 2,800 to 4,500 a month',744600);
+https://weworkremotely.com/remote-jobs/sezzle-data-engineer-ii-credit-reporting [1]',82,'Location fits EMEA; strong match with Python, SQL, and AWS data engineering capabilities.','data-engineering','','','new','2026-11-15T07:26:23Z','2026-11-15T10:14:12Z','USD 2,800 to 4,500 a month',744600);
 INSERT INTO "jobs" VALUES(234,'07fdeb297204bd652ff295f8f0148019de707b3c','Senior Data Engineer, Credit Reporting','Sezzle','Remote, EMEA Only','https://weworkremotely.com/remote-jobs/sezzle-senior-data-engineer-credit-reporting','wwr','Headquarters: Turkey URL: https://sezzle.com [0] The salary range for this role is $4,500 - $6,000 per month (Gross in USD) About Sezzle: With a mission to financially empower the next generation, Sezzle is revolutionizing the shopping experience beyond payments, blending cutting-edge tech with seamless, interest-free installment plans that make shopping smarter and more accessible. We’re not just transforming payments; we’re redefining how people discover, interact with, and purchase the things they love while driving real impact on merchant sales through increased conversions and higher orde','Headquarters:
 Turkey
 URL:
@@ -1117,7 +1118,7 @@ What Makes Working at Sezzle Awesome?
 At Sezzle, we are more than just brilliant engineers, passionate data enthusiasts, out-of-the-box thinkers, and determined innovators; we are skilled musicians, yogis, cyclists, chefs, golfers, dog-lovers, and rock-climbers. We believe in surrounding ourselves with not only the best and the brightest individuals, but those that are unique and purpose-driven in all that they do. Our culture is not defined by a certain set of perks designed to give the illusion of the traditional startup culture, but rather, it is the visible example living in every employee that we hire.
 #Li-remote #Full-time
 To apply:
-https://weworkremotely.com/remote-jobs/sezzle-senior-data-engineer-credit-reporting [1]',88,'Excellent fit for candidate''s 8 years of experience, AWS, Python, SQL, and EMEA remote location.','data-engineering','','','new','2026-11-15T07:26:23Z','2026-11-15T07:26:23Z','USD 4,500 to 6,000 a month',1071000);
+https://weworkremotely.com/remote-jobs/sezzle-senior-data-engineer-credit-reporting [1]',88,'Excellent fit for candidate''s 8 years of experience, AWS, Python, SQL, and EMEA remote location.','data-engineering','','','new','2026-11-15T07:26:23Z','2026-11-15T10:14:12Z','USD 4,500 to 6,000 a month',1071000);
 INSERT INTO "jobs" VALUES(235,'2afc6cacd5b4b825aba63b97b53d0a6b0f1005f5','Cloud Systems Administrator','OneImaging','Remote, Anywhere in the World','https://weworkremotely.com/remote-jobs/oneimaging-cloud-systems-administrator','wwr','Headquarters: URL: https://oneimaging.com [0] Radiology is the second most used healthcare service, used by over 51% of the workforce annually. Despite the critical role of radiology in healthcare, the process for undergoing a medical imaging exam has remained unchanged for decades. OneImaging is solving this with a concierge approach and a premium-quality radiology network of over 5,000 vetted providers across 48 states, which also reduces imaging costs by 60-80%. Our solution helps patients and families access essential radiology services at fair prices and without surprise bills, all while ','Headquarters:
 URL:
 https://oneimaging.com [0]
@@ -1200,7 +1201,7 @@ OneImaging is committed to providing accommodations for qualified individuals wi
 talent@oneimaging.com
 .
 To apply:
-https://weworkremotely.com/remote-jobs/oneimaging-cloud-systems-administrator [2]',60,'Candidate has deep AWS and cloud skills, but sysadmin focus differs from engineering track.','cloud-devops','','','new','2026-11-15T07:26:24Z','2026-11-15T07:26:24Z','',0);
+https://weworkremotely.com/remote-jobs/oneimaging-cloud-systems-administrator [2]',60,'Candidate has deep AWS and cloud skills, but sysadmin focus differs from engineering track.','cloud-devops','','','new','2026-11-15T07:26:24Z','2026-11-15T10:14:12Z','',0);
 INSERT INTO "jobs" VALUES(236,'32975f2ea5d6817e037fe8fad3e9d576d42a821e','Software Engineer Interviewer','Karat','Remote, Anywhere in the World','https://weworkremotely.com/remote-jobs/karat-software-engineer-interviewer','wwr','Headquarters: Seattle URL: https://karat.com/ [0] Come join Karat''s Interview Engineer [1] Community! Karat is always seeking talented engineers accross the world to join our Community. If you are interested in being considered for a future Interview Engineer opportunity, please submit your application to this posting. This is a contractor/freelancer opportunity, and work is compensated based on tasks performed once you complete onboarding. We hire worldwide and rotate which countries we recruit in. If you’re outside the U.S., check our website [2] to see which countries are currently open, an','Headquarters:
 Seattle
 URL:
@@ -1231,7 +1232,7 @@ While we review your application, learn more about
 life as an Interview Engineer [3]
 by watching this video!
 To apply:
-https://weworkremotely.com/remote-jobs/karat-software-engineer-interviewer [4]',68,'Good fit for candidate''s senior technical expertise and interviewing capabilities, though it is a contract gig.','general','','','new','2026-11-15T07:26:24Z','2026-11-15T07:26:24Z','',0);
+https://weworkremotely.com/remote-jobs/karat-software-engineer-interviewer [4]',68,'Good fit for candidate''s senior technical expertise and interviewing capabilities, though it is a contract gig.','general','','','new','2026-11-15T07:26:24Z','2026-11-15T10:14:12Z','',0);
 INSERT INTO "jobs" VALUES(237,'c1f0245d753d21880f00234229902bf7a44efa9e','Senior Full-Stack Web Developer (.NET/C#/MongoDB/Angular/Redux) – AI-First, with GDPR Experience','Secure Privacy','Remote, Anywhere in the World','https://weworkremotely.com/remote-jobs/secure-privacy-senior-full-stack-web-developer-net-c-mongodb-angular-redux-ai-first-with-gdpr-experience','wwr','Headquarters: Europe (DK) URL: https://secureprivacy.ai [0] Secure Privacy is expanding, and we’re looking for an experienced Senior Full-Stack Developer with expertise in .NET, C#, and MongoDB, along with GDPR experience, to join our team! You’ll work remotely with a diverse group of developers, helping us build cutting-edge data privacy solutions for global clients. This role focuses on creating and optimizing APIs and backend services. If you’re passionate about clean, maintainable code, we’d love to hear from you! What You’ll Do: Develop and maintain backend services with C# and .NET. Deve','Headquarters:
 Europe (DK)
 URL:
@@ -1266,7 +1267,7 @@ StackOverflow or other community contributions.
 Mobile app or SDK experience.
 To apply, submit your CV and a short Loom video (max 2 minutes) introducing yourself and how you use AI to develop faster without compromising quality.
 To apply:
-https://weworkremotely.com/remote-jobs/secure-privacy-senior-full-stack-web-developer-net-c-mongodb-angular-redux-ai-first-with-gdpr-experience [1]',50,'Requires heavy C#, .NET, MongoDB, and Angular, which are outside candidate''s primary expertise areas.','full-stack','','','new','2026-11-15T07:26:24Z','2026-11-15T07:26:24Z','',0);
+https://weworkremotely.com/remote-jobs/secure-privacy-senior-full-stack-web-developer-net-c-mongodb-angular-redux-ai-first-with-gdpr-experience [1]',50,'Requires heavy C#, .NET, MongoDB, and Angular, which are outside candidate''s primary expertise areas.','full-stack','','','new','2026-11-15T07:26:24Z','2026-11-15T10:14:12Z','',0);
 INSERT INTO "jobs" VALUES(238,'bb301dfb7bad6d76311ce43ec714588994816878','Software Engineer, Infrastructure','Descript','Remote, Anywhere in the World','https://weworkremotely.com/remote-jobs/descript-software-engineer-infrastructure','wwr','Headquarters: San Francisco, CA or Remote, US Platform owns the foundation the company runs on: compute and deployment, reliability and on-call, CI/CD and monorepo health, developer environments, the infrastructure that model training and inference run on, and the security boundaries around all of it. AI and agent tooling is the clearest example. You will contribute to how models are trained and served here, as well as how agents work inside our codebase: the environments they run in, the verification that makes their output trustworthy, and the review paths that keep it all legible. There is ','Headquarters:
 San Francisco, CA or Remote, US
 Platform owns the
@@ -1335,7 +1336,7 @@ Our headquarters [4]
 are located in the Mission District of San Francisco, CA. We''re hiring for a mix of remote roles and hybrid roles. For those who are remote, we have a handful of opportunities throughout the year for in person collaboration. For our hybrid roles, we''re flexible, and you''re an adult—we don''t expect or mandate that you''re in the office every day. We do believe there are valuable and serendipitous moments of discovery and collaboration that come from working together in person.
 Descript is an equal opportunity workplace—we are dedicated to equal employment opportunities regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity, or Veteran status. We believe in actively building a team rich in diverse backgrounds, experiences, and opinions to better allow our employees, products, and community to thrive.
 To apply:
-https://weworkremotely.com/remote-jobs/descript-software-engineer-infrastructure [5]',85,'Strong match with candidate''s CI/CD, AWS infrastructure, and ML model serving expertise.','cloud-devops','','','new','2026-11-15T07:26:24Z','2026-11-15T07:26:24Z','',0);
+https://weworkremotely.com/remote-jobs/descript-software-engineer-infrastructure [5]',85,'Strong match with candidate''s CI/CD, AWS infrastructure, and ML model serving expertise.','cloud-devops','','','new','2026-11-15T07:26:24Z','2026-11-15T10:14:12Z','',0);
 INSERT INTO "jobs" VALUES(239,'5720f798f76df71ab6ee75e30f16d490f0c297df','Senior Software Engineer, Data','Doximity','Remote, Anywhere in the World','https://weworkremotely.com/remote-jobs/doximity-senior-software-engineer-data','wwr','Headquarters: San Francisco, CA or Remote (U.S.) Location : This role is remote in the United States, Canada, or some countries in South America. Visa sponsorship is not available for this role. Doximity is the leading clinical AI company with the largest network of U.S. clinicians. Doximity’s AI-powered workflow platform is trusted by over 85% of U.S. physicians and 300+ health systems. Doximity''s mission is to help clinicians be more productive so they can provide better care for their patients. At Doximity, we value curiosity, ownership, inclusion, and a commitment to making a meaningful im','Headquarters:
 San Francisco, CA or Remote (U.S.)
 Location
@@ -1412,7 +1413,7 @@ Equal Employment Opportunity
 Doximity is proud to be an Equal Opportunity Employer. We are committed to creating an inclusive workplace where everyone can thrive. We consider all qualified applicants without regard to race, color, religion, creed, sex, gender identity or expression, sexual orientation, national origin, ancestry, age, disability, veteran status, genetic information, marital status, or any other characteristic protected by applicable federal, state, or local law.
 If you require a reasonable accommodation during the application or interview process, please let us know so we can support your participation.
 To apply:
-https://weworkremotely.com/remote-jobs/doximity-senior-software-engineer-data [8]',25,'Location restricted to US, Canada, and South America; candidate is in South Africa.','data-engineering','','','new','2026-11-15T07:26:24Z','2026-11-15T07:26:24Z','',0);
+https://weworkremotely.com/remote-jobs/doximity-senior-software-engineer-data [8]',25,'Location restricted to US, Canada, and South America; candidate is in South Africa.','data-engineering','','','new','2026-11-15T07:26:24Z','2026-11-15T10:14:13Z','',0);
 INSERT INTO "jobs" VALUES(240,'982cee90f800b920a6559a9e83b58d1aeb87d3dd','Software Engineer - PlanetScale Postgres','PlanetScale','Remote, Anywhere in the World','https://weworkremotely.com/remote-jobs/planetscale-software-engineer-planetscale-postgres','wwr','Headquarters: Remote PlanetScale is growing rapidly and reinventing the database space. The PlanetScale platform delivers a fully managed, multi-cloud Postgres service designed for the most demanding production workloads. We handle the complexity of provisioning, scaling, replication, and failover - so engineering teams can focus on building their products. Our customers entrust us with their most precious digital asset, their data, so the stakes couldn''t be higher. We''re looking for a Software Engineer to join our Postgres engineering team and help us build a world-class managed Postgres offe','Headquarters:
 Remote
 PlanetScale is growing rapidly and reinventing the database space. The PlanetScale platform delivers a fully managed, multi-cloud Postgres service designed for the most demanding production workloads. We handle the complexity of provisioning, scaling, replication, and failover - so engineering teams can focus on building their products.
@@ -1450,7 +1451,7 @@ Total Compensation and Pay Transparency
 An employee''s total compensation consists of base salary + variable comp where appropriate + benefits + equity. A member of our Talent Acquisition team will be happy to answer any further questions when we engage with you to begin the interview process.
 Base salary range: $120,000 - $290,000 USD
 To apply:
-https://weworkremotely.com/remote-jobs/planetscale-software-engineer-planetscale-postgres [0]',50,'Postgres internals and managed DB platform require deep systems engineering beyond candidate''s application background.','backend','','','new','2026-11-15T07:26:24Z','2026-11-15T07:26:24Z','',0);
+https://weworkremotely.com/remote-jobs/planetscale-software-engineer-planetscale-postgres [0]',50,'Postgres internals and managed DB platform require deep systems engineering beyond candidate''s application background.','backend','','','new','2026-11-15T07:26:24Z','2026-11-15T10:14:13Z','',0);
 INSERT INTO "jobs" VALUES(241,'1b14d67b2ff5d15e4fb836c8f59dd4cd589f8602','Senior Software Engineer (R14285)','Oportun','Remote, Anywhere in the World','https://weworkremotely.com/remote-jobs/oportun-senior-software-engineer-r14285','wwr','Headquarters: Remote - US Who We Are Oportun (Nasdaq: OPRT) is a mission-driven financial services company that puts its members'' financial goals within reach. With intelligent borrowing, savings, and budgeting capabilities, Oportun empowers members with the confidence to build a better financial future. Since inception, Oportun has provided more than $22.7 billion in responsible and affordable credit, saved its members more than $2.5 billion in interest and fees, and helped its members set aside an average of more than $1,800 annually. The Opportunity The Engineering Ecosystem Org exists to h','Headquarters:
 Remote - US
 Who We Are
@@ -1523,7 +1524,7 @@ https://oportun.com/privacy/california-privacy-notice/ [0]
 .
 We will never request personal identifiable information (bank, credit card, etc.) before you are hired. We do not charge you for pre-employment fees such as background checks, training, or equipment. If you think you have been a victim of fraud by someone posing as us, please report your experience to the FBI’s Internet Crime Complaint Center (IC3).
 To apply:
-https://weworkremotely.com/remote-jobs/oportun-senior-software-engineer-r14285 [1]',70,'Fits senior software engineer level, though specific technology stack details are minimal.','general','','','new','2026-11-15T07:26:24Z','2026-11-15T07:26:24Z','',0);
+https://weworkremotely.com/remote-jobs/oportun-senior-software-engineer-r14285 [1]',70,'Fits senior software engineer level, though specific technology stack details are minimal.','general','','','new','2026-11-15T07:26:24Z','2026-11-15T10:14:13Z','',0);
 INSERT INTO "jobs" VALUES(242,'a4b107c28cd7df08b8b96bd56284eb91560fb70d','Analytics Engineer II, Full Stack (Revenue Analytics)','Affirm','Remote, Anywhere in the World','https://weworkremotely.com/remote-jobs/affirm-analytics-engineer-ii-full-stack-revenue-analytics','wwr','Headquarters: Remote Poland At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. We’re looking for a curious, driven professional to join our Revenue Analytics team. This builds and owns the data products, reporting infrastructure, semantic foundations, and analytical systems that power Affirm’s Revenue organization. As a Senior Analyst, Revenue Analytics, you’ll build scalable data products that power day-to-day decision-making - owning end-to-end work across data mode','Headquarters:
 Remote Poland
 At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most.
@@ -1597,7 +1598,7 @@ By clicking "Submit Application," you acknowledge that you have read Affirm''s
 Global Candidate Privacy Notice [0]
 and consent to the use of your personal information as described.
 To apply:
-https://weworkremotely.com/remote-jobs/affirm-analytics-engineer-ii-full-stack-revenue-analytics [1]',45,'Location specifies Poland; role leans toward analytics engineering and revenue metrics rather than software engineering.','data-engineering','','','new','2026-11-15T07:26:24Z','2026-11-15T07:26:24Z','',0);
+https://weworkremotely.com/remote-jobs/affirm-analytics-engineer-ii-full-stack-revenue-analytics [1]',45,'Location specifies Poland; role leans toward analytics engineering and revenue metrics rather than software engineering.','data-engineering','','','new','2026-11-15T07:26:24Z','2026-11-15T10:14:13Z','',0);
 INSERT INTO "jobs" VALUES(243,'664abd18c441fd382b587950214f66de9bbfc99a','Senior Vue Developer','Lemon.io','Remote, Anywhere in the World','https://weworkremotely.com/remote-jobs/lemon-io-senior-vue-developer-1','wwr','Headquarters: New York, NY URL: https://lemon.io [0] Lemon.io [1] helps companies in the US and Europe hire experienced engineers, from funded startups to teams like Klarna, Retool, and Pinterest. We’ve been doing this since 2015, and more than 1,500 companies have hired engineers through us. New roles for Senior Angular Engineers come in all the time, and several are open right now. Two ways to work with clients Contract: most roles are contract-based. You join the client’s team and work as part of it. Direct hire: some clients hire engineers full-time, and we support you through the process.','Headquarters:
 New York, NY
 URL:
@@ -1660,7 +1661,7 @@ We''re placing Senior Developers (4+ yrs commercial experience) across AI Agent 
 We do not provide visa assistance, and our cooperation model does not include the benefits typically offered with direct hire.
 We work with developers from 75+ countries across Europe, Latin America, North America (the U.S. and Canada), selected countries in Asia (Japan, Singapore, South Korea, the Philippines, Indonesia, Malaysia, Vietnam, Thailand, and Israel), Oceania (Australia, New Zealand, and Papua New Guinea), and Africa (including Morocco and South Africa).
 To apply:
-https://weworkremotely.com/remote-jobs/lemon-io-senior-vue-developer-1 [4]',35,'Role requires Vue/Angular, whereas candidate''s primary frontend expertise is in React.','frontend','','','new','2026-11-15T07:26:25Z','2026-11-15T07:26:25Z','',0);
+https://weworkremotely.com/remote-jobs/lemon-io-senior-vue-developer-1 [4]',35,'Role requires Vue/Angular, whereas candidate''s primary frontend expertise is in React.','frontend','','','new','2026-11-15T07:26:25Z','2026-11-15T10:14:13Z','',0);
 INSERT INTO "jobs" VALUES(244,'b4166715e2f2b989871a26e7c14c8b6a9d5efabd','Senior Data Engineer','Growth Minded','Remote, Anywhere in the World','https://weworkremotely.com/remote-jobs/growth-minded-senior-data-engineer','wwr','Headquarters: Remote URL: https://growthminded.co [0] About the role You''ll own the data layer underneath InsightsOS and EngageOS, the products that turn booking, CRM, ad, and financial data from multi-location brands into proactive insights and automated actions. Today that layer is built and maintained by our product lead alongside two full-stack engineers. We need someone who owns it end to end: architecture, modeling, pipelines, and the analytical models on top. You''ll report to our product lead and work directly with the founder. Compensation: $45–60K plus revenue-share bonus (we profit s','Headquarters:
 Remote
 URL:
@@ -1689,7 +1690,7 @@ Full ownership of a product vertical, not a ticket queue.
 Small team, direct impact, your models show up in client revenue within weeks.
 Build the cross-client data asset that is central to our strategy.
 To apply:
-https://weworkremotely.com/remote-jobs/growth-minded-senior-data-engineer [1]',85,'Great match for Python, SQL, data pipelines, and analytical modeling skills.','data-engineering','','','new','2026-11-15T07:26:25Z','2026-11-15T07:26:25Z','USD 45,000 to 60,000 a year',892500);
+https://weworkremotely.com/remote-jobs/growth-minded-senior-data-engineer [1]',85,'Great match for Python, SQL, data pipelines, and analytical modeling skills.','data-engineering','','','new','2026-11-15T07:26:25Z','2026-11-15T10:14:13Z','USD 45,000 to 60,000 a year',892500);
 INSERT INTO "jobs" VALUES(245,'e8ecd5e4bc89fc9df82a2a0e4ac5bdb0e76f5b8b','Senior Fullstack Developer (React.js / Node.js)','Proxify AB','Remote, Anywhere in the World','https://weworkremotely.com/remote-jobs/proxify-ab-senior-fullstack-developer-react-js-node-js-5','wwr','Headquarters: Sweden URL: http://career.proxify.io [0] The Role: We are looking for a Senior Fullstack Developer skilled in React.js and Node.js for one of our clients. You are a perfect candidate if you are growth-oriented, you love what you do, and you enjoy working on new ideas to develop exciting products. What we are looking for: 5+ years experience as a Fullstack Developer. Backend experience with: Node.js Microservices architecture Database experience with: SQL MongoDB Intermediate-advanced English Nice-to-have: Located in CET timezone (+/- 3 hours). Database Architecture knowledge. Res','Headquarters:
 Sweden
 URL:
@@ -1730,7 +1731,7 @@ A one-time contracting process for endless opportunities, with no extra assessme
 Compensation
 Enjoy the same pay, every month with positions landed through Proxify.
 To apply:
-https://weworkremotely.com/remote-jobs/proxify-ab-senior-fullstack-developer-react-js-node-js-5 [1]',95,'Excellent match with React, Node.js, microservices, SQL, seniority, and South African timezone.','full-stack','','','new','2026-11-15T07:26:25Z','2026-11-15T07:26:25Z','',0);
+https://weworkremotely.com/remote-jobs/proxify-ab-senior-fullstack-developer-react-js-node-js-5 [1]',95,'Excellent match with React, Node.js, microservices, SQL, seniority, and South African timezone.','full-stack','','','new','2026-11-15T07:26:25Z','2026-11-15T10:14:13Z','',0);
 INSERT INTO "jobs" VALUES(246,'ab306443f9590f22255582897af8bde4ef0d0ebb','Senior Software Engineer, Product Platform','Lithic','Remote, Anywhere in the World','https://weworkremotely.com/remote-jobs/lithic-senior-software-engineer-product-platform','wwr','Headquarters: Remote Lithic is the modern card issuing and processing platform empowering ambitious financial companies to build the future of payments. Our infrastructure powers card programs for 100+ innovative clients, from fintechs reimagining credit and digital banking to platforms transforming disbursements and spend management. Companies like Mercury, Flex, and Novo rely on Lithic''s developer-friendly APIs, direct network connections, and flawless reconciliation to launch and scale card programs in weeks, not years. We''re building a future where access to better financial products mater','Headquarters:
 Remote
 Lithic is the modern card issuing and processing platform empowering ambitious financial companies to build the future of payments.
@@ -1774,7 +1775,7 @@ In-office employees receive:
 Commuter benefit
 Catered lunch every Tuesday and Thursday
 To apply:
-https://weworkremotely.com/remote-jobs/lithic-senior-software-engineer-product-platform [1]',78,'Strong fit for senior backend platform engineering, API development, and distributed systems.','backend','','','new','2026-11-15T07:26:25Z','2026-11-15T07:26:25Z','',0);
+https://weworkremotely.com/remote-jobs/lithic-senior-software-engineer-product-platform [1]',78,'Strong fit for senior backend platform engineering, API development, and distributed systems.','backend','','','new','2026-11-15T07:26:25Z','2026-11-15T10:14:13Z','',0);
 INSERT INTO "jobs" VALUES(247,'34610be543f0fb1c9b5e3f42bfb69dff3d431fb6','Senior Software Engineer, Processing','Lithic','Remote, Anywhere in the World','https://weworkremotely.com/remote-jobs/lithic-senior-software-engineer-processing','wwr','Headquarters: Remote Lithic is the modern card issuing and processing platform empowering ambitious financial companies to build the future of payments. Our infrastructure powers card programs for 100+ innovative clients, from fintechs reimagining credit and digital banking to platforms transforming disbursements and spend management. Companies like Mercury, Flex, and Novo rely on Lithic''s developer-friendly APIs, direct network connections, and flawless reconciliation to launch and scale card programs in weeks, not years. We''re building a future where access to better financial products mater','Headquarters:
 Remote
 Lithic is the modern card issuing and processing platform empowering ambitious financial companies to build the future of payments.
@@ -1828,7 +1829,7 @@ In-office employees receive:
 Commuter benefit
 Catered lunch every Tuesday and Thursday
 To apply:
-https://weworkremotely.com/remote-jobs/lithic-senior-software-engineer-processing [1]',78,'Strong backend match for transaction processing, systems design, and high-reliability APIs.','backend','','','new','2026-11-15T07:26:25Z','2026-11-15T07:26:25Z','',0);
+https://weworkremotely.com/remote-jobs/lithic-senior-software-engineer-processing [1]',78,'Strong backend match for transaction processing, systems design, and high-reliability APIs.','backend','','','new','2026-11-15T07:26:25Z','2026-11-15T10:14:13Z','',0);
 INSERT INTO "jobs" VALUES(248,'519ac63de305f39592effa9e0750f3fed4988259','Staff Software Engineer - Connectivity','Dremio','Remote, Anywhere in the World','https://weworkremotely.com/remote-jobs/dremio-staff-software-engineer-connectivity','wwr','Headquarters: Portugal - Remote Be Part of Building the Future Dremio is the unified lakehouse platform for self-service analytics and AI, serving hundreds of global enterprises, including Maersk, Amazon, Regeneron, NetApp, and S&P Global. Customers rely on Dremio for cloud, hybrid, and on-prem lakehouses to power their data mesh, data warehouse migration, data virtualization, and unified data access use cases. Based on open source technologies, including Apache Iceberg and Apache Arrow, Dremio provides an open lakehouse architecture enabling the fastest time to insight and platform flexibilit','Headquarters:
 Portugal - Remote
 Be Part of Building the Future
@@ -1893,7 +1894,7 @@ here [2]
 .
 Dremio is not responsible for any fees related to unsolicited resumes and will not pay fees to any third-party agency or company that does not have a signed agreement with the Company.
 To apply:
-https://weworkremotely.com/remote-jobs/dremio-staff-software-engineer-connectivity [3]',50,'Staff level and deep lakehouse connectivity internals differ from candidate''s profile; location indicates Portugal.','backend','','','new','2026-11-15T07:26:25Z','2026-11-15T07:26:25Z','',0);
+https://weworkremotely.com/remote-jobs/dremio-staff-software-engineer-connectivity [3]',50,'Staff level and deep lakehouse connectivity internals differ from candidate''s profile; location indicates Portugal.','backend','','','new','2026-11-15T07:26:25Z','2026-11-15T10:14:13Z','',0);
 INSERT INTO "jobs" VALUES(249,'56a3c3f970b9dfe24abd61ea64d8776ea141b95b','Senior Full Stack','Toggl','Remote, Anywhere in the World','https://weworkremotely.com/remote-jobs/toggl-senior-full-stack','wwr','Headquarters: Tallinn, Estonia URL: https://toggl.com/jobs/ [0] We are looking for a Senior Full Stack Engineer to join one of our Product Tribes, the cross-functional units that own the end-to-end experience for a specific Toggl user role. You''ll join the Tribe building for managers, the people who plan work, protect margins, and keep projects on time and on budget. You own significant parts of that experience end-to-end, working hands-on with product and design to ship work that matters. You''ll do this as we build and launch Toggl 2.0, our consolidated planning, time tracking, and time intel','Headquarters:
 Tallinn, Estonia
 URL:
@@ -1981,7 +1982,7 @@ Laptop budget up to 2,500€ and it renews every 3 years
 €2,400 per year contribution for any equipment or services to improve and/or maintain your physical and mental health
 Support for buying tools you need for doing your best work (even eyeglasses if you need a new pair)
 To apply:
-https://weworkremotely.com/remote-jobs/toggl-senior-full-stack [3]',85,'Solid match for a senior full-stack engineer shipping end-to-end product features.','full-stack','','','new','2026-11-15T07:26:25Z','2026-11-15T07:26:25Z','',0);
+https://weworkremotely.com/remote-jobs/toggl-senior-full-stack [3]',85,'Solid match for a senior full-stack engineer shipping end-to-end product features.','full-stack','','','new','2026-11-15T07:26:25Z','2026-11-15T10:14:13Z','',0);
 INSERT INTO "jobs" VALUES(250,'1f6a6c8714c2762d843ab5d5b160af88c8b2c65d','FULL TIME: Software Engineer Position - React and Rest','Yooli','Remote, Anywhere in the World','https://weworkremotely.com/remote-jobs/yooli-full-time-software-engineer-position-react-and-rest-1','wwr','Headquarters: Australia URL: http://yooli.co [0] Job description We are seeking a highly skilled Senior Software Engineer to join our team and contribute to the transformative tech evolution in healthcare. This critical role involves developing, integrating, and optimising our backend and database systems. You will work closely with our Chief Engineer and CTO to build and refine our software solutions, ensuring they remain at the cutting edge of innovation. Your Role: Develop and maintain robust backend services using NestJS and Node.js , ensuring top-tier performance and security. Design and ','Headquarters:
 Australia
 URL:
@@ -2068,7 +2069,668 @@ A degree in
 Computer Science
 or a related field.
 To apply:
-https://weworkremotely.com/remote-jobs/yooli-full-time-software-engineer-position-react-and-rest-1 [1]',90,'Strong match with React, Node.js, NestJS, REST APIs, and database engineering skills.','full-stack','','','new','2026-11-15T07:26:25Z','2026-11-15T07:26:25Z','',0);
+https://weworkremotely.com/remote-jobs/yooli-full-time-software-engineer-position-react-and-rest-1 [1]',90,'Strong match with React, Node.js, NestJS, REST APIs, and database engineering skills.','full-stack','','','new','2026-11-15T07:26:25Z','2026-11-15T10:14:13Z','',0);
+INSERT INTO "jobs" VALUES(251,'76bf16aa4ad2ed76c7c740b7774efdbc4984b68f','A leading retail FMCG company is hiring a Snr .Net developer for a 12 month contract','CareerWeb','Western Cape, South Africa (Hybrid)','https://www.linkedin.com/jobs/view/4491061279','linkedin','Actively recruiting Easy Apply','',45,'Senior .NET role; candidate only has working knowledge in C#/.NET and prefers Python/TypeScript.','backend','','','new','2026-11-15T10:13:36Z','2026-11-15T10:13:36Z','',0);
+INSERT INTO "jobs" VALUES(252,'321f607f8690a8490bedd2a0dbdda015bf8f3370','French-Speaking New Business Developer (Remote, South Africa)','EmbedPeople','South Africa','https://za.indeed.com/pagead/clk/dl?mo=r&ad=-6NYlbfkN0DB4EqD3-e1s7M_RIR6yYMT3i46Xln_M_cnz0GQAUl1mttvbbXyznLufEKtCd_KIWSBC8fpbuYwDD9M83D76WLAV3vu5iQbujMBPCGPWfI75S88VDeaRO2YSd9tulG2Vd1VFVMdRfHFIZ9ktNYmPSZPGe21UFRfJXRKrKGuU7bX42JdEZE2qBzIRZh4f66Tcu4WI3I7koafyPLy0x7YVhZKwxrqXv_gFkDXWMa62VYWIUWxy8suXZ-GNwPUJ-uP2RJQQ1OlcFh4jSDZQnofvb0ky4nt3Fw31yLNaso1ljFt1eMZx6ar9wYuS5DAq-_xEeUpknZRu1z4m2jTS-IhQs3k-DEiGa0qcKouIG92eQezvbxNNJv1lF3oNze7vkd-wFGYMh62PiAJefEqQqoYo0Sq4PEn01qph4o3gcruAXoefZHXR6ltx2ano4iNzSO8bKNbO-fMNXejyRZHK35VpDgrNj3t1xArnl4rsEo_WBP7iyHdjl82AkGVEZDPKlMSjqBmBmET-nm2nTOdtyve0QO-b96-tBD2mpFXEGp3-gP2K-FrFnCYX50eqZyitl0UPeat9kehJFOddPFPH7W71FWLoLVMJaWq9TBOMJd3uK8HORRhBS1zu1eiuxNzbTXSKFShh7gaeIQ00Sejstr40Q4aDV8NsVy4r-jxf6FavENLmfd8yfw9V74cMUVsOuqvGqfE3IBdVE0IDT9KnRfWk6j3OAM8hs0tfxbeZsjDKCX9BckNYMEvb-Er8qwmD6OXrEqrqV-kp3UggzDXFqnEYHwt-fEhiUWFzT8CbGXO1A-j5p_P3Yq8jcMSt5iigeR7O6jy0n1K9QVxzEc2K1NEKRaK3STyhTQJoonyOMIS8x5qpD_prixpavtI&rm=2&xkcb=SoDK6_M2cvZ-LUW_Hh0BbzkdCdPP&jsa=6562&camk=aMELOn-zddPyYSyB-B3oyQ%3D%3D&tmtk=1k7f8sdl4kfua800&gdfvj=1&plid=indeed-jobalert&alid=663b2e1ce08152233019d0f3&fvj=1&g1tAS=true','indeed','Our client is a fast-growing European B2B software company with an established presence in France, where two account managers already look after existing clients. To grow the French market further, they’re looking for a driven sales professional based in South Africa who enjoys a challenge and reach...','',5,'Non-technical sales / business development role requiring French language skills.','general','','','new','2026-11-15T10:13:45Z','2026-11-15T10:13:45Z','',0);
+INSERT INTO "jobs" VALUES(253,'99b5794824ce3caec4fadf0967d5fb29a135529c','Full Stack Software Engineer','Real Hires','South Africa (Remote)','https://www.linkedin.com/jobs/view/4490509800','linkedin','','',90,'Title matches candidate''s core expertise in full stack software engineering and remote South Africa setup.','full-stack','','','new','2026-11-15T10:14:01Z','2026-11-15T10:14:01Z','',0);
+INSERT INTO "jobs" VALUES(254,'31f8ec8dd961c98b9b054664ddae9cfb72f4aea8','LLM Engineer (Remote, Bellville)','Blacksmith Agency','South Africa (Remote)','https://www.linkedin.com/jobs/view/4490766458','linkedin','','',95,'Excellent match for candidate''s deep expertise in Machine Learning, LLMs, RAG, and AI engineering.','ai-ml','','','new','2026-11-15T10:14:01Z','2026-11-15T10:14:01Z','',0);
+INSERT INTO "jobs" VALUES(255,'bef4a91b39f52d0794bbd0be459e07d1f732c635','Capital Sales Rep / Sales Engineer','Network Engineering','East Johannesburg, Johannesburg','https://www.adzuna.co.za/details/5966721529?utm_medium=api&utm_source=947c6c7e','adzuna','Reference: NES028952-Wes-1 CAPITAL EQUIPMENT SALES REPRESENTATIVE / SALES ENGINEER Location: Johannesburg, Gauteng Are you technically minded, commercially driven and passionate about winning business? Do you have the ability to understand complex technical solutions, identify customer needs and turn opportunities into successful sales? An exciting opportunity is available for an ambitious and results-driven Capital Equipment Sales Representative / Sales Engineer to join an established business…','',NULL,'','','','','filtered','2026-11-15T10:14:04Z','2026-11-15T10:14:04Z','ZAR 600,000 a year',600000);
+INSERT INTO "jobs" VALUES(256,'02687e2f90c29a9b7b81bce85779170fdb986a08','Snr Specialist: Health & Wellness','Transnet SOC Ltd','Johannesburg, Gauteng','https://www.adzuna.co.za/details/5966721510?utm_medium=api&utm_source=947c6c7e','adzuna','Snr Specialist: Health & Wellness Operating Division: Transnet Freight Rail Employee Group: Permanent Department: SP-PMM-Health & Wellness-JHB Location: Johannesburg Reporting To: Head: Health & Wellness Grade: D Reference: req6127 The closing date is on 24/11/2026 . It is the responsibility of the applicant to ensure that HR has received the application before the closing date of the advertisement. Position Purpose To design and implement strategic occupational health and wellness programmes, …','',0,'Occupational health and wellness position, completely unrelated to software engineering.','general','','','new','2026-11-15T10:14:04Z','2026-11-15T10:14:04Z','',0);
+INSERT INTO "jobs" VALUES(257,'c635d9a21b00bfa42700aeed4b5489d92edc9b66','Accountant CA(SA)','Smart4 Energy','Johannesburg, Gauteng','https://www.adzuna.co.za/details/5966721101?utm_medium=api&utm_source=947c6c7e','adzuna','Smart4Energy Duties & Responsibilities About the Opportunity We are recruiting on behalf of an established player in the renewable energy sector seeking a technically strong and commercially minded Accountant to join its growing finance team. Reporting directly to the Head of Finance, the successful candidate will play a key role in financial reporting, management accounting, project financial performance monitoring and financial controls across multiple Group entities. This opportunity is idea…','',0,'Chartered accountant role in finance; completely unrelated field.','general','','','new','2026-11-15T10:14:04Z','2026-11-15T10:14:04Z','',0);
+INSERT INTO "jobs" VALUES(258,'dbad489469c3fc6df0d61c188e339447dfca4298','Aviation | Trip Support Specialist','World Fuel Services','Johannesburg, Gauteng','https://www.adzuna.co.za/details/5966720881?utm_medium=api&utm_source=947c6c7e','adzuna','At World Fuel, our employees are the key to our global success. We are industry leaders due to the innumerable talents of our approximately 5000 strong professional team. Our people thrive in an entrepreneurial and culturally-diverse environment, where innovative thinking, collaboration and efficient execution are highly valued. Our high-performance culture is what allows us to drive sustained growth. Stronger together, we promote an environment where individuals can thrive. Aviation | Trip Sup…','',0,'Aviation trip support specialist role; unrelated field.','general','','','new','2026-11-15T10:14:04Z','2026-11-15T10:14:04Z','',0);
+INSERT INTO "jobs" VALUES(259,'9aed21d263037ef000ecf901256adfa1b87257bb','Store Driver - Nicolway (Fixed Term)','Dis-Chem','Sandton, North Johannesburg','https://www.adzuna.co.za/details/5966720687?utm_medium=api&utm_source=947c6c7e','adzuna','Description The Local Choice Pharmacy require a Store Driver for their Nicolway Store. Deliver goods to customers in a timely, productive and professional manner while upholding The Local Choice Corporate Stores quality standards. Essential: Grade 12 / Matric Valid Driver License Job Description: Safely transport products to customer locations in a timely, safe and courteous All the cash and product receipts must be given to the cashier before the close of business The correct products must be …','',0,'Store driver position; non-technical and unrelated field.','general','','','new','2026-11-15T10:14:04Z','2026-11-15T10:14:04Z','',0);
+INSERT INTO "jobs" VALUES(260,'3cca388bb545d72114ed4051a3eb70faa37448bd','Mechanical Engineer – Containerized & Modular Systems','InspHired Recruitment Solutions','Midrand, North Johannesburg','https://www.adzuna.co.za/details/5966720634?utm_medium=api&utm_source=947c6c7e','adzuna','InspHired Recruitment Solutions is recruiting for this position on behalf of a client. Duties & Responsibilities Product Design & Development: Lead the concept, 3D modelling, and detailed design of mechanical systems for container-based modular products, E-Houses, and skid-mounted infrastructure. Design integrated thermal management, precision cooling, ventilation, and HVAC systems tailored for high-density power and data center environments. Optimize internal layouts for equipment packaging, r…','',5,'Mechanical engineering role focusing on physical modular systems and HVAC.','general','','','new','2026-11-15T10:14:04Z','2026-11-15T10:14:04Z','',0);
+INSERT INTO "jobs" VALUES(261,'0d9b82cdf259f46ce16be05855c18d6e6db24d56','Human Capital Executive: MFC','Old Mutual','Johannesburg, Gauteng','https://www.adzuna.co.za/details/5966720436?utm_medium=api&utm_source=947c6c7e','adzuna','Let''s Write Africa''s Story Together! Old Mutual is a firm believer in the African opportunity and our diverse talent reflects this. Job Description This is a unique opportunity for an accomplished Human Capital Leader to influence the future of a large, nationally distributed business at a time of transformation and growth. Working as a trusted strategic partner to executive leadership, you will drive the people agenda across a complex, geographically dispersed workforce, ensuring talent, cultu…','',0,'Executive human resources / human capital management role; completely unrelated field.','general','','','new','2026-11-15T10:14:04Z','2026-11-15T10:14:04Z','',0);
+INSERT INTO "jobs" VALUES(262,'67644ac3f3fbce79f0257336b3d06878fbc24da2','Programme Manager','Afrizan People Intelligence','Fourways, North Johannesburg','https://www.adzuna.co.za/details/5966719855?utm_medium=api&utm_source=947c6c7e','adzuna','Job Description Our client, a leading organisation within the mining and industrial solutions sector, is seeking an experienced Programme Manager to lead strategic transformation initiatives and drive sustainable business outcomes. This role offers the opportunity to manage complex, cross-functional programmes, influence executive stakeholders and deliver meaningful organisational change. Responsibilities: Lead and coordinate multiple interdependent projects, ensuring alignment with strategic b…','',15,'Industrial programme manager role focusing on mining sector transformation.','general','','','new','2026-11-15T10:14:05Z','2026-11-15T10:14:05Z','',0);
+INSERT INTO "jobs" VALUES(263,'828c657c0b8da4733cd9eda54d63df6594abe15c','Junior HR Business Partner','Alistair James Company','Johannesburg, Gauteng','https://www.adzuna.co.za/details/5966719812?utm_medium=api&utm_source=947c6c7e','adzuna','Alistair Group is one of East and Southern Africa’s fastest-growing service companies, providing a variety of self-delivered logistics solutions across several geographies, aimed with the vision to Make Africa Work Better! With core competencies in road freight, warehousing, commodity trading and operational hire of material handling equipment, the Group strives for continuous expansion of innovative ancillary services to grow the business vertically, complimented by a healthy dose of entrepren…','',NULL,'','','','','filtered','2026-11-15T10:14:05Z','2026-11-15T10:14:05Z','',0);
+INSERT INTO "jobs" VALUES(264,'180af0b9999f3d13a6e75decbedcb5016f7913f7','Travel Specialist (HOD)','Green Marble Recruitment Consultants','Sandton, North Johannesburg','https://www.adzuna.co.za/details/5966719634?utm_medium=api&utm_source=947c6c7e','adzuna','Reference: JHB002631-NS-2 TRAVEL SPECIALIST (HOD) Location: Sandton We are looking for an experienced, commercially minded Travel Specialist to develop and grow a specialist golf and sports travel business. The role will focus on inbound and outbound golf and sports travel/tours, creating and selling experiences for individuals, groups, corporates, and international travellers. The successful candidate will have strong travel industry experience, an established supplier network, excellent custo…','',0,'Travel specialist role; entirely unrelated to software development.','general','','','new','2026-11-15T10:14:05Z','2026-11-15T10:14:05Z','',0);
+INSERT INTO "jobs" VALUES(265,'acb5696e55ef8f4f8f42097e4ddb3502d1b126a0','Sales Executive - Legal Software (JB6347)','Kontak Recruitment','Central Johannesburg, Johannesburg','https://www.adzuna.co.za/details/5966719604?utm_medium=api&utm_source=947c6c7e','adzuna','Duties & Responsibilities Sales Executive – Legal Software (JB6347) Linden, Johannesburg, Gauteng (Hybrid) R22 000 – R26 000 per month, experience dependent Travel allowance/fuel card , commission Permanent Join an exciting legal technology business launching an innovative software platform for South African legal professionals. Drive new business, conduct software demonstrations and earn performance-based commission while enjoying a hybrid working model. Minimum Requirements: 2 or more years’ …','',NULL,'','','','','filtered','2026-11-15T10:14:05Z','2026-11-15T10:14:05Z','',0);
+INSERT INTO "jobs" VALUES(266,'5cb740dc39d7a127eab0cb783355e05c9155e50e','Head of Operations','Network IT','North Johannesburg, Johannesburg','https://www.adzuna.co.za/details/5966719589?utm_medium=api&utm_source=947c6c7e','adzuna','Reference: ITA006396-Mfund-2 Are you an experienced Operations leader with a strong background in Managed Services and IT Operations? Join a growing technology services business where you''ll have the opportunity to lead multiple operational functions, drive service excellence, and play a key role in shaping operational strategy and performance. This role is ideal for a commercially minded leader who thrives in fast-paced environments and enjoys building high-performing teams. Duties & Responsib…','',30,'Executive IT operations and managed services role, rather than hands-on software or cloud engineering.','cloud-devops','','','new','2026-11-15T10:14:05Z','2026-11-15T10:14:05Z','',0);
+INSERT INTO "jobs" VALUES(267,'b5f97af3a6d6c881a9daaf133f28a3d092a117d7','Senior Manager - Head of Tax.Finance','MTN','Albertville, West Johannesburg','https://www.adzuna.co.za/details/5966719544?utm_medium=api&utm_source=947c6c7e','adzuna','Description Title of job: Head of: Taxation N umber of subordinates: 3 MTN Job Level: HOD Location of the job: CFO Solid Reporting Line: GM: FinOps Dotted Reporting Line: Group Tax Mission/ Core purpose of the Job Working closely with the MTN Executive Leadership Team and the Opco CEOs, the Executive: Group 1. Mission/ Core purpose of the Job The role is responsible for implementing the Tax strategy for the organisation, that MTN SA is a Tax-compliant entity, and that reporting is performed tim…','',0,'Corporate taxation management role; unrelated field.','general','','','new','2026-11-15T10:14:05Z','2026-11-15T10:14:05Z','',0);
+INSERT INTO "jobs" VALUES(268,'d6375f449a303aeb86fb40dd38fe8b94bfd27d82','Senior Legal Advisor Corporate Operations','Afrizan People Intelligence','Midrand, North Johannesburg','https://www.adzuna.co.za/details/5966719534?utm_medium=api&utm_source=947c6c7e','adzuna','Job Description We are recruiting on behalf of a client for a highly skilled Senior Legal Advisor: Corporate Operations to provide strategic legal guidance, mitigate legal risks and support sound business decision-making. The ideal candidate will bring extensive legal expertise, strong commercial acumen and exceptional negotiation skills. Responsibilities: Provide strategic legal advice and support across corporate operations, finance, procurement, ICT and other business units. Draft, review an…','',0,'Corporate legal advisory position; unrelated to software engineering.','general','','','new','2026-11-15T10:14:05Z','2026-11-15T10:14:05Z','',0);
+INSERT INTO "jobs" VALUES(269,'2cc1bb832f9c752f6d5490494be9166b149051af','Group Financial Accountant','Network Finance','North Johannesburg, Johannesburg','https://www.adzuna.co.za/details/5966719484?utm_medium=api&utm_source=947c6c7e','adzuna','Reference: NFC025634-Ma-1 Our client operates within a listed, SOX-compliant fintech environment, with exposure to IFRS and US GAAP reporting as well as South African direct and indirect tax. They are looking for a newly qualified CA(SA) to join their Group Finance team in an execution-focused role. You will play an important role in monthly reporting, statutory and regulatory deliverables, balance sheet control, audit readiness and finance process improvement. The position will give you hands-…','',5,'Accounting and finance role requiring CA(SA) qualifications, entirely outside software engineering.','general','','','new','2026-11-15T10:14:05Z','2026-11-15T10:14:05Z','',0);
+INSERT INTO "jobs" VALUES(270,'db6d75703e69524aa1d45562af2cebc9cd083694','Underwriter III Commercial Lines','Competent Candidates','Bryanston, North Johannesburg','https://www.adzuna.co.za/details/5966719437?utm_medium=api&utm_source=947c6c7e','adzuna','Duties & Responsibilities An established and reputable insurance company is looking for an experienced Commercial Underwriter to join their dynamic team. This role offers an excellent opportunity for a skilled underwriting professional to deepen their expertise and advance their career within a respected organisation. You''ll play a key role in assessing risk, supporting business growth, and contributing to a high‑performing underwriting function. The purpose of this underwriting position is to …','',5,'Insurance underwriting role completely unrelated to software development or AI.','general','','','new','2026-11-15T10:14:05Z','2026-11-15T10:14:05Z','',0);
+INSERT INTO "jobs" VALUES(271,'defed296e563dd224e546feb4eda10651cd4a856','Assistant Manager: Quality Assurance','Quantanite','Central Johannesburg, Johannesburg','https://www.adzuna.co.za/details/5966719252?utm_medium=api&utm_source=947c6c7e','adzuna','Job Title: Assistant Manager: Quality Assurance Location: Sandton, Johannesburg, South Africa (Onsite) Job Type: Fixed-Term / Permanent About Us Quantanite is a global customer experience and digital solutions partner that blends cutting-edge AI with the human touch. Headquartered in London and operating across four continents, our 2,000-strong team helps some of the world’s fastest-growing brands scale smarter, work faster, and deliver better service—every time. We’re not your typical outsourc…','',15,'Customer experience QA management role rather than software quality assurance or development.','general','','','new','2026-11-15T10:14:05Z','2026-11-15T10:14:05Z','',0);
+INSERT INTO "jobs" VALUES(272,'444e5418b6602d9990b1398dd623f7b9e497a935','Lead Graphic Designer - 67796993028','Somewhere','Johannesburg, Gauteng','https://www.adzuna.co.za/details/5966719164?utm_medium=api&utm_source=947c6c7e','adzuna','Lead Graphic Designer Employment Type: Full-time, Independent Contractor Work Model: Remote Work Hours: US Eastern Standard Time (EST) business hours A growing hair care consumer goods brand is hiring a full-time, remote Lead Graphic Designer to produce and direct the visual work behind its campaigns, packaging, web presence, and events. About the role This is a working designer position first and a leadership position second. You will create the majority of the finished artwork yourself each w…','',5,'Graphic design and visual artwork role; entirely outside software development.','frontend','','','new','2026-11-15T10:14:05Z','2026-11-15T10:14:05Z','',0);
+INSERT INTO "jobs" VALUES(273,'38ecb0b716add6a1ff46652350eb1d0cf521da77','Loss Prevention Lead','takealot.com','Johannesburg, Gauteng','https://www.adzuna.co.za/details/5966719093?utm_medium=api&utm_source=947c6c7e','adzuna','takealot.com , South Africa''s leading online retailer, is looking for a highly talented Loss Prevention Lead to join our team in Johannesburg . We are a young, dynamic, hyper growth company looking for smart, creative, hard-working people with integrity to join us. We offer a market related, Total Remuneration Package which allows full flexibility according to your needs, a great work environment and a promise that you won’t be bored as long as you are prepared for a challenge and want to build…','',5,'Physical retail loss prevention and security role, completely unrelated to technology engineering.','general','','','new','2026-11-15T10:14:05Z','2026-11-15T10:14:05Z','',0);
+INSERT INTO "jobs" VALUES(274,'9dc822cb2706cd7d365f04925462b359cb9f3f66','Design Specialist','Werfnet','North Johannesburg, Johannesburg','https://www.adzuna.co.za/details/5966719066?utm_medium=api&utm_source=947c6c7e','adzuna','Reference: PTA000811-NH-1 Design Specialist Location: Sandton, Gauteng Industry: Energy Solutions Employment Type: Permanent Job Overview Our client, a well-established company within the energy solutions industry, is seeking an experienced and technically minded Design Specialist to join their team in Sandton. The successful candidate will be responsible for designing and evaluating solar energy solutions, conducting financial feasibility assessments and preparing technical drawings. The ideal…','',5,'Solar energy solutions and CAD engineering role, unrelated to candidate''s software background.','general','','','new','2026-11-15T10:14:05Z','2026-11-15T10:14:05Z','',0);
+INSERT INTO "jobs" VALUES(275,'cc7982268b3cd355c03e02206f4b9d66461fcb33','Graduate Incubator Programme','Afrizan People Intelligence','Central Johannesburg, Johannesburg','https://www.adzuna.co.za/details/5966718998?utm_medium=api&utm_source=947c6c7e','adzuna','Introduction TOP OF YOUR CLASS? READY TO BE TOP OF YOUR GAME? Are you an exceptional graduate with the ambition to turn academic excellence into a successful career? A client is looking for outstanding graduates who are driven, ambitious and eager to make their mark in the business world. Were you a Dean''s List achiever, a Golden Key member or consistently among the top performers in your class? Academic excellence is important, but the ideal candidate will bring much more to the table. The ide…','',NULL,'','','','','filtered','2026-11-15T10:14:05Z','2026-11-15T10:14:05Z','',0);
+INSERT INTO "jobs" VALUES(276,'2a3a6762d210d42a12c099bbd0035073b48f6ab2','Operations Manager','UMS Group','Johannesburg, Gauteng','https://www.adzuna.co.za/details/5966718966?utm_medium=api&utm_source=947c6c7e','adzuna','Job Advert Summary UMS Shaft Sinkers is seeking an experienced and results-driven Operations Manager to provide senior leadership, governance, and oversight across our portfolio of underground mining construction projects, with a strong focus on shaft sinking and underground mine development activities. Reporting directly to the Managing Director: Construction Division, the successful candidate will play a pivotal role in ensuring the safe, efficient, and successful delivery of complex projects…','',5,'Underground mining construction operations management role; entirely different field.','general','','','new','2026-11-15T10:14:05Z','2026-11-15T10:14:05Z','',0);
+INSERT INTO "jobs" VALUES(277,'fcdce0ada64fc5b93ceb44f947ce081278ecca36','Senior Process Mining & Optimisation Specialist','Paracon','Sandton, North Johannesburg','https://www.adzuna.co.za/details/5966718916?utm_medium=api&utm_source=947c6c7e','adzuna','Paracon Duties & Responsibilities Were you a data-driven process strategist with a passion for turning complex event logs and operational data into actionable business value? We are looking for a Senior Process Mining & Optimisation Specialist to lead our process mining initiatives and drive operational excellence across the organisation. In this role, you will bridge the gap between technical data analytics and business strategy-leveraging cutting-edge process intelligence to uncover inefficie…','',40,'Process mining role touches on event logs and data analytics, but focuses on business process strategy.','data-engineering','','','new','2026-11-15T10:14:05Z','2026-11-15T10:14:05Z','',0);
+INSERT INTO "jobs" VALUES(278,'f0c1e345e05ca00c550eb1392895e46d1787e498','Senior Legal Advisor Corporate Transactions','Afrizan People Intelligence','Midrand, North Johannesburg','https://www.adzuna.co.za/details/5966718908?utm_medium=api&utm_source=947c6c7e','adzuna','Job Description Our client, a leading development finance institution, is seeking a highly skilled Senior Legal Advisor: Corporate Transactions to provide strategic legal guidance across complex investment and financing transactions. This role offers an exciting opportunity to influence high-value transactions, safeguard organisational interests and contribute to sustainable economic development. Responsibilities: Lead legal workstreams across the full transaction lifecycle, from structuring an…','',5,'Legal advisor role requiring legal qualifications, completely unrelated to software engineering.','general','','','new','2026-11-15T10:14:05Z','2026-11-15T10:14:05Z','',0);
+INSERT INTO "jobs" VALUES(279,'3666cdfbd5d9f647d3dc42d0bb8e84707f6a8891','Executive: Portfolio Performance & Delivery','Network Finance.','North Johannesburg, Johannesburg','https://www.adzuna.co.za/details/5966718811?utm_medium=api&utm_source=947c6c7e','adzuna','Reference: NFP017151-ZG-1 Our client is a leading financial services organisation seeking a Executive: Performance & Optimisation to lead a large-scale collections, recoveries, and portfolio performance function. This executive leadership role is responsible for driving commercial performance across a diverse portfolio environment while ensuring operational excellence, regulatory compliance, and sustainable profitability. Duties & Responsibilities The successful candidate will be a proven colle…','',5,'Executive collections and financial recoveries leadership role; completely unrelated field.','general','','','new','2026-11-15T10:14:05Z','2026-11-15T10:14:05Z','',0);
+INSERT INTO "jobs" VALUES(280,'fe3dd2fef6a33496628a3ec3aabc8a74ec206ada','Business Development Manager - Thorburn Security Solutions','Thorburn Security Solutions','Midrand, North Johannesburg','https://www.adzuna.co.za/details/5966718770?utm_medium=api&utm_source=947c6c7e','adzuna','Duties & Responsibilities Drive new business acquisition and expand market share within the security solutions sector. Identify, engage, and secure opportunities with corporate clients and key decision makers. Build and maintain a robust pipeline of qualified opportunities through networking, prospecting, referrals, and market engagement. Prepare and present compelling proposals, solutions, and commercial offers tailored to client needs. Lead negotiations and successfully convert opportunities …','',5,'Sales and business development role within physical security solutions.','general','','','new','2026-11-15T10:14:05Z','2026-11-15T10:14:05Z','',0);
+INSERT INTO "jobs" VALUES(281,'672e031bf3d82078e7407c6f417806a14ea3abf3','Senior Yellow Maize Trader','Helen Wilson Recruitment','Albertville, West Johannesburg','https://www.adzuna.co.za/details/5966718598?utm_medium=api&utm_source=947c6c7e','adzuna','Introduction Part of an International Trading Company Pretoria The role will report to the Head of Trading and the MD/CEO, in charge of developing and managing a physical transactions trading book in Grains, Oils and Seeds in the whole of the SADC region. We are looking for a seasoned trader 7 years plus who has experience in both physical and screen trading in Sub-Saharan Africa Duties & Responsibilities This trader would have to build and entertain good relationships with existing key industr…','',5,'Agricultural commodity trading position; entirely different industry.','general','','','new','2026-11-15T10:14:05Z','2026-11-15T10:14:05Z','',0);
+INSERT INTO "jobs" VALUES(282,'b6a9db8ad2ab248a9c7837809c810ae671052435','Senior Fund Specialist','Afrizan People Intelligence','Midrand, North Johannesburg','https://www.adzuna.co.za/details/5966718550?utm_medium=api&utm_source=947c6c7e','adzuna','Job Description Our client, a leading development finance institution, is seeking a highly skilled Senior Fund Specialist (IFISA) to support strategic infrastructure financing, asset management and treasury operations. This role offers an exciting opportunity to mobilise capital, optimise investment portfolios and contribute to sustainable infrastructure development through innovative financing solutions. Responsibilities: Oversee infrastructure investment portfolios, ensuring effective asset m…','',5,'Infrastructure financing and treasury asset management role; outside software engineering.','general','','','new','2026-11-15T10:14:05Z','2026-11-15T10:14:05Z','',0);
+INSERT INTO "jobs" VALUES(283,'71f67ca121fe971ca728f69653b1379b068fd030','Cluster CFO','Network Finance','North Johannesburg, Johannesburg','https://www.adzuna.co.za/details/5966718538?utm_medium=api&utm_source=947c6c7e','adzuna','Reference: NPr004652-EHo-1 Travel may be about creating unforgettable experiences. But behind a global travel business is a finance function that needs to be first-class, too! Our client is a multinational travel and tourism giant, forming part of a JSE-listed group, looking for an accomplished Cluster CFO to join their executive leadership team in Sandton. Duties & Responsibilities This is a senior strategic appointment with responsibility for the full finance function across a complex, multi-…','',5,'Executive CFO role requiring finance leadership qualifications; completely unrelated.','general','','','new','2026-11-15T10:14:05Z','2026-11-15T10:14:05Z','ZAR 2 to 6 a year',4);
+INSERT INTO "jobs" VALUES(284,'a288fe1ddb6a4cde59bef32c322163997af275a7','Instructor/Trainer','Accenture in South Africa','Midrand, North Johannesburg','https://www.adzuna.co.za/details/5966718484?utm_medium=api&utm_source=947c6c7e','adzuna','About Accenture Accenture helps the world’s leading enterprises reinvent by building their digital core and unleashing the power of AI to create value at speed for organizations across industries. Our strategy is to be the reinvention partner of choice for our clients and lead in the safe, widespread adoption of AI, and to be the most client-focused, AI-enabled, great place to work in the world. We bring together the talent of our approximately 786,000 people with proprietary assets and platfor…','',25,'Corporate instructor role; while AI-related initiatives are mentioned, it is not an engineering position.','ai-ml','','','new','2026-11-15T10:14:05Z','2026-11-15T10:14:05Z','',0);
+INSERT INTO "jobs" VALUES(285,'597d27210655f0d807ca052b478ba4251fbe0171','General Counsel (remote)','Canonical','Johannesburg, Gauteng','https://www.adzuna.co.za/details/5966718481?utm_medium=api&utm_source=947c6c7e','adzuna','We are hiring a General Counsel , reporting to the Chief Operating Officer (COO). This role leads Canonical’s global Legal and Compliance function. This is a unique opportunity for an exceptional and commercially-minded senior lawyer to lead the legal and compliance function of a profitable, fast-growing technology company that is privately held with the intention to list on a public exchange. We’re looking for someone with genuine fluency in the software industry and in open source dynamics, w…','',0,'Legal executive role completely unrelated to candidate''s software engineering background.','general','','','new','2026-11-15T10:14:05Z','2026-11-15T10:14:05Z','',0);
+INSERT INTO "jobs" VALUES(286,'50a6b1bb34eccac3c468a43cd6303fd81b62cd67','Process Business Analyst Johannesburg','Engineered Workforce Ltd','Johannesburg, Gauteng','https://www.adzuna.co.za/details/5966626815?utm_medium=api&utm_source=947c6c7e','adzuna','We are looking for an experienced Process Engineer/Business Anayst to join a project within the banking and financial services sector on a 6-month contract. The ideal candidate will have strong experience in process engineering, business analysis and business transformation, with the ability to translate complex business and technical requirements into clear, detailed process specifications that development teams can build from. Previous experience working in the banking industry is required. T…','',25,'Banking process and business analysis role rather than hands-on software development.','general','','','new','2026-11-15T10:14:05Z','2026-11-15T10:14:05Z','ZAR 88,000 a year',88000);
+INSERT INTO "jobs" VALUES(287,'22e0376c52db82a0702e2701a3907904d9d9452e','Accountant Johannesburg','Smart4 Energy - An nGAGE Talent Business','Johannesburg, Gauteng','https://www.adzuna.co.za/details/5966625849?utm_medium=api&utm_source=947c6c7e','adzuna','Smart4Energy About the Opportunity We are recruiting on behalf of an established player in the renewable energy sector seeking a technically strong and commercially minded Accountant to join its growing finance team. Reporting directly to the Head of Finance, the successful candidate will play a key role in financial reporting, management accounting, project financial performance monitoring and financial controls across multiple Group entities. This opportunity is ideally suited to a recently q…','',0,'Accounting and financial controls role outside software engineering.','general','','','new','2026-11-15T10:14:05Z','2026-11-15T10:14:05Z','',0);
+INSERT INTO "jobs" VALUES(288,'caf269af3429986c483b674288b5e9909311cfd1','Territory Sales Manager','Stryker','Johannesburg, Gauteng','https://www.adzuna.co.za/details/5966621224?utm_medium=api&utm_source=947c6c7e','adzuna','Summary : We are seeking a clinically strong, commercially driven Territory Sales Manager to manage and grow a Hip and Knee Joint Replacement portfolio within the Gauteng region. The role requires strong practical knowledge of the full arthroplasty pathway, with experience supporting primary through to complex revision hip and knee procedures. The Territory Sales Manager will work closely with orthopaedic surgeons, theatre teams, hospital stakeholders and internal commercial teams to deliver hi…','',NULL,'','','','','filtered','2026-11-15T10:14:05Z','2026-11-15T10:14:05Z','',0);
+INSERT INTO "jobs" VALUES(289,'cf07250f2efd592898edfb25a248971f34607cde','Transformation and Equity Partner','Sage','Johannesburg, Gauteng','https://www.adzuna.co.za/details/5966621201?utm_medium=api&utm_source=947c6c7e','adzuna','Are you passionate about creating inclusive workplaces and driving meaningful, sustainable transformation? We''re looking for a Transformation & DEIB Partner to help shape and deliver Sage South Africa''s strategy across Diversity, Equity, Inclusion & Belonging, Employment Equity, B-BBEE transformation and employee wellbeing. This is a strategic role where you''ll work closely with senior leaders and teams across the business, turning legislation, organisational priorities and global inclusion com…','',0,'Human resources and DEIB role completely outside candidate''s field.','general','','','new','2026-11-15T10:14:05Z','2026-11-15T10:14:05Z','',0);
+INSERT INTO "jobs" VALUES(290,'c6f538e58bb5ed8cae573b8724763f57164b4ce9','Sr. Operations Manager, ZA Fulfillment & Operations','Amazon','Johannesburg, Gauteng','https://www.adzuna.co.za/details/5966621187?utm_medium=api&utm_source=947c6c7e','adzuna','Description Join our South Africa Operations team and lead a talented group of salaried and hourly employees in delivering exceptional fulfillment experiences to our customers. Our Sr. Operations Managers responsible for all budgetary, people development and operations objectives. The Sr. Operations Managers is responsible for all aspects of operation or functions at the site. Additional responsibilities include managing and leading a team of Operations and Area Managers, coaching and mentoring…','',5,'Fulfillment center operations management role, not a software engineering position.','general','','','new','2026-11-15T10:14:05Z','2026-11-15T10:14:05Z','',0);
+INSERT INTO "jobs" VALUES(291,'071e6cbe72542ab38c65bf8181bf16d12ff32805','Thermal Engineer','Hatch','Johannesburg, Gauteng','https://www.adzuna.co.za/details/5966608719?utm_medium=api&utm_source=947c6c7e','adzuna','Select how often (in days) to receive an alert: Thermal Engineer Location: Johannesburg, Gauteng, ZA Company: Hatch Requisition ID: 102798 Job Category: Energy; Engineering Location: Johannesburg,Gauteng,South Africa Join a company that is passionately committed to the pursuit of a better world through positive change. With more than 70 years of business and technical expertise in mining , energy , and infrastructure ,our 10,000 colleagues in 150 countries tirelessly work toward bettering the i…','',0,'Thermal engineering role outside candidate''s software and computer science domain.','general','','','new','2026-11-15T10:14:05Z','2026-11-15T10:14:05Z','',0);
+INSERT INTO "jobs" VALUES(292,'8c524773e2fa0d901384b9d72bffa3f1472de977','Porter','Minor Hotels','Johannesburg, Gauteng','https://www.adzuna.co.za/details/5966608605?utm_medium=api&utm_source=947c6c7e','adzuna','Job Location: NH Johannesburg Sandton NH Hotels & Resorts is a globally recognised hospitality brand built on three pillars: value for money, prime locations, and service with a human touch. With a strong presence in Europe and the Americas, we are expanding into the Middle East, Asia, and Australasia. Down-to-earth, innovative, reliable, and genuinely friendly — this is what NH stands for. We welcome business travellers, families, couples, and friends looking for a fresh getaway, and we pride …','',0,'Hospitality role completely unrelated to candidate''s qualifications.','general','','','new','2026-11-15T10:14:05Z','2026-11-15T10:14:05Z','',0);
+INSERT INTO "jobs" VALUES(293,'56b0ff57b94c6f0011a33caed56c8871d8f559c3','Sales Development Representative (SDR) & Sales Support Specialist - 67602173798','Somewhere','Central Johannesburg, Johannesburg','https://www.adzuna.co.za/details/5966487467?utm_medium=api&utm_source=947c6c7e','adzuna','Sales Development Representative (SDR) & Sales Support Specialist Compensation: USD 1,300– 1,800/month base  performance-based commission Location: Remote (South Africa) Schedule: Full-time | U.S. business hours / North American time-zone alignment Employment Type: Independent Contractor About the Company Our client is a growing digital marketing and growth agency helping businesses across North America generate more leads, customers, and revenue. The company is entering a new phase of growth, …','',NULL,'','','','','filtered','2026-11-15T10:14:05Z','2026-11-15T10:14:05Z','ZAR 1,500 to 1,800 a year',1650);
+INSERT INTO "jobs" VALUES(294,'11341655cc9f5486c70c60c97ce60a6d53f1cb00','Trade Show Project Manager - 20608','Somewhere','Central Johannesburg, Johannesburg','https://www.adzuna.co.za/details/5966483954?utm_medium=api&utm_source=947c6c7e','adzuna','Role: Project Manager (Trade Show) Priority Location: South Africa Working Hours: US Eastern Time Type of contract: Independent Contractor The final offer is at the client’s discretion and will depend on the candidate’s interview result, skills, and experience. About the Role: The Project Manager is responsible for managing the complete lifecycle of the company''s trade shows, expos, and consumer events—from identifying opportunities and coordinating logistics to staffing, inventory management, …','',5,'Event and trade show logistics role, not software engineering.','general','','','new','2026-11-15T10:14:05Z','2026-11-15T10:14:05Z','ZAR 1,200 a year',1200);
+INSERT INTO "jobs" VALUES(295,'58502e6f8f2ebe1e75ef2472c837192e39562fa6','Recruitment Consultants','','Johannesburg, Gauteng','https://www.adzuna.co.za/land/ad/5966476597?se=XreVSN3g8RGwZsHzjEy9wA&utm_medium=api&utm_source=947c6c7e&v=088767038771E20F064728EA734706F0E108CC96','adzuna','Key Responsibilities Source and attract qualified candidates through various channels. Screen CVs and conduct initial candidate interviews. Match candidates to suitable vacancies. Manage the recruitment process from sourcing to placement. Build and maintain client and candidate relationships. Advertise vacancies and manage candidate databases. Prepare candidate profiles and submit shortlisted candidates to clients. Meet recruitment targets and placement goals. Requirements Previous recruitment,…','',0,'Recruitment role completely outside candidate''s technical field.','general','','no_company','new','2026-11-15T10:14:05Z','2026-11-15T10:14:05Z','',0);
+INSERT INTO "jobs" VALUES(296,'21f2f1a3119e94b490cb852ceaf0824afaa4c405','Executive: Portfolio Performance & Delivery','','Johannesburg, Gauteng','https://www.adzuna.co.za/land/ad/5966476188?se=XreVSN3g8RGwZsHzjEy9wA&utm_medium=api&utm_source=947c6c7e&v=EFF141096BC58A7BD0437A1678AA9473619D189F','adzuna','The successful candidate will be a proven collections and recovery leader with extensive executive-level experience managing large operational teams, optimising portfolio performance, and delivering measurable financial outcomes. This role requires a commercially minded strategist who can leverage data to identify opportunities, influence decision-making, and drive business growth while balancing operational execution with long-term strategic objectives. Reporting into executive leadership, the…','',10,'Collections and recoveries executive position rather than technical engineering.','general','','no_company','new','2026-11-15T10:14:05Z','2026-11-15T10:14:05Z','',0);
+INSERT INTO "jobs" VALUES(297,'39ca555d7864ffdbf9ae68ac7bd3deab0e95c779','Senior Document Controller','','Johannesburg, Gauteng','https://www.adzuna.co.za/land/ad/5966475419?se=XreVSN3g8RGwZsHzjEy9wA&utm_medium=api&utm_source=947c6c7e&v=84466F4C2DBB7C6BD095BAE3285425DF5D20441B','adzuna','We are seeking a Senior Document Controller to manage both internal and external project documentation in line with project-specific requirements. On larger projects requiring a team of document controllers, the Senior Document Controller will oversee, coordinate, and allocate document control tasks, ensuring effective communication with the project team. Key Responsibilities Technical Expertise Establish and maintain the document management system for the project, in accordance with project-sp…','',10,'Project document control role, not a software engineering role.','general','','no_company','new','2026-11-15T10:14:05Z','2026-11-15T10:14:05Z','',0);
+INSERT INTO "jobs" VALUES(298,'3419869c6870da42724bb51d2f9fa66c590fb63f','Software Tester','','Johannesburg, Gauteng','https://www.adzuna.co.za/land/ad/5966475406?se=XreVSN3g8RGwZsHzjEy9wA&utm_medium=api&utm_source=947c6c7e&v=962A18A1B443520C2D17A9C4B8BC80CECC5153D7','adzuna','Company and Job Description Our client is seeking an experienced Software Tester to join their Customer Success team. The successful candidate will be responsible for testing software applications, identifying defects and ensuring that system functionality meets business requirements. This is an excellent opportunity to apply your testing expertise while contributing to continuous product improvement. Key Responsibilities Design, maintain and execute manual and automated test cases to ensure so…','',50,'Software QA testing role matches candidate''s testing skills, but lacks engineering depth.','general','','no_company','new','2026-11-15T10:14:05Z','2026-11-15T10:14:05Z','ZAR 360,000 a year',360000);
+INSERT INTO "jobs" VALUES(299,'a40f42a53b6ff9f20563410030c8769f52fa2ef6','Software Support Consultant','','Johannesburg, Gauteng','https://www.adzuna.co.za/land/ad/5966475407?se=XreVSN3g8RGwZsHzjEy9wA&utm_medium=api&utm_source=947c6c7e&v=ED5A76FF35F7E44B5D0B167FE4DC1B8D703AA6C4','adzuna','Company and Job Description Our client is seeking a customer-oriented Software Support Consultant to join their Customer Success team. The successful candidate will be responsible for assisting customers with software-related queries, investigating technical issues, managing support tickets and ensuring timely resolutions. Key Responsibilities Provide customer support by investigating software-related queries, resolving technical issues and communicating updates to clients. Log, manage and trac…','',30,'Customer software support role is too junior and support-oriented for a senior engineer.','general','','no_company','new','2026-11-15T10:14:05Z','2026-11-15T10:14:05Z','ZAR 300,000 a year',300000);
+INSERT INTO "jobs" VALUES(300,'adc68606b720825979c6ce7804f8a23887dd0b2a','Group Technology Leader - Restaurant Systems & Operations Technology','','Midrand, North Johannesburg','https://www.adzuna.co.za/details/5966474512?utm_medium=api&utm_source=947c6c7e','adzuna','A leading restaurant chain is looking for a Group Technology Leader to join their team in Midrand, GP. Purpose of the role: Lead technology across the restaurant chain in South Africa, Cyprus, the UK and other international markets. The role oversees the people, processes, platforms and partners supporting restaurants and head offices, including infrastructure, restaurant systems, data and reporting, customer-facing technology and AI. The Group Technology Leader transforms technology from a sup…','',60,'Technology leadership role covering infrastructure, AI, and data systems, though more enterprise-focused.','general','','no_company','new','2026-11-15T10:14:05Z','2026-11-15T10:14:05Z','',0);
+INSERT INTO "jobs" VALUES(301,'b6cefad94003e2a34496e3eee96c698f8a29c9da','Cybersecurity Assurance and Compliance Specialist','','Johannesburg, Gauteng','https://www.adzuna.co.za/details/5966474501?utm_medium=api&utm_source=947c6c7e','adzuna','About the Role Our client is seeking a dedicated Cybersecurity Assurance and Compliance Specialist to lead and support information security governance, risk management, compliance, and security assurance activities across the organization. In this role, you will maintain and advance critical security certification programsincluding SOC 2 Type II, CMMC Level 2, and ISO/IEC 27001while ensuring continuous audit readiness. You will act as the primary point of contact for external auditors, certific…','',35,'GRC and compliance role; candidate has security skills but lacks pure audit compliance focus.','cloud-devops','','no_company','new','2026-11-15T10:14:05Z','2026-11-15T10:14:05Z','',0);
+INSERT INTO "jobs" VALUES(302,'97c47986f51d8831161251efeebdd37123f4ae8e','Operations Manger','','Midrand, North Johannesburg','https://www.adzuna.co.za/details/5966474467?utm_medium=api&utm_source=947c6c7e','adzuna','Our client, a leader in the Glass manufacturing and distribution sector, is looking for an Operations Manager to take ownership of all warehouse and logistics functions across a fast-paced operation. As the Operations Manager , youll ensure efficient supply chain performance, develop high-performing teams, and drive operational improvements that align with business goals. Key Responsibilities: Oversee daily warehouse and logistics operations, including inventory management, order fulfillment, a…','',0,'Completely unrelated warehouse and logistics operations role in glass manufacturing.','general','','no_company','new','2026-11-15T10:14:05Z','2026-11-15T10:14:05Z','',0);
+INSERT INTO "jobs" VALUES(303,'6b49ac2fbb696acfee822a41bf6961b89a8fb3eb','Food Development Technologist','','Midrand, North Johannesburg','https://www.adzuna.co.za/details/5966474457?utm_medium=api&utm_source=947c6c7e','adzuna','Our client is looking for a Development Technologist based in Midrand. This opportunity focuses on developing, modifying and optimising flavour systems to meet customer requirements, market trends and application performancedelivering commercially viable, technically sound solutions. What youll bring: A diploma or degree in Food Technology, Food Science or a related field. 25 years experience in flavour or seasoning product development (essential). A proven track record in developing flavours (…','',0,'Completely unrelated food science and flavour development role.','general','','no_company','new','2026-11-15T10:14:05Z','2026-11-15T10:14:05Z','',0);
+INSERT INTO "jobs" VALUES(304,'9211e72ac86870b259f33261c4c9145aca99b11c','Web Developer: WordPress & HubSpot (U.S. Based, Remote Contractor)','SimpleTiger','Remote, Worldwide','https://himalayas.app/companies/simpletiger/jobs/web-developer-wordpress-hubspot-u-s-based-remote-contractor?utm_source=api','himalayas,wwr','SimpleTiger is hiring a part-time contract web developer to build, improve, and troubleshoot client websites in WordPress and HubSpot, with the potential to grow into a larger role. We’re a B2B SaaS marketing agency helping software companies grow through SEO, content marketing, paid media, and answer engine optimization (AEO). Our clients’ websites are where much of that work comes to life, and we’re looking for a developer who can turn ideas into clean, functional pages quickly. As part of our delivery team, you’ll work primarily on client websites, translating designs, campaign concepts, an','SimpleTiger is hiring a
+part-time contract web developer
+to build, improve, and troubleshoot client websites in WordPress and HubSpot, with the potential to grow into a larger role.
+We’re a B2B SaaS marketing agency helping software companies grow through SEO, content marketing, paid media, and answer engine optimization (AEO). Our clients’ websites are where much of that work comes to life, and we’re looking for a developer who can turn ideas into clean, functional pages quickly.
+As part of our delivery team, you’ll work primarily on client websites, translating designs, campaign concepts, and SEO recommendations into effective web experiences. From building new pages to fixing issues on existing sites, you’ll help turn our marketing strategy into work that’s ready to launch.
+Key responsibilities
+Build, update, or troubleshoot client websites in WordPress and HubSpot CMS
+Make technical fixes and improvements to live client sites, with clear details on what was tested, implemented, and performance comparisons using tools like Screaming Frog, pagespeed insights, and Lighthouse
+Build and connect forms, lead routing, and simple automations between a site and the client’s marketing tools
+Set up and check tracking, like GA4, Google Tag Manager, and HubSpot tracking in Tandem with the SEO Manager
+Keep sites fast, accessible, and friendly to SEO (page speed, Core Web Vitals, clean markup, image optimizations, cache lifetime improvements, and so on)
+Write clear and timely notes on what you are actively working on, and any updates pushed live so our team and the client can follow along
+Qualifications and skills
+You’re a hands-on developer who can build from scratch, troubleshoot existing sites, and make improvements without disrupting what’s already working.
+Required skills
+WordPress development: Strong experience with custom themes, child themes, blocks, page builders, and Advanced Custom Fields (ACF). You can build a page from the ground up—not just edit an existing one.
+HubSpot CMS development: Strong experience with HubL templates, modules, and themes, including building and troubleshooting pages, forms, and email templates.
+Front-end development: Solid HTML, CSS, and JavaScript skills, with the ability to navigate existing code and understand how changes affect the live site.
+APIs and integrations: Experience working with the HubSpot or WordPress REST APIs, plus CRMs and marketing tools such as Salesforce, Zapier, n8n, Airtable, and Slack.
+Technical audits and fixes: Experience using Screaming Frog to audit WordPress and HubSpot sites, interpret findings, and resolve technical issues.
+Code review and cleanup: Comfort working within WordPress and HubSpot codebases to identify legacy or unused JavaScript and CSS, determine what’s still needed, and safely remove what isn’t.
+Async communication: Clear, timely written communication, especially through Slack.
+Independent work: Strong time management and the ability to meet deadlines, flag blockers early, and keep projects moving without close supervision.
+Nice-to-have skills
+Webflow development and auditing experience, including building a clean CMS structure.
+PHP development experience.
+Previous work at a marketing agency or with B2B SaaS clients.
+Familiarity with SEO and conversion best practices.
+Experience with Git and version control.
+What success looks like
+Success means delivering clean, reliable development work that helps our team turn marketing plans into live client experiences.
+Designs, campaign concepts, and SEO requests become functional pages in WordPress and HubSpot.
+Technical audit findings lead to practical fixes, with changes tested to avoid breaking existing functionality.
+Legacy and unused code is cleaned up thoughtfully, while essential code and front-end behavior remain intact.
+Forms, templates, and integrations work as intended and support the client’s marketing workflows.
+Projects stay on track because you manage your workload, meet agreed deadlines, and raise questions or blockers early.
+Teammates have clear visibility into progress through timely updates and straightforward communication in Slack.
+Originally posted on
+Himalayas [0]',40,'Requires WordPress and HubSpot web development; candidate focuses on modern TypeScript/React and backend stacks.','frontend','','','new','2026-11-15T10:14:10Z','2026-11-15T10:14:14Z','USD 20 to 30 an hour',748000);
+INSERT INTO "jobs" VALUES(305,'cf3d9d775d6ae6479126d1c031dcca646f82693d','Senior Magento Developer','Lemon.io','Remote, Anywhere in the World','https://weworkremotely.com/remote-jobs/lemon-io-senior-magento-developer','wwr','Headquarters: New York, NY URL: https://lemon.io [0] Lemon.io [1] helps companies in the US and Europe hire experienced engineers, from funded startups to teams like Klarna, Retool, and Pinterest. We’ve been doing this since 2015, and more than 1,500 companies have hired engineers through us. New roles for Senior Magento Engineers come in all the time, and several are open right now. Two ways to work with clients Contract: most roles are contract-based. You join the client’s team and work as part of it. Direct hire: some clients hire engineers full-time, and we support you through the process.','Headquarters:
+New York, NY
+URL:
+https://lemon.io [0]
+Lemon.io [1]
+helps companies in the US and Europe hire experienced engineers, from funded startups to teams like Klarna, Retool, and Pinterest. We’ve been doing this since 2015, and more than 1,500 companies have hired engineers through us.
+New roles for Senior Magento Engineers come in all the time, and several are open right now.
+Two ways to work with clients
+Contract:
+most roles are contract-based. You join the client’s team and work as part of it.
+Direct hire:
+some clients hire engineers full-time, and we support you through the process.
+Because companies trust our vetting, applying through
+Lemon.io [2]
+is often a shortcut. You get to the client faster than going through their full hiring process on your own.
+What you get
+Competitive rate, based on your seniority and skills
+We find the projects. No client hunting or rate negotiations. We match you manually based on your skills and preferences.
+Flexible schedule. Work async or with a small overlap with the team’s hours.
+No micromanagement, no screen trackers
+Direct work with clients, most of them with technical backgrounds
+Ongoing support from your application through every project, plus a community of engineers from 75+ countries
+Who we’re looking for
+Senior Magento Developer with:
+3+ years of commercial experience with Magento/Adobe Creative Suite
+3+ years of commercial experience with PHP
+You own problems end-to-end: you spot the issue, design and build the solution, and ship it to production
+You can show the business impact of your work with concrete results (e.g., faster processing, lower costs, more users, fewer incidents)
+Advanced English: you discuss business tasks, explain your decisions, raise issues early, and present yourself and your results well on client calls
+You work full-time remotely and deliver without supervision
+You onboard quickly and start shipping in your first weeks
+How it works
+Apply and complete your profile
+Verify your role
+Once approved, we match you with a project. Typical time to first project: 3 weeks
+Ready? Apply and join the
+Lemon.io [3]
+community.
+NOT YOUR TECH STACK?
+We''re placing Senior Developers (4+ yrs commercial experience) across AI Agent Architecture, AI Automation Architecture, AI Engineering, Site Reliability Engineering, Platform Engineering, Enterprise Software Engineering, React & Python, React & Golang, Golang, React & Java, React & Ruby, Ruby, PHP & Vue, Vue & Node.js, React & .NET, Android & iOS, iOS & Swift, Flutter & Firebase, Solutions Engineer, Blockchain (Ethereum/Ethers.js/Wagmi/Viem/Solana), Angular & Node.js, Vue & .NET, Python & Vue, DevOps, MLOps, Data Science, Angular & PHP, Angular & .NET, Symfony & React, Symfony & Vue, Symfony & Angular, Python, Symfony & JavaScript & Next.js & TypeScript, Data Analysis, React & PHP, Data Engineering, Project Management, Product Management, QA Automation, QA Manual, Embedded Software Engineering, React Native & Node, React Native & React, React Native & Ruby, React Native & Python, WordPress, Android, Angular, Python & Node, React & Node.js, Node & TypeScript, Java & Spring, Svelte & Python, Svelte & Node.js, Svelte & TypeScript, Rust, Shopify & JavaScript, Vue & Nuxt, PHP & Laravel, UI/UX Design, Animation, Graphic Design, React & Node & React Native, .NET & C#, Electron, Scala, C++, Unreal Engine & C++, Python & LLM, Unity, or Machine Learning Engineering and more. Reach out and we''ll match you.
+We do not provide visa assistance, and our cooperation model does not include the benefits typically offered with direct hire.
+We work with developers from 75+ countries across Europe, Latin America, North America (the U.S. and Canada), selected countries in Asia (Japan, Singapore, South Korea, the Philippines, Indonesia, Malaysia, Vietnam, Thailand, Saudi Arabia, and Israel), Oceania (Australia, New Zealand, and Papua New Guinea), and Africa (including Morocco and South Africa).
+To apply:
+https://weworkremotely.com/remote-jobs/lemon-io-senior-magento-developer [4]',30,'Role focuses heavily on Magento (PHP/e-commerce CMS), which candidate does not specialize in.','backend','','','new','2026-11-15T10:14:11Z','2026-11-15T10:14:11Z','',0);
+INSERT INTO "jobs" VALUES(306,'dd36f204de85a2f61e0762d54cddb4d4966d216e','Developer Experience Engineer','Ritual','Remote, Anywhere in the World','https://weworkremotely.com/remote-jobs/ritual-developer-experience-engineer','wwr','Headquarters: Remote About Ritual Ritual is building a sovereign, execution layer for AI, with our private testnet already live and running. The Ritual chain is the first blockchain custom-built to support AI-native operations, designed from the ground up to enable a new class of applications at the intersection of crypto and AI. Our first product, Infernet, is pioneering new ground as the first solution to enable developers to access AI models both on-chain via smart contracts and off-chain, demonstrating our commitment to bridging these transformative technologies. About the role As a Develo','Headquarters:
+Remote
+About Ritual
+Ritual is building a sovereign, execution layer for AI, with our private testnet already live and running. The Ritual chain is the first blockchain custom-built to support AI-native operations, designed from the ground up to enable a new class of applications at the intersection of crypto and AI. Our first product, Infernet, is pioneering new ground as the first solution to enable developers to access AI models both on-chain via smart contracts and off-chain, demonstrating our commitment to bridging these transformative technologies.
+About the role
+As a Developer Experience Engineer at Ritual, you will architect and build the foundational tools that enable developers to efficiently build on our infrastructure. You''ll create the development frameworks, testing environments, and automation tools that make it seamless for developers to integrate with Ritual''s AI and blockchain capabilities. Your work will directly shape how developers interact with and build on Ritual''s platform.
+Design and implement best-in-class development frameworks that do for AI-enabled chains what Foundry did for the EVM
+Identify friction points in the developer journey and build solutions to address them
+Build lightning-fast local development environments that make testing against Ritual as seamless as working with tools like anvil
+Create elegant CLIs and SDKs that make complex AI and blockchain interactions feel natural
+Craft developer tooling that makes deploying and testing AI-enabled smart contracts a joy
+Design and implement powerful debugging and simulation capabilities for AI-blockchain interactions
+Write clear, engaging documentation and tutorials that get developers from zero to hero
+Run workshops and hackathons to energize the developer community and gather direct feedback
+Build and nurture an active open-source community around our development tools
+About you
+Strong experience with at least one of Rust, TypeScript, or Python
+Past experience contributing to open-source projects and libraries
+Proven ability to build developer tools that developers love to use
+Deep understanding of EVM architecture and smart contract development
+Experience with modern AI development workflows and MLOps tools across different compute environments
+Strong knowledge of container technologies and deployment patterns
+Proven ability to explain complex technical concepts through writing and speaking
+Ability to act quickly under high pressure scenarios and context switch at a high frequency
+A high level of end-to-end ownership and self-direction, with excellent communication skills
+Hungry, high-energy and ability to work within and meet deadlines in a fast-paced environment
+Nice to have
+Track record of maintaining or significantly contributing to popular blockchain tools (e.g., Foundry, Anvil, wagmi, viem, etc)
+Experience building compiler toolchains or language infrastructure
+Background in AI infrastructure and model deployment tooling
+Experience with build systems and package management
+Track record of growing developer communities through content and evangelism
+Deep knowledge of distributed systems and consensus mechanisms
+Experience designing intuitive APIs and developer interfaces
+Why join us
+Join a passionate group of engineers, researchers, and operators on a mission to build the next generation of AI infrastructure
+Highly competitive compensation package, including annual discretionary bonus & optimized tax structure compared to the vast majority of web3 startups
+Top 1% of benefits across the web3 startup space
+100% of premiums covered on highest quality healthcare
+Aggressive company 401k match
+Fully remote and/or hybrid, up to you!
+Participate in virtual and in-person events
+Much much more!
+To apply:
+https://weworkremotely.com/remote-jobs/ritual-developer-experience-engineer [0]',85,'Great match for AI-native infrastructure, developer tooling, and API enablement with candidate''s Python and AI background.','ai-ml','','','new','2026-11-15T10:14:13Z','2026-11-15T10:14:13Z','',0);
+INSERT INTO "jobs" VALUES(307,'d4adf4bc601c7d01e93359d275f0ed78b29f8a28','Sr. Data Engineer','Carrot','Remote, Anywhere in the World','https://weworkremotely.com/remote-jobs/carrot-sr-data-engineer','wwr','Headquarters: Remote About Carrot: Carrot [0] is the leading global fertility and family care platform, built on intelligent care orchestration: the right clinical guidance, at the right moment, in the context of each member’s life. More than a thousand multinational employers, health plans, and health systems trust Carrot to support millions of members across 195 countries – from pre-pregnancy through menopause and major life moments in between. Carrot''s comprehensive clinical program delivers industry-leading cost savings for plan sponsors and award-winning experiences and improved outcomes ','Headquarters:
+Remote
+About Carrot:
+Carrot [0]
+is the leading global fertility and family care platform, built on intelligent care orchestration: the right clinical guidance, at the right moment, in the context of each member’s life. More than a thousand multinational employers, health plans, and health systems trust Carrot to support millions of members across 195 countries – from pre-pregnancy through menopause and major life moments in between. Carrot''s comprehensive clinical program delivers industry-leading cost savings for plan sponsors and award-winning experiences and improved outcomes for millions of people worldwide.
+Carrot is widely regarded as a defining force in healthcare innovation as a recipient of several top-tier awards, including Fast Company''s ''Most Innovative Companies'' and CNBC''s ''100 Barrier Breaking Startups''. The company is regularly cited by leading global outlets — including The Economist, Bloomberg, The Wall Street Journal, NPR, ABC News, and Harvard Business Review — as a leading voice on digital health, the future of work, and family health. Learn more at
+get-carrot.com [1]
+.
+The Opportunity
+Carrot is seeking a Sr. Data Engineer to lead the evolution, reliability, and scalability of our modern data infrastructure across analytics, reporting, and business intelligence. In this role, you will architect, build, and maintain robust, automated data pipelines, orchestrate workflows, integrate diverse data sources, and partner with stakeholders across the business to deliver secure, compliant, high-quality data solutions.
+Your work will span the full data lifecycle, from architecting resilient ETL/ELT pipelines and developing real-time and batch data integrations to automating reporting, reducing technical debt, and enabling advanced analytics. Sr. Data Engineers at Carrot are operational stewards and technical mentors, driving improvements in system maturity, cost efficiency, automation, and collaborative practices.
+You will join our Data Engineering team, which develops and optimizes scalable data pipelines and cloud infrastructure to enable secure, automated reporting and analytics across Carrot. The team collaborates closely with Business Intelligence, Product, Finance, Legal, and Commercial partners to deliver reliable integrations and self-serve solutions that drive business insights and operational efficiency.
+What You’ll Own
+In this role, you will:
+Architect, build, test, deploy, and maintain scalable, automated ETL/ELT pipelines using Python, dbt, and orchestration tools such as Prefect and Airflow
+Administer and optimize cloud-based data warehouse and lake platforms, including Snowflake, AWS (S3, Redshift), and Google Cloud, integrating new sources and tuning for performance and cost
+Orchestrate data workflows with custom scheduling, alerting, dependency management, monitoring, and error resolution
+Design and maintain secure external data flows through SFTP, Files.com, and APIs, with a focus on reliability and compliance
+Automate manual reporting and operational tasks, building robust, reusable pipeline components that reduce operational overhead
+Partner with backend product engineers to optimize production database schemas with analytics use cases in mind
+Strengthen data quality, lineage, governance, and documentation practices across key data domains
+Mentor teammates and reinforce best practices in version control, code review, and structured workflow management
+What Success Looks Like
+In your first 12–18 months, you will have:
+Taken end-to-end ownership of core pipelines and integrations, with measurable improvements in reliability, data recency, and cost efficiency
+Automated high-effort manual workflows, reducing operational risk and freeing capacity for higher-value engineering work
+Delivered secure, compliant data integrations that stakeholders across the business trust for decision-making
+Strengthened observability across the platform, including monitoring, alerting, and incident response for critical data workflows
+Established yourself as a technical mentor and a go-to partner for Business Intelligence, Product, and cross-functional teams
+About You
+You likely have:
+Expert-level proficiency in Snowflake, dbt, and Python for data modeling, transformation, pipeline development, and advanced analytics
+Advanced SQL skills for complex querying, large-scale data model design, and database optimization
+Proven experience architecting, building, testing, deploying, and maintaining scalable, automated ETL/ELT pipelines using modern orchestration tools such as Prefect and Airflow
+Hands-on administration of cloud-based data warehouse and lake platforms, including Snowflake, AWS (S3, Redshift), and Google Cloud
+A strong understanding of secure external data flows through SFTP, Files.com, and APIs, with a focus on reliability and compliance
+Mastery of version control (Git, GitHub) and structured workflow management (Jira) for code review, audit trails, and operational transparency
+A demonstrated ability to automate and simplify complex manual tasks, building robust, reusable pipeline components
+Dependability, adaptability, and a collaborative approach to engineering, thriving in dynamic and ambiguous environments
+Nice to Have
+⭐
+While not required, we would be especially excited if you bring:
+Hands-on experience in startup or rapid-growth environments, delivering technical solutions under shifting priorities
+A background supporting business intelligence, analytics, and data science teams through large-scale integrations and multi-tenant reporting
+Familiarity with both batch and event-driven ingestion paradigms, including near-real-time pipelines built on Snowflake, dbt, and Python
+Experience automating operational, financial, or compliance-driven workflows within cloud data environments
+Exposure to audit, privacy, and compliance frameworks such as SOC 2, HIPAA, GDPR, ISO, and SOX, particularly in data governance and secure access controls
+Experience in regulated industries such as healthcare, healthtech, or SaaS
+Why This Role Matters
+Reliable data is the foundation of how Carrot operates, from the analytics that guide business decisions to the reporting our customers and partners depend on. The systems this role owns determine the accuracy, recency, and security of data used across the entire company.
+As Carrot scales globally, the Sr. Data Engineer will make our data platform more automated, resilient, and cost-efficient, enabling teams across the business to move faster with data they trust. This work directly supports Carrot''s mission of expanding access to fertility and family-building care worldwide.
+Interview Process
+We believe in a thoughtful and transparent interview process designed to create alignment for both candidates and our team.
+For this role, candidates can expect:
+Recruiter Screen — 30 minutes
+Hiring Manager Interview — 30–45 minutes
+Cross-Functional Panel Interviews — 45 minutes
+Executive Leadership Conversation — 30 minutes
+Hiring Manager Wrap-Up — 15 minutes
+Throughout the process, we will share additional context about the team, business priorities, customer landscape, and what success looks like in this role.
+Why Candidates Join Carrot
+Carrot offers the opportunity to do meaningful work in service of a deeply human mission.
+Highlights include:
+A mission-driven company focused on expanding access to fertility and family-forming care globally.
+A high-growth environment where leaders are empowered to shape strategy and drive impact.
+Competitive compensation, equity, and comprehensive benefits.
+Flexible Time Off and a culture that actively encourages employees to recharge.
+Comprehensive parental leave and family-forming benefits.
+A collaborative, inclusive, and values-driven culture.
+The opportunity to work alongside passionate, thoughtful teammates committed to improving healthcare outcomes worldwide.
+Compensation:
+Carrot offers a holistic Total Rewards package designed to support our employees in all aspects of their life inside and outside of work, including health and wellness benefits, retirement savings plans, short- and long-term incentives, parental leave, family-forming assistance, and a competitive compensation package. The starting base salary for this position will range from $145,000-$165,000. Actual compensation may vary from posted base salary depending on your confirmed job-related skills and experience.
+Fraud and Security Notice:
+Please note that all communication regarding job opportunities at Carrot will come exclusively from an @get-carrot.com email address. If you receive messages from any other domain, please disregard them and report the incident to:
+securityreporting@get-carrot.com
+A Note on AI
+At Carrot, we believe AI can help us work smarter, move faster, and create more meaningful experiences for our members, customers, and each other. While not every role requires deep technical AI expertise, we value people who are curious, eager to learn, and excited to thoughtfully incorporate AI into their day-to-day work.
+For some roles, AI fluency is a core requirement—and we''ll call that out clearly in the qualifications. For everyone else, we''re looking for people who embrace new ways of working, use AI responsibly to improve quality and efficiency, and continue to learn as the technology evolves.
+Why Carrot?
+Carrot has received national and international recognition for its pioneering work, including Fast Company''s Most Innovative Companies and World Changing Ideas, Inc. Power Partners, and Modern Healthcare’s Innovators. Carrot’s global workforce has been acknowledged with several accolades, including Fortune’s Best Workplaces in Healthcare, Great Place to Work, and Age-Friendly Employer certifications. Carrot is regularly featured in media reporting on issues related to the future of work, women in leadership, and healthcare innovation, including MSNBC, The Economist, Bloomberg, The Wall Street Journal, CNBC, National Public Radio, Harvard Business Review, and more. Learn more at carrotfertility.com.
+To apply:
+https://weworkremotely.com/remote-jobs/carrot-sr-data-engineer [2]',75,'Strong match for Senior Data Engineer; candidate has solid Python, SQL, and data engineering experience.','data-engineering','','','new','2026-11-15T10:14:13Z','2026-11-15T10:14:13Z','',0);
+INSERT INTO "jobs" VALUES(308,'6882a2bfd2c48cdefdde083c6fb6479e6f22bd6a','Senior Data Engineer - Capital Markets (R13923)','Oportun','Remote, Anywhere in the World','https://weworkremotely.com/remote-jobs/oportun-senior-data-engineer-capital-markets-r13923','wwr','Headquarters: Remote - MX Who We Are Oportun (Nasdaq: OPRT) is a mission-driven financial services company that puts its members'' financial goals within reach. With intelligent borrowing, savings, and budgeting capabilities, Oportun empowers members with the confidence to build a better financial future. Since inception, Oportun has provided more than $22.7 billion in responsible and affordable credit, saved its members more than $2.5 billion in interest and fees, and helped its members set aside an average of more than $1,800 annually. The Opportunity As a Sr. Data Engineer at Oportun, you wi','Headquarters:
+Remote - MX
+Who We Are
+Oportun (Nasdaq: OPRT) is a mission-driven financial services company that puts its members'' financial goals within reach. With intelligent borrowing, savings, and budgeting capabilities, Oportun empowers members with the confidence to build a better financial future. Since inception, Oportun has provided more than $22.7 billion in responsible and affordable credit, saved its members more than $2.5 billion in interest and fees, and helped its members set aside an average of more than $1,800 annually.
+The Opportunity
+As a Sr. Data Engineer at Oportun, you will be a key member of our team, responsible for designing, developing, and maintaining sophisticated software / data platforms in achieving the charter of the engineering group. Your mastery of a technical domain enables you to take up business problems and solve them with a technical solution. With your depth of expertise and leadership abilities, you will actively contribute to architectural decisions, mentor junior engineers, and collaborate closely with cross-functional teams to deliver high-quality, scalable software solutions that advance our impact in the market. This is a role where you will have the opportunity to take up responsibility in leading the technology effort – from technical requirements gathering to final successful delivery of the product - for large initiatives (cross-functional and multi-month-long projects).
+At Oportun, we move fast and we hold each other to a high bar. If you care about doing your best work while actually moving the needle for real people, you''ll fit right in.
+What You''ll Do
+Your day-to-day
+You’ll design and implement scalable, efficient, and reliable data architectures that support business and analytical needs.
+You’ll build and maintain data pipelines, ETL processes, and integration solutions for large volumes of structured and unstructured data.
+You’ll optimize data pipelines, databases, data warehouses, and data lakes for performance, reliability, scalability, and security.
+You’ll partner with stakeholders to understand data requirements, develop domain expertise, and translate business needs into effective data models and solutions.
+You’ll establish and improve data quality standards, validation rules, documentation, and governance practices.
+You’ll implement monitoring and observability practices to identify bottlenecks, improve performance, and strengthen platform reliability.
+You’ll provide technical leadership on architecture, scalability, reliability, monitoring, integration, and extensibility.
+You’ll lead and contribute to code reviews, helping maintain high standards for code quality, performance, and maintainability.
+You’ll mentor junior engineers and support a culture of continuous learning and technical excellence.
+You’ll take ownership of production issues, including troubleshooting, root-cause analysis, escalation, and long-term resolution.
+You’ll independently lead multiple features and projects, coordinate work across engineers, and keep stakeholders informed of progress, risks, and dependencies.
+You’ll help evolve engineering tools, platforms, and practices and encourage adoption of better ways of working.
+You’ll look for practical ways to use AI tools to improve engineering productivity, analysis, documentation, and problem-solving.
+Who You Are
+The right fit looks like this
+You’re a hands-on data engineer who enjoys solving complex technical problems and building systems that others depend on. You combine strong technical depth with a practical understanding of business needs and know how to turn ambiguous requirements into scalable solutions.
+You take ownership, communicate clearly, and are comfortable leading technical work without relying on formal authority. You enjoy mentoring others and helping teams make stronger technical decisions.
+What You Bring
+Skills & experience
+Required
+8+ years of experience in data engineering, with strong experience in data architecture, ETL, and database management.
+Strong programming skills in Python or PySpark, plus experience with Java or Scala.
+Experience building complex end-to-end data pipelines and data integration solutions.
+Strong knowledge of SQL and experience with relational and NoSQL database technologies.
+Experience with big data technologies such as Spark, Kafka, Hadoop, or similar platforms.
+Experience with orchestration and scheduling tools such as Airflow, Databricks, Jenkins, or similar technologies.
+Experience designing and operating scalable, reliable, and secure data systems.
+Familiarity with cloud platforms such as AWS, Azure, or GCP and associated data services.
+Experience working in Agile environments such as Scrum, Lean, or Kanban.
+Strong problem-solving and decision-making skills.
+Experience mentoring junior engineers and contributing to technical leadership within a team.
+Strong written and verbal communication skills with the ability to work effectively across technical and non-technical teams.
+Nice to Have
+Bachelor’s or Master’s degree in Computer Science, Data Science, or a related field.
+Databricks experience or certification.
+Experience with AWS Redshift, S3, Azure SQL Data Warehouse, or comparable cloud data services.
+Experience implementing data governance, data quality, or observability frameworks.
+Experience leading cross-functional or multi-month engineering initiatives.
+Experience using AI-assisted engineering tools to improve development, troubleshooting, documentation, or productivity.
+Our AI Mindset
+We build with AI. We lead with judgment.
+AI isn''t a feature here. It''s how we work.
+We''re excited about what AI makes possible, and we''re looking for people who share that curiosity. You don''t need to be an expert. You need to be
+open to experimenting
+, willing to learn, and able to apply new tools in ways that actually move the needle.
+In this role, you''ll be encouraged to explore AI tools, find practical use cases for your function, and bring ideas for working smarter. We believe the best outcomes come when
+human judgment and AI capability work together.
+Why Oportun
+What''s
+in it for you
+Oportun offers a competitive compensation and benefits package designed to support your physical, financial, and professional well-being. Benefits vary by country of employment.
+Some of the benefits available to eligible employees include:
+Mexico Benefits:
+Medical Insurance
+Savings Fund
+Life Insurance
+Internet and Electricity Allowance
+Paid time off such as vacation and parental leave
+Eligibility and plan details vary by location and employment status. To learn more about Oportun and our benefits, visit
+oportun.com/careers
+#LI-REMOTE #LI-GK1
+We are proud to be an Equal Opportunity Employer and consider all qualified applicants for employment opportunities without regard to race, age, color, religion, gender, national origin, disability, sexual orientation, veteran status or any other category protected by the laws or regulations in the locations where we operate.
+California applicants can find a copy of Oportun''s CCPA Notice here:
+https://oportun.com/privacy/california-privacy-notice/ [0]
+.
+We will never request personal identifiable information (bank, credit card, etc.) before you are hired. We do not charge you for pre-employment fees such as background checks, training, or equipment. If you think you have been a victim of fraud by someone posing as us, please report your experience to the FBI’s Internet Crime Complaint Center (IC3).
+To apply:
+https://weworkremotely.com/remote-jobs/oportun-senior-data-engineer-capital-markets-r13923 [1]',75,'Strong data engineering match with 8 years experience, Python, and SQL skills.','data-engineering','','','new','2026-11-15T10:14:13Z','2026-11-15T10:14:13Z','',0);
+INSERT INTO "jobs" VALUES(309,'ebb078e22f3a01e1ff0d7403be9c87d9eadfb004','Senior Independent Software Developer ($90-$170/hr)','A.Team','Remote, Anywhere in the World','https://weworkremotely.com/remote-jobs/a-team-senior-independent-software-developer-90-170-hr','wwr','Headquarters: NYC and TLV URL: https://build.a.team/wwrfastrackreferral [0] Imagine choosing your projects, collaborating with the best, and keeping every dollar you earn. At A·Team, we’ve turned this vision into reality for top-tier independent software builders. Since May 2020, A·Teamers have earned over $108 million working on high-impact projects for companies backed by a16z, YC, Insight Partners, Tiger Global, Softbank, General Catalyst, and more. Why A·Team? High-paying, meaningful missions: Earn $90-$170/hr with over 500 companies—from trailblazing startups like Sightful, D-ID, and Appr','Headquarters:
+NYC and TLV
+URL:
+https://build.a.team/wwrfastrackreferral [0]
+Imagine choosing your projects, collaborating with the best, and keeping every dollar you earn.
+At A·Team, we’ve turned this vision into reality for top-tier independent software builders. Since May 2020, A·Teamers have earned over $108 million working on high-impact projects for companies backed by a16z, YC, Insight Partners, Tiger Global, Softbank, General Catalyst, and more.
+Why A·Team?
+High-paying, meaningful missions:
+Earn $90-$170/hr with over 500 companies—from trailblazing startups like Sightful, D-ID, and Apprentice to enterprise innovators like Lyft, Google X, and HCA.
+Collaborate with trusted peers:
+Work in small, elite teams for high-impact projects, ensuring top-tier collaboration.
+Full autonomy:
+Choose projects that excite you. Join when you''re ready, and take breaks as needed.
+Exclusive gatherings:
+Participate in off-the-record events and connect with top builders.
+Transparent earnings:
+Keep 100% of your rate.
+How to Join:
+Visit A·Team Application [1]
+and mention WWR under "how you heard about A·Team." No cover letter needed – we value your portfolio.
+What to Expect:
+As an A·Teamer, you’ll be invited to projects matching your interests. Work with startups, well-funded companies, or non-tech giants, building ambitious software from scratch in 3-4 person teams. Scope, strategize, and execute, often guiding clients who need direction.
+Who We''re Looking For:
+Senior developers
+who left large companies to pursue their craft with autonomy.
+Those preferring consistent contract work over full-time roles, eager to create innovative products with other top-tier builders.
+Independent workers, full-time employees exploring client work, bootstrapping side projects, or searching for their next big thing.
+Not for:
+People seeking small gigs.
+Builders focused on simple WordPress/Wix/Squarespace sites.
+Early-career professionals and recent grads.
+Our Vision:
+A·Team is for the "unhirables" – exceptional builders whom traditional companies can’t hire full-time. We empower you to do meaningful work with your favorite people in small, autonomous, expert teams.
+A.Team is forging a new vision for the future of work that’s backed by $60M in funding from investors like Insight Partners, Tiger Global, and Spruce House, future-of-work pioneers like Adam Grant, Dan Ariely and Joseph Fuller, cultural leaders like Jay-Z’s RocNation, and founders and execs from CAA, Apollo, Upwork, Fiverr, and SpaceX.
+Ready to join a team where your talent is valued, and your work is meaningful? Apply now and start your next great mission with A·Team.
+To apply:
+https://weworkremotely.com/remote-jobs/a-team-senior-independent-software-developer-90-170-hr [2]',85,'Freelance network for senior software builders; fits candidate''s senior full-stack/AI capabilities and hourly freelancing.','general','','','new','2026-11-15T10:14:13Z','2026-11-15T10:14:13Z','USD 90 to 170 an hour',3889600);
+INSERT INTO "jobs" VALUES(310,'bfb61dc24532a45eaae44efa66bd230e815cb79a','Senior Shopify Developer (Remote + Flexible)','Storetasker','Remote, Anywhere in the World','https://weworkremotely.com/remote-jobs/storetasker-senior-shopify-developer-remote-flexible-3','wwr','Headquarters: Brooklyn, NY URL: https://resources.storetasker.com/become-an-expert?apply=true&source=weworkremotely_best_2021 [0] Shopify developers love to freelance with Storetasker. Endless, quality clients: from well known DTC brands to top agencies. Fully remote, flexible: work as much or as little as you want, wherever you want. A talented and helpful community: it''s freelance (with a team). Earn $100-$200 per hour: pick your clients, and send your own quotes or retainers. We''ve connected our community of Shopify developers to over 32,000 e-commerce brands. From new brands pre-launch, to','Headquarters:
+Brooklyn, NY
+URL:
+https://resources.storetasker.com/become-an-expert?apply=true&source=weworkremotely_best_2021 [0]
+Shopify developers love to freelance with Storetasker.
+Endless, quality clients:
+from well known DTC brands to top agencies.
+Fully remote, flexible:
+work as much or as little as you want, wherever you want.
+A talented and helpful community:
+it''s freelance (with a team).
+Earn $100-$200 per hour:
+pick your clients, and send your own quotes or retainers.
+We''ve connected our community of Shopify developers to over 32,000 e-commerce brands. From new brands pre-launch, to some of the most successful Shopify Plus sites, to top creative agencies. Clients include:
+Alpha Industries [1]
+,
+Boll & Branch [2]
+,
+Superfluid [3]
+,
+Jack Henry [4]
+,
+Plenaire [5]
+, and
+Fulton [6]
+among many more.
+Why Storetasker?
+Endless clients & project opportunities:
+you’ll see between 5 - 50 new opportunities per day and can pick any lead you want.
+You’ll earn more:
+some experts are making $250k+ per year.
+A high quality community:
+we carefully select about 5% of those who apply.
+Remote:
+work from anywhere, anytime.
+Flexible:
+take on as many clients as you want.
+No external ratings:
+you’re already a professional. No need to prove it.
+Great Software:
+that makes it easy to manage more clients and increase billable hours.
+Support when you need it:
+we offer project support 7 days per week.
+Community (not competition):
+you pick your clients, projects, and never compete against other Experts in the community.
+Learn more and join [7]
+! It’s confidential, and takes less than 5 minutes.
+Here''s who we''re looking for:
+Ambitious part time and full-time freelancers and boutique agencies.
+Who have 3+ years of Shopify experience, and 5+ years of web development experience.
+And who have managed projects, deadlines, and communication successfully.
+Especially people with some of these skills:
+Front-end or full-stack Shopify development
+Headless e-commerce development
+Conversion rate optimization
+E-commerce expertise and strategy
+SEO
+Site Speed
+Builder and/or Shogun
+It takes just a few minutes to join. [8]
+Here''s what a few current members have to say:
+"Storetasker has changed my life - I''m not only making more, but I''m getting quality leads, a diverse slate of projects, and access to an amazing group of developers. Plus, I love the HQ team!" - Adan, United States, Storetasker Expert since March 2020
+"Storetasker has connected me with clients that would never have been possible without them. That combined with an incredible support network and community makes joining an amazing opportunity for any developer”" - Mark, England, Storetasker Expert since 2019
+"Storetasker has allowed me to live out my dreams as an independent developer - to move to Toronto and continue doing what I love: solving interesting problems and helping apparel companies grow." - Siah, Canada, Storetasker Expert since 2017
+Our Mission:
+We''re a company built by ex-freelancers who know the ins and outs of being an independent entrepreneur. We''ve experienced first-hand the shortcomings of other freelance platforms and the pain-points of being fully independent. Our mission is to empower e-commerce entrepreneurs by giving them the experts, insights, and resources to succeed.
+Questions?
+Reach out at experts@storetasker.com.
+To apply:
+https://weworkremotely.com/remote-jobs/storetasker-senior-shopify-developer-remote-flexible-3 [9]',35,'Specialized Shopify platform developer freelance role; candidate lacks deep Shopify/Liquid ecosystem focus.','frontend','','','new','2026-11-15T10:14:13Z','2026-11-15T10:14:13Z','USD 100 to 200 an hour',4488000);
+INSERT INTO "jobs" VALUES(311,'626cc963ee47e71da34a84f6368fe9fb7ad15461','Front-End Developer','Cambridge Information Group Inc','Remote, Anywhere in the World','https://weworkremotely.com/remote-jobs/cambridge-information-group-inc-front-end-developer','wwr','Headquarters: New York, NY URL: https://edconic.com/ [0] Job Title: Front-End Developer Location: Fully Remote (US) Department: Global Enrollment Marketing and Sales Reports to: Director of Web Development Classification: Regular, Full-time FLSA Status: Exempt Prepared by: Global Head of Creative Prepared Date: 10/1/26 Salary range: $85,000–$100,000 About Edconic Edconic is a leading player in the alternative, experiential education space. We partner with the world''s largest and most well-known brands to create and run schools that capture the legacy and value of each brand. Our students get t','Headquarters:
+New York, NY
+URL:
+https://edconic.com/ [0]
+Job Title:
+Front-End Developer
+Location:
+Fully Remote (US)
+Department:
+Global Enrollment Marketing and Sales
+Reports to:
+Director of Web Development
+Classification:
+Regular, Full-time
+FLSA Status:
+Exempt
+Prepared by:
+Global Head of Creative
+Prepared Date:
+10/1/26
+Salary range:
+$85,000–$100,000
+About Edconic
+Edconic is a leading player in the alternative, experiential education space. We partner with the world''s largest and most well-known brands to create and run schools that capture the legacy and value of each brand. Our students get truly unique, once-in-a-lifetime experiences that help shape their future and give them the skills they need to reach their goals.
+The Role
+We''re looking for an experienced Front-End Developer to join our web team, which owns every Edconic digital property – from our school websites to landing pages and email templates. You''ll work alongside designers, IT, and MarTech to build solutions that serve real business needs while protecting each brand''s unique identity.
+You''ll be one of two developers on the team, working directly with our lead developer. That means real ownership of your work, a genuine voice in how we build, very little process overhead, and a codebase that is actively moving toward a modern, standardized WordPress stack. We value craft: fast pages and code that the next developer can read.
+What You''ll Do
+Build and maintain public-facing websites, micro-sites, and landing pages in collaboration with our lead developer, IT, and MarTech.
+Work with UX/UI designers to confirm the technical feasibility of designs, then translate them into polished, responsive pages that stay true to each brand.
+Build and maintain custom WordPress themes across both of our stacks: modern block-based builds (ACF Blocks, core blocks, block patterns, theme.json) and established classic themes built on PHP templates, Advanced Custom Fields, and Sass.
+Collaborate with our lead developer to shape the team''s coding standards, tooling, and workflow, and help migrate our existing sites toward our new modern stack.
+Stay current on emerging web standards and bring ideas to the table where they genuinely fit.
+What You Bring
+4+ years of front-end web development experience, with strong skills in semantic HTML, CSS, JavaScript, PHP, and WordPress.
+The ability to build a custom WordPress theme from scratch using PHP templates and Advanced Custom Fields.
+Strong CSS skills across Sass and modern native CSS (custom properties, nesting), and solid vanilla JavaScript.
+Comfort working in Git/GitHub with pull requests and code reviews, and with npm-based build tools and the command line.
+A habit of writing semantic, well-structured HTML that covers accessibility basics, with an eye for reuse, cross-browser compatibility, performance, and SEO.
+Experience building and testing HTML emails.
+Strong UX/UI sensibilities and a desire to sweat the small stuff.
+A proactive, self-directed working style – you can run with a project independently and prioritize across several at once.
+Excellent written and verbal communication – you''re positive, collaborative, objective, and solution-oriented.
+Bonus Experience
+Modern WordPress block development: ACF Blocks, block.json, theme.json, and block patterns.
+Composer, Bedrock or other Roots tooling (Sage/Blade, Trellis), Vite, or CI/CD with GitHub Actions.
+Deeper accessibility experience (WCAG, ARIA, assistive-technology testing).
+CRM and marketing automation integration (Salesforce, Pardot/Account Engagement).
+Multilingual WordPress sites.
+A modern JavaScript framework such as React or Vue.
+UX or UI design, and design tools such as Figma and Adobe Creative Suite.
+How We Use AI
+AI-assisted development is a new and evolving part of our workflow. We use AI coding tools to speed up research, scaffolding, review, and routine work, and you''re welcome to do the same.
+AI is a tool here, not a substitute for expertise. You are accountable for every line of code that you ship, which means you must be able to write, review, debug, and explain production code entirely on your own. Expect to demonstrate those skills without AI assistance during the interview process.
+Location, Travel & Eligibility
+Fully remote within the United States. Occasional travel to our New York office may be required.
+Must be legally authorized to work in the US.
+Bachelor''s degree preferred (Computer Science, Interaction Design, Graphic Design, Communications, or a related field); equivalent professional experience is equally welcome.
+Our Commitment
+Edconic supports and embraces diversity and inclusiveness, and we encourage candidates from all backgrounds to apply, even if you don''t meet every requirement listed here. Reasonable accommodations are available to enable individuals with disabilities to perform the essential functions of the role and to participate in the interview process.
+The above statements describe the general nature and level of work for this position. They are not an exhaustive list of all duties, responsibilities, and skills. Edconic reserves the right to modify this job description at its sole discretion.
+Apply Here [1]
+PI288024528
+To apply:
+https://weworkremotely.com/remote-jobs/cambridge-information-group-inc-front-end-developer [2]',80,'Good match for front-end development, though listing specifies location as Fully Remote (US).','frontend','','','new','2026-11-15T10:14:14Z','2026-11-15T10:14:14Z','USD 85,000 to 100,000 a year',1572500);
+INSERT INTO "jobs" VALUES(312,'16883716b29fec9a69dab823b5a24f756173d649','DevOps Engineer, Edge and Developer Experience (Remote Eligible in Bulgaria)','Smartsheet','Remote, Anywhere in the World','https://weworkremotely.com/remote-jobs/smartsheet-devops-engineer-edge-and-developer-experience-remote-eligible-in-bulgaria','wwr','Headquarters: -REMOTE, BULGARIA- For over 20 years, Smartsheet has empowered teams to manage work seamlessly and scale solutions smarter. Now, in our most ambitious chapter yet, we are uniting human teams with AI agents. By orchestrating the work agents do best, automating manual tasks and uncovering insights at scale, we create the space for people to focus on what truly matters: judgment, creativity, and big thinking. That is magic at work, and it’s what we show up for every day. We are seeking a DevOps Engineer II to join the Edge and Developer Experience team. Our team collaboratively oper','Headquarters:
+-REMOTE, BULGARIA-
+For over 20 years, Smartsheet has empowered teams to manage work seamlessly and scale solutions smarter. Now, in our most ambitious chapter yet, we are uniting human teams with AI agents. By orchestrating the work agents do best, automating manual tasks and uncovering insights at scale, we create the space for people to focus on what truly matters: judgment, creativity, and big thinking. That is magic at work, and it’s what we show up for every day.
+We are seeking a DevOps Engineer II to join the Edge and Developer Experience team. Our team collaboratively operates Smartsheet''s high-performance edge proxy platform and drives the adoption of internal engineering tooling. The edge proxy serves as the entry point for all traffic across Smartsheet''s commercial and FedRAMP-authorized US Government environments. The team supports the lifecycle of this platform: from maintaining proxy configurations, to provisioning the multi-region AWS EKS infrastructure it runs on, to assisting with observability. Beyond the edge layer, the team also drives the integration of internal developer tooling — from а developer portal (IDP) to standardized CI/CD pipelines — that improves the engineering experience and velocity across the company.
+You will work remotely from Bulgaria and report to one of our engineering leaders in Bulgaria.
+You will:
+Contribute to the edge proxy platform: Assist in maintaining, upgrading, and extending a high-performance reverse proxy. This includes writing Go and Python automation, managing container images on hardened Linux bases, and working with CDN and traffic management capabilities.
+Build and maintain cloud infrastructure as code: Implement Terraform/Terragrunt modules and live environment configurations for EKS clusters, load balancers, IAM roles, and supporting AWS services.
+Operate Kubernetes clusters: Assist in managing multi-region EKS deployments via GitOps workflows (e.g., FluxCD, ArgoCD) and Helm charts.
+Support CI/CD pipelines: Help design, maintain, and improve shared GitLab CI/CD pipeline templates used across team repositories, embedding DevSecOps guardrails.
+Automate operational toil: Build tooling for tasks such as container image patching, EKS AMI rotation, and automated patching cycles.
+Manage observability: Help provision and maintain Datadog SLOs, monitors, and dashboards; participate in the team''s on-call rotation responding to incidents.
+Support Developer Experience initiatives: Assist in the rollout and integration of various platforms to reduce cognitive load for engineering teams.
+Apply AI tools: Leverage AI-based workflows within your domain to improve project execution, infrastructure design, and debugging.
+You Have:
+2–4 years of experience in DevOps, Platform Engineering, or Site Reliability Engineering.
+A BS or MS in Computer Science, Engineering, or a related field, or equivalent industry experience.
+Hands-on experience with Terraform for managing cloud infrastructure.
+Experience with Kubernetes operations and AWS services (EKS, VPC, IAM, ECR).
+Proficiency in at least one general-purpose programming language — Go or Python preferred — for building operational automation.
+Experience designing or maintaining CI/CD pipelines (GitLab CI/CD preferred).
+Familiarity with container image security practices and GitOps workflows.
+A strong operational mindset with a willingness to participate in on-call rotations and incident response.
+Excellent verbal and written communication skills. Fluency in English is required.
+Familiarity with leveraging AI-based workflows to author or maintain code/infrastructure.
+Legally eligible to work in Bulgaria on an ongoing basis.
+Nice to Have:
+Understanding of reverse proxies, API gateways, or load balancers (NGINX, HAProxy, or equivalent).
+Familiarity with FedRAMP or AWS GovCloud operational constraints.
+Experience managing Datadog resources via infrastructure as code.
+Experience integrating internal developer portals or feature flag management tools.
+Smartsheet provides a competitive base salary range for roles that may be hired in different geographic areas we are licensed to operate our business from. Actual compensation is determined by several factors including, but not limited to, level of professional, educational experience, skills, and specific candidate location. In addition, this role will be eligible for a market-competitive incentive opportunity.
+Get to Know Us:
+At Smartsheet, your ideas are heard, your potential is supported, and your contributions have real impact. You’ll have the freedom to explore, push boundaries, and grow beyond your role. We welcome diverse perspectives and nontraditional paths—because we know that impact comes from individuals who care deeply and challenge thoughtfully. When you’re doing work that stretches you, excites you, and connects you to something bigger, that’s magic at work. Let’s build what’s next, together.
+Equal Opportunity Employer:
+Smartsheet is an Equal Opportunity (EEO) employer committed to fostering an inclusive environment with the best employees. It is our policy to provide equal employment opportunities to all qualified applicants in accordance with applicable laws in the US, UK, Australia, Germany, Costa Rica, Japan, Bulgaria, India, and Singapore. All qualified applicants will receive consideration without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, protected veteran or disabled status, or genetic information.
+If there are preparations we can make to help ensure you have a comfortable and positive interview experience, please let us know.
+#LI-Remote
+To apply:
+https://weworkremotely.com/remote-jobs/smartsheet-devops-engineer-edge-and-developer-experience-remote-eligible-in-bulgaria [0]',45,'DevOps skills match, but restricted to candidates eligible in Bulgaria.','cloud-devops','','','new','2026-11-15T10:14:15Z','2026-11-15T10:14:15Z','',0);
+INSERT INTO "jobs" VALUES(313,'d29668a9de02b1e53fe234afba1adee5a8534af4','Principal Data Engineer','ZoomInfo Technologies LLC','Remote, Anywhere in the World','https://weworkremotely.com/remote-jobs/zoominfo-technologies-llc-principal-data-engineer','wwr','Headquarters: Remote-US ZoomInfo is where careers accelerate. We move fast, think boldly, and empower you to do the best work of your life. You’ll be surrounded by teammates who care deeply, challenge each other, and celebrate wins. With tools that amplify your impact and a culture that backs your ambition, you won’t just contribute. You’ll make things happen fast. We are seeking a highly experienced, hands-on Principal Data Engineer to define and evolve the architecture, engineering standards, and operating model for our enterprise data platform. This role is for a technical leader who excels','Headquarters:
+Remote-US
+ZoomInfo is where careers accelerate. We move fast, think boldly, and empower you to do the best work of your life. You’ll be surrounded by teammates who care deeply, challenge each other, and celebrate wins. With tools that amplify your impact and a culture that backs your ambition, you won’t just contribute. You’ll make things happen fast.
+We are seeking a highly experienced, hands-on
+Principal Data Engineer
+to define and evolve the architecture, engineering standards, and operating model for our enterprise data platform.
+This role is for a technical leader who excels at complex system design: translating business and analytical needs into scalable, reliable, secure, and maintainable data products. The Principal Data Engineer will lead critical architectural decisions across data ingestion, storage, transformation, orchestration, governance, observability, and consumption, while raising the engineering bar through mentorship, design reviews, and pragmatic best practices.
+You will work across engineering, analytics, platform, security, and business stakeholders to create systems that make trusted data accessible, timely, and actionable at scale.
+What You’ll Do
+Lead Data Architecture and System Design
+Own the technical vision and architecture for scalable, resilient, and cost-effective data platforms and pipelines.
+Design end-to-end data systems spanning batch and streaming ingestion, transformation, data modeling, storage, orchestration, serving layers, and consumption patterns.
+Make and document high-quality architecture decisions, including tradeoffs involving performance, reliability, scalability, latency, security, maintainability, and cost.
+Define reusable architectural patterns for common data engineering challenges, including CDC, event-driven data flows, schema evolution, slowly changing dimensions, data quality, and multi-tenant or domain-oriented data models.
+Establish clear boundaries and interfaces between operational systems, data platforms, analytics layers, and downstream applications.
+Lead technical design reviews for high-impact initiatives and provide clear, constructive direction on implementation approaches.
+Identify architectural risks early and drive plans to mitigate technical debt, single points of failure, data inconsistency, and operational fragility.
+Set Engineering Standards and Best Practices
+Establish and continuously improve standards for data engineering development, testing, deployment, documentation, monitoring, incident response, and lifecycle management.
+Define best practices for version-controlled data transformations, infrastructure as code, CI/CD, code review, automated testing, and environment promotion.
+Build a culture of data reliability by implementing standards for data contracts, schema management, lineage, observability, freshness, completeness, accuracy, and reconciliation.
+Champion security, privacy, access control, governance, retention, and compliance requirements throughout the data lifecycle.
+Develop practical engineering guardrails that enable teams to move quickly without sacrificing quality, trust, or operational excellence.
+Drive adoption of well-defined SLIs, SLOs, alerting, runbooks, and post-incident learning practices for critical data products.
+Drive Technical Decision-Making
+Serve as a trusted technical authority for complex, cross-functional decisions involving data architecture, tooling, platform capabilities, and engineering investments.
+Facilitate technical discussions that turn ambiguous requirements into durable, well-reasoned solutions.
+Evaluate build-versus-buy decisions, platform technologies, and vendor capabilities using clear criteria and documented recommendations.
+Align architecture decisions with organizational priorities, business outcomes, data strategy, and long-term platform sustainability.
+Create and maintain architecture decision records, reference architectures, roadmaps, and technical standards that provide clarity across teams.
+Influence leaders and stakeholders through concise communication of technical options, risks, tradeoffs, and recommended paths forward.
+Build and Improve Data Products
+Lead the design and development of high-value, production-grade data pipelines, datasets, and platform capabilities.
+Partner with data analysts, data scientists, software engineers, and product teams to deliver well-modeled, discoverable, and trustworthy data products.
+Optimize data systems for reliability, usability, performance, scalability, and cost efficiency.
+Drive modernization initiatives, including migration from legacy platforms, consolidation of fragmented pipelines, and reduction of manual operational processes.
+Ensure data products are designed with clear ownership, documentation, lineage, quality expectations, and support models.
+Mentor and Multiply Engineering Excellence
+Mentor data engineers at all levels, with a particular focus on growing senior engineers into strong technical leaders.
+Provide practical coaching on system design, data modeling, debugging, performance tuning, code quality, and production operations.
+Lead architecture reviews, technical workshops, design sessions, and knowledge-sharing forums.
+Establish reusable templates, reference implementations, and playbooks that improve consistency and accelerate delivery.
+Foster an inclusive, high-accountability engineering culture centered on thoughtful collaboration, continuous learning, and ownership.
+Act as a technical multiplier: helping teams make better decisions independently while maintaining alignment with shared architectural principles.
+What you bring
+Required
+10+ years of experience in software engineering, data engineering, platform engineering, or a related technical discipline.
+5+ years designing and operating large-scale data platforms, distributed data systems, or enterprise-grade data products.
+Demonstrated expertise in end-to-end system design, including defining requirements, evaluating tradeoffs, designing resilient architectures, and delivering production systems.
+Deep experience with modern data architecture concepts, such as lakehouse or warehouse platforms, batch and streaming processing, data modeling, orchestration, metadata management, and data governance.
+Strong proficiency in SQL and at least one general-purpose programming language, such as Python, Java, Scala, or similar.
+Experience with distributed data processing frameworks and technologies such as Spark, Kafka, Flink, Snowflake, Databricks, BigQuery, Redshift, or equivalent platforms.
+Strong knowledge of data modeling practices across analytical, operational, and domain-oriented use cases.
+Experience establishing engineering standards for testing, CI/CD, observability, infrastructure as code, reliability, and security.
+Proven ability to lead technical decisions across multiple teams without relying on direct authority.
+Exceptional written and verbal communication skills, including the ability to explain complex technical concepts and tradeoffs to technical and non-technical stakeholders.
+Demonstrated experience mentoring engineers and raising technical standards across an organization.
+Preferred
+Experience with cloud-native data platforms on AWS, Azure, or GCP.
+Experience implementing data mesh, domain-oriented data product, or self-service platform patterns.
+Familiarity with data governance, cataloging, lineage, privacy, and access-control tooling.
+Experience supporting financial, revenue, operational, customer, or enterprise analytics domains.
+Experience with ML data pipelines, feature stores, or AI/LLM data foundations.
+Experience managing major data-platform migrations, modernization programs, or large-scale architectural transformations.
+Leadership Competencies
+Systems thinker
+: Connects individual technical decisions to broader platform, organizational, and business outcomes.
+Pragmatic architect
+: Balances ideal-state architecture with incremental delivery and operational realities.
+Technical judgment
+: Makes clear recommendations amid ambiguity and communicates tradeoffs transparently.
+Builder and operator
+: Designs for production from the beginning, including reliability, security, observability, and supportability.
+Mentor and multiplier
+: Develops others and creates scalable mechanisms for technical excellence.
+Collaborative influencer
+: Builds alignment across engineering, analytics, security, product, and business teams.
+Our Technology Stack
+Languages & Databases:
+Python, SQL, MySQL, NoSQL databases
+Orchestration & Transformation:
+Airflow, dbt
+Data Platforms:
+Snowflake, AWS, GCP, BigQuery, Redshift
+Data Integration:
+Fivetran, custom ETL/ELT frameworks
+Observability & Data Reliability:
+Datadog, monitoring, alerting, data-quality frameworks
+#LI-JH1 #LI-Remote
+Actual compensation offered will be based on factors such as the candidate’s work location, qualifications, skills, experience and/or training. Your recruiter can share more information about the specific salary range for your desired work location during the hiring process. We want our employees and their families to thrive.
+In addition to comprehensive benefits we offer holistic mind, body and lifestyle programs designed for overall well-being. Learn more about ZoomInfo benefits
+here [0]
+.
+Below is the US base salary for this position. Additional compensation such as Bonus, Commission, Equity and other benefits may also apply.
+$171,500
+—
+$269,500 USD
+About us:
+ZoomInfo (NASDAQ: GTM), the all-in-one AI GTM platform, enables sales, marketing, and customer success teams to execute their go-to-market strategy with confidence. Powered by the industry''s most comprehensive B2B data, including more than 100 million companies, 500 million contacts, and billions of signals, ZoomInfo delivers the intelligence, automation, and integrations that modern revenue teams need to identify, engage, and convert their best buyers.
+ZoomInfo is committed to protecting your privacy when you apply for jobs with us. Please review our Job Applicant
+Privacy Notice [1]
+for more details on how we handle your personal information.
+ZoomInfo may use a software-based assessment as part of the recruitment process. More information about this tool, including the results of the most recent bias audit, is available
+here [2]
+.
+ZoomInfo is proud to be an equal opportunity employer, hiring based on qualifications, merit, and business needs, and does not discriminate based on protected status. We welcome all applicants and are committed to providing equal employment opportunities regardless of sex, race, age, color, national origin, sexual orientation, gender identity, marital status, disability status, religion, protected military or veteran status, medical condition, or any other characteristic protected by applicable law. We also consider qualified candidates with criminal histories in accordance with legal requirements.
+For Massachusetts Applicants: It is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability. ZoomInfo does not administer lie detector tests to applicants in any location.
+To apply:
+https://weworkremotely.com/remote-jobs/zoominfo-technologies-llc-principal-data-engineer [3]',70,'Principal level architecture role in enterprise data platforms; good tech alignment, high seniority.','data-engineering','','','new','2026-11-15T10:14:15Z','2026-11-15T10:14:15Z','',0);
 CREATE TABLE llm_calls (
   id            INTEGER PRIMARY KEY,
   at            TEXT NOT NULL,
@@ -2240,6 +2902,13 @@ INSERT INTO "llm_calls" VALUES(158,'2026-11-15T07:14:32Z','score','gemini/gemini
 INSERT INTO "llm_calls" VALUES(159,'2026-11-15T07:14:47Z','score','gemini/gemini-3.8-flash',1148,1573,14680,1);
 INSERT INTO "llm_calls" VALUES(160,'2026-11-15T07:27:13Z','score','gemini/gemini-3.8-flash',3343,6603,45730,1);
 INSERT INTO "llm_calls" VALUES(161,'2026-11-15T07:27:43Z','score','gemini/gemini-3.8-flash',3031,4501,30311,1);
+INSERT INTO "llm_calls" VALUES(162,'2026-11-15T10:13:36Z','extract','gemini/gemini-3.8-flash',1001,494,7134,1);
+INSERT INTO "llm_calls" VALUES(163,'2026-11-15T10:13:45Z','extract','gemini/gemini-3.8-flash',1478,867,8308,1);
+INSERT INTO "llm_calls" VALUES(164,'2026-11-15T10:14:01Z','extract','gemini/gemini-3.8-flash',1098,1648,16463,1);
+INSERT INTO "llm_calls" VALUES(165,'2026-11-15T10:14:25Z','score','gemini/gemini-3.8-flash',2553,1483,10129,1);
+INSERT INTO "llm_calls" VALUES(166,'2026-11-15T10:14:45Z','score','gemini/gemini-3.8-flash',2816,2744,20137,1);
+INSERT INTO "llm_calls" VALUES(167,'2026-11-15T10:15:09Z','score','gemini/gemini-3.8-flash',2707,3072,22955,1);
+INSERT INTO "llm_calls" VALUES(168,'2026-11-15T10:15:17Z','score','gemini/gemini-3.8-flash',2883,1276,8597,1);
 CREATE TABLE messages (
   id             INTEGER PRIMARY KEY,
   msgid          TEXT NOT NULL UNIQUE,     -- Message-ID header. 'local-<uuid>' for drafts and logged rows
@@ -2466,85 +3135,7 @@ INSERT INTO "messages" VALUES(207,'<1715218636.3837461.1794476738045@ltx1-app113
 INSERT INTO "messages" VALUES(208,'<codecrafters-io/build-your-own-x/pull/2043/review/5872226268@github.com>',NULL,'in','ignored','done','notifications@github.com','','','','','2026-11-12T09:55:44Z','',NULL,'','',0);
 INSERT INTO "messages" VALUES(209,'<20261112104813.47ed661ba13d2f7c@em.onedayonly.co.za>',NULL,'in','ignored','done','newsletter@em.onedayonly.co.za','','','','','2026-11-12T10:48:13Z','',NULL,'','',0);
 INSERT INTO "messages" VALUES(210,'<1739667611.4154203.1794482365556@ltx1-app94768.prod.linkedin.com>',NULL,'in','ignored','done','jobs-noreply@linkedin.com','','','','','2026-11-12T11:19:25Z','',NULL,'','',0);
-INSERT INTO "messages" VALUES(211,'<1801417417.8401751.1794483938193@lva2-app63400.prod.linkedin.com>',NULL,'in','reply','review','inmail-hit-reply@linkedin.com','','Hiring Python Developer for a client in Cape Town','Hiring Python Developer for a client in Cape Town
-Hiring Python Developer for a client in Cape Town
-
-        Veeresh Talanki
-
-        Reply
-        https://www.linkedin.com/messaging/thread/2-MWQwM2UwMGUtYjViNi00YjYxLWI1YTktNWQzZWYwMjllMTQ0XzEwMA==/
-
-Good Day !
-
-I am Veeresh - Associate Manager - Zensar Technologies, South Africa.
-
-We are hiring Python Developer  for a client in Cape Town. Please let me know if interested
-
-Job Spec as below
-Job Purpose
-
-The role of the Python developer of Reports and Interfaces is to
-
-Create files with reports based on data from an Oracle DB or other data source
-Create Interfaces that will transform incoming files from any format into xml compatible with Way4.
-Job Accountabilities
-
-Develop python applications for transformation CSV/JSON/XML files into CSV/JSON/XML/XLSX/PPTX/PDF according to the requirements from BA.
-Prepare delivery for deployment.
-Deployment to the regions.
-Clarification and support testers.
-Analysis and fixing defects.
-Experience/ Skills Required
-
-Mandatory requirements:
-
-Good English speaking and writing skills.
-Python 3.xx:
-Knowledge of Python’s types (int/str/list/set/dict and etc) and manipulation with each of them
-Loops, array comprehension
-Standard Python functionality + standard modules for working with files/streams
-ANSI SQL: selection, joining, updating
-MS Office: excel, word, outlook
-Windows: command line: dir/cd/md/rd/del/copy/xcopy/type and etc, bat language
-Linux: command line: ls/find/sudo/cat and etc, gnu utilities: curl/grep/awk/sed and etc, bash/shell language
-CSV, JSON, XML, XSD, XPATH.
-Optional requirements:
-
-Big plus: Have an own account at https://py.checkio.org/ with minimum 30 points in array HOME (skip points in ELEMENTARY array).
-Talend– will be not used, but good to know how it works
-Python 3.xx: pandas, numpy, jinja2, requests
-PyCharm
-Scrum Framework from Developer’s perspective
-SDLC (Software Development Life Cycle)
-PL/SQL + hints
-VBA for MS Excel
-PowerPoint
-GIT + SourceTree + Bitbucket: clone, pull, commit, push, merge, conflicts resolving
-JIRA/Confluence: creating/updating, searching
-Bamboo
-Far Manager
-Notepad++
-RDP
-
-Best Regards
-Veeresh Talanki
-Assistant Manager - Talent Acquisition
-South Africa
-
-    
-
-----------------------------------------
-
-This email was intended for Kenny Chirombo (Full Stack JavaScript Engineer | Multi Cloud | Systems and IoT Architect | I Build Software the Way I Live. I’m a gamer and one day I’ll build my own GTA You can’t tell me otherwise)
-Learn why we included this: https://www.linkedin.com/help/linkedin/answer/4788?lang=en&lipi=urn%3Ali%3Apage%3Aemail_email_hire_inmail_initial_single_01%3BuYJt9OeQSmy%2BOpeJoF4b2Q%3D%3D&midToken=AQFy004RwMkY-Q&midSig=374kQQdfNxncw1&trk=eml-email_hire_inmail_initial_single_01-SecurityHelp-0-textfooterglimmer&trkEmail=eml-email_hire_inmail_initial_single_01-SecurityHelp-0-textfooterglimmer-null-41naie~mwdheivv~3i-null-null&eid=41naie-mwdheivv-3i
-You are receiving LinkedIn notification emails.
-
-
-Unsubscribe: https://www.linkedin.com/comm/mypreferences/u/emailunsub?action=updateEmailSubscription&lipi=urn%3Ali%3Apage%3Aemail_email_hire_inmail_initial_single_01%3BuYJt9OeQSmy%2BOpeJoF4b2Q%3D%3D&midToken=AQFy004RwMkY-Q&midSig=374kQQdfNxncw1&trk=eml-email_hire_inmail_initial_single_01-unsubscribe-0-textfooterglimmer&trkEmail=eml-email_hire_inmail_initial_single_01-unsubscribe-0-textfooterglimmer-null-41naie~mwdheivv~3i-null-null&eid=41naie-mwdheivv-3i&loid=AQF56d-Q036U-wAAAaHPk-KOsgi6nDn4dlL6H6WHm-lHABwTkXoTVK3-5TOlbAt6E2tRIBCaX1IU8rHXxBMg5lNL8rT3k9JtSCJkCw
-Help: https://www.linkedin.com/help/linkedin/answer/67?lang=en&lipi=urn%3Ali%3Apage%3Aemail_email_hire_inmail_initial_single_01%3BuYJt9OeQSmy%2BOpeJoF4b2Q%3D%3D&midToken=AQFy004RwMkY-Q&midSig=374kQQdfNxncw1&trk=eml-email_hire_inmail_initial_single_01-help-0-textfooterglimmer&trkEmail=eml-email_hire_inmail_initial_single_01-help-0-textfooterglimmer-null-41naie~mwdheivv~3i-null-null&eid=41naie-mwdheivv-3i
-
-© 2026 LinkedIn Corporation, 1zwnj000 West Maude Avenue, Sunnyvale, CA 94085.
-LinkedIn and the LinkedIn logo are registered trademarks of LinkedIn.','','2026-11-12T11:45:38Z','other',0.95,'A recruiter from Zensar Technologies reached out via LinkedIn regarding a Python Developer position in Cape Town.','Reply to the recruiter on LinkedIn if interested in the position.',0);
+INSERT INTO "messages" VALUES(211,'<1801417417.8401751.1794483938193@lva2-app63400.prod.linkedin.com>',NULL,'in','ignored','done','inmail-hit-reply@linkedin.com','','','','','2026-11-12T11:45:38Z','other',0.95,'','',0);
 INSERT INTO "messages" VALUES(212,'<179448556696.113.8378480044389952526@gmail.com>',NULL,'out','ignored','done','chirombokenny@gmail.com','','','','','2026-11-12T12:12:48Z','',NULL,'','',0);
 INSERT INTO "messages" VALUES(213,'<N6L9U161nSovlvOTQfT4k6469M6QydRo3XN5@notify.cloudflare.com>',NULL,'in','ignored','done','noreply@notify.cloudflare.com','','','','','2026-11-12T12:18:28Z','',NULL,'','',0);
 INSERT INTO "messages" VALUES(214,'<D4BaEpPx0HZB63DMeflEYH1BFX7XXFqScfFq@notify.cloudflare.com>',NULL,'in','ignored','done','noreply@notify.cloudflare.com','','','','','2026-11-12T12:19:06Z','',NULL,'','',0);
@@ -2742,194 +3333,7 @@ INSERT INTO "messages" VALUES(414,'<ChiromboKenT/JobCopilot/pull/7/c6873206672@g
 INSERT INTO "messages" VALUES(415,'<YlTEvzPGt4Nbol0iOyDHG4nR6x2V35iD39Ng@notify.cloudflare.com>',NULL,'in','ignored','done','noreply@notify.cloudflare.com','','','','','2026-11-14T06:42:13Z','',NULL,'','',0);
 INSERT INTO "messages" VALUES(416,'<E5.94.34307.1D908FA6@i-0a88d5ab26e1c0cbd.mta3vrest.sd.prd.sparkpost>',NULL,'in','ignored','done','deals@newsletters.takealot.com','','','','','2026-11-14T07:12:17Z','',NULL,'','',0);
 INSERT INTO "messages" VALUES(417,'<ChiromboKenT/JobCopilot/pull/8/c6873663972@github.com>',NULL,'in','ignored','done','notifications@github.com','','','','','2026-11-14T07:15:59Z','',NULL,'','',0);
-INSERT INTO "messages" VALUES(418,'<011201dd7409$3b452da0$b1cf88e0$@skywavesgroup.com>',NULL,'in','reply','review','vidya@skywavesgroup.com','','Regarding Job opportunity ','Hello  <https://www.linkedin.com/in/stephan-krull-2a6325241/> Kenny Chirombo,
-
- <https://www.linkedin.com/in/krzysztof-kubis-4731a3ab/?isSelfProfile=false> I hope you’re doing well.
-
- <https://www.linkedin.com/in/krzysztof-kubis-4731a3ab/?isSelfProfile=false> I’m reaching out regarding an opportunity for the Senior Python Engineer (Backend Platform Engineer) position with one of our clients in South Africa.
-
- 
-
- <https://www.linkedin.com/in/krzysztof-kubis-4731a3ab/?isSelfProfile=false> Please find bellow job description for your reference:
-
-*	Role : Python Engineer (Backend Platform Engineer)
-*	Location :  JHB [ 3 days in a week to work from office]
-*	Mode of hire : 12 Months
-
- 
-
-About the Role
-
-We are seeking an experienced Python Engineer to join a fast-paced, technology-driven e-commerce organization. The successful candidate will be responsible for building highly scalable backend systems, APIs, data integrations, and microservices that support high-volume online retail operations, customer experiences, fulfilment, payments, and logistics platforms.
-
-You will work alongside Product Managers, Software Engineers, Data Engineers, Site Reliability Engineers, and DevOps teams to deliver robust solutions capable of handling millions of transactions and customer interactions.
-
- 
-
-Key Responsibilities
-
-Software Engineering
-
-*	Design and develop scalable backend applications using Python.
-*	Build and maintain RESTful APIs and microservices.
-*	Create high-performance services supporting order management, inventory, payments, customer experience, and logistics platforms.
-*	Develop reusable libraries and frameworks to accelerate product delivery.
-*	Produce clean, maintainable, and testable code.
-
-Distributed Systems
-
-*	Design solutions capable of handling high transaction volumes.
-*	Optimize application performance, latency, and scalability.
-*	Troubleshoot production incidents and implement root cause fixes.
-*	Participate in architecture discussions and technology roadmap initiatives.
-
-Cloud & DevOps
-
-*	Develop cloud-native applications on Azure, AWS, or GCP.
-*	Build containerized applications using Docker and Kubernetes.
-*	Support CI/CD pipelines and automated deployment processes.
-*	Monitor application health and reliability through observability tools.
-
-Data & Integrations
-
-*	Integrate with internal and external systems through APIs.
-*	Design reliable event-driven integrations.
-*	Work with large datasets supporting operational and analytical platforms.
-*	Optimize database design and query performance.
-
-Engineering Excellence
-
-*	Perform code reviews and mentor junior engineers.
-*	Advocate software engineering best practices.
-*	Drive automation and continuous improvement initiatives.
-*	Collaborate closely with Product and Engineering teams using Agile methodologies.
-
- 
-
-Required Technical Skills
-
-Programming
-
-*	Python (5-8 years commercial experience)
-*	Object-Oriented Design
-*	Design Patterns
-*	Multithreading and Async Programming
-
-Backend Technologies
-
-*	FastAPI
-*	Flask
-*	Django (advantageous)
-*	REST APIs
-*	GraphQL (beneficial)
-
-Databases
-
-*	PostgreSQL
-*	MySQL
-*	Microsoft SQL Server
-*	Redis
-*	MongoDB (advantageous)
-
-Cloud & Infrastructure
-
-*	Microsoft Azure, AWS, or GCP
-*	Docker
-*	Kubernetes
-*	Terraform
-*	Linux
-
-Messaging & Event Streaming
-
-*	Kafka
-*	RabbitMQ
-*	Event-Driven Architecture
-
-DevOps & Engineering Tools
-
-*	Git
-*	GitHub / GitLab
-*	Azure DevOps
-*	Jenkins
-*	CI/CD Pipelines
-
-Monitoring & Observability
-
-*	Prometheus
-*	Grafana
-*	ELK Stack
-*	Datadog
-*	New Relic
-
- 
-
-Essential Experience
-
-Candidates should demonstrate experience in:
-
-*	Developing enterprise-scale backend platforms.
-*	Supporting systems processing thousands of transactions daily.
-*	Building scalable microservices architectures.
-*	Operating within Agile engineering environments.
-*	Working in high-availability production environments.
-*	Delivering API-driven integrations.
-*	Performance tuning and optimization.
-*	E-commerce, fintech, logistics, marketplace, or digital platform environments.
-
- 
-
-Nice-to-Have Experience
-
-*	Online retail platforms.
-*	Last-mile delivery solutions.
-*	Warehouse Management Systems (WMS).
-*	Supply Chain technology platforms.
-*	Payment gateways and transaction processing.
-*	Recommendation engines and personalization systems.
-*	Search technologies such as Elasticsearch.
-*	AI/ML-powered customer experiences.
-
- 
-
-Qualifications
-
-*	Relevant cloud certifications advantageous:
-*	Microsoft AZ-204
-*	AWS Developer Associate
-*	AWS Solutions Architect
-*	Kubernetes Certifications (CKA/CKAD)
-
- 
-
-Key Competencies
-
-*	Strong problem-solving skills.
-*	Customer-first mindset.
-*	Ability to thrive in fast-paced environments.
-*	Strong stakeholder engagement skills.
-*	Excellent communication abilities.
-*	Passion for engineering excellence.
-*	Ownership and accountability.
-
- 
-
- <https://www.linkedin.com/in/krzysztof-kubis-4731a3ab/?isSelfProfile=false> Best Regards,
-
- <https://www.linkedin.com/in/krzysztof-kubis-4731a3ab/?isSelfProfile=false> Vidya Chigarer
-
- <https://www.linkedin.com/in/krzysztof-kubis-4731a3ab/?isSelfProfile=false> 
-
- <https://www.linkedin.com/in/krzysztof-kubis-4731a3ab/?isSelfProfile=false> Global Talent Acquisition. 
-
- <https://www.linkedin.com/in/krzysztof-kubis-4731a3ab/?isSelfProfile=false> Mobile:+918088198343 (Whats app)||Phone: +45 657 408 96||www.skywavesgroup.com||
-
- <https://www.linkedin.com/in/krzysztof-kubis-4731a3ab/?isSelfProfile=false> Skyways Rise Limited - UK, Skywaves Rise – India, MP SKYWAVES (Pty) Ltd - South Africa, Skywaves MP LLC – USA 
-
- <https://www.linkedin.com/in/krzysztof-kubis-4731a3ab/?isSelfProfile=false> We respect GDPR and your details will be leveraged for the purpose of recruitment processes alone.
-
- 
-
-','','2026-11-14T07:24:43Z','other',0.95,'A recruiter reached out regarding an opportunity for a Senior Python Engineer role in South Africa.','',0);
+INSERT INTO "messages" VALUES(418,'<011201dd7409$3b452da0$b1cf88e0$@skywavesgroup.com>',NULL,'in','ignored','done','vidya@skywavesgroup.com','','','','','2026-11-14T07:24:43Z','other',0.95,'','',0);
 INSERT INTO "messages" VALUES(419,'<ChiromboKenT/JobCopilot/pull/9/c6873898999@github.com>',NULL,'in','ignored','done','notifications@github.com','','','','','2026-11-14T07:35:07Z','',NULL,'','',0);
 INSERT INTO "messages" VALUES(420,'<ChiromboKenT/JobCopilot/pull/9/review/5902743691@github.com>',NULL,'in','ignored','done','notifications@github.com','','','','','2026-11-14T07:37:07Z','',NULL,'','',0);
 INSERT INTO "messages" VALUES(421,'<487154051.15739090.1794642338425@ltx1-app84451.prod.linkedin.com>',NULL,'in','alert','done','jobalerts-noreply@linkedin.com','','Kraken Software Engineer II - Frontend - Developer Platform and 1
@@ -3001,6 +3405,22 @@ INSERT INTO "messages" VALUES(485,'<20261115070339.b8b561b4eb0d0924@em.onedayonl
 INSERT INTO "messages" VALUES(486,'<d6jSuxBcRLWucNAMBkWlww@geopod-ismtpd-28>',NULL,'in','ignored','done','noreply@skool.com','','','','','2026-11-15T07:07:14Z','',NULL,'','',0);
 INSERT INTO "messages" VALUES(487,'<179472689011.96.5482049216953997676@gmail.com>',NULL,'out','ignored','done','chirombokenny@gmail.com','','','','','2026-11-15T07:14:52Z','',NULL,'','',0);
 INSERT INTO "messages" VALUES(488,'<20261115071946.de89b17cc7dc9fdc@crm.juliangoldie.com>',NULL,'in','ignored','done','me@juliangoldie.com','','','','','2026-11-15T07:19:46Z','',NULL,'','',0);
+INSERT INTO "messages" VALUES(489,'<179472766654.381.11767794940352641521@gmail.com>',NULL,'out','ignored','done','chirombokenny@gmail.com','','','','','2026-11-15T07:27:48Z','',NULL,'','',0);
+INSERT INTO "messages" VALUES(490,'<ChiromboKenT/JobCopilot/pull/16/c6891077284@github.com>',NULL,'in','ignored','done','notifications@github.com','','','','','2026-11-15T07:29:24Z','',NULL,'','',0);
+INSERT INTO "messages" VALUES(491,'<2038764892.19760976.1794728737401@ltx1-app96103.prod.linkedin.com>',NULL,'in','alert','done','jobalerts-noreply@linkedin.com','','CareerWeb is hiring a A leading retail FMCG company is hiring a Snr
+ .Net developer for a 12 month contract','','','2026-11-15T07:45:37Z','',NULL,'','',0);
+INSERT INTO "messages" VALUES(492,'<1201382833.69037.1794728846252@mob-r1-l-igm-03.x.fnb.co.za>',NULL,'in','ignored','done','incontact@fnb.co.za','','','','','2026-11-15T07:47:26Z','',NULL,'','',0);
+INSERT INTO "messages" VALUES(493,'<010101a1de2cf588-300607df-ddbd-4ae0-b25d-30ab411711c9-000000@us-west-2.amazonses.com>',NULL,'in','ignored','done','failed-payments@mail.anthropic.com','','','','','2026-11-15T07:47:30Z','',NULL,'','',0);
+INSERT INTO "messages" VALUES(494,'<1691247541.52264.1794729158738@mob-r3-l-igm-04.x.fnb.co.za>',NULL,'in','ignored','done','incontact@fnb.co.za','','','','','2026-11-15T07:52:38Z','',NULL,'','',0);
+INSERT INTO "messages" VALUES(495,'<010101a1de32ed06-602f9a81-46eb-461b-badd-94f88a3360b2-000000@us-west-2.amazonses.com>',NULL,'in','ignored','done','invoice+statements@mail.anthropic.com','','','','','2026-11-15T07:54:01Z','',NULL,'','',0);
+INSERT INTO "messages" VALUES(496,'<1k7f8sfmfkla9800@indeed.com>',NULL,'in','alert','done','donotreply@jobalert.indeed.com','','French-Speaking New Business Developer (Remote, South Africa) at EmbedPeople. 1 software developer job in Remote','','','2026-11-15T09:33:46Z','',NULL,'','',0);
+INSERT INTO "messages" VALUES(497,'<2033355352.19451777.1794735940369@ltx1-app42395.prod.linkedin.com>',NULL,'in','alert','done','jobalerts-noreply@linkedin.com','','Blacksmith Agency AI Developer (Remote, Nelspruit)','','','2026-11-15T09:45:40Z','',NULL,'','',0);
+INSERT INTO "messages" VALUES(498,'<ChiromboKenT/EscortMeV3/pull/313/c6892559645@github.com>',NULL,'in','ignored','done','notifications@github.com','','','','','2026-11-15T09:49:20Z','',NULL,'','',0);
+INSERT INTO "messages" VALUES(499,'<ChiromboKenT/EscortMeV3/pull/313/c6892560113@github.com>',NULL,'in','ignored','done','notifications@github.com','','','','','2026-11-15T09:49:23Z','',NULL,'','',0);
+INSERT INTO "messages" VALUES(500,'<YBMjHmxswHh9rTfwjY0ciPWdLE8r2MX67pA5@notify.cloudflare.com>',NULL,'in','ignored','done','noreply@notify.cloudflare.com','','','','','2026-11-15T09:50:08Z','',NULL,'','',0);
+INSERT INTO "messages" VALUES(501,'<0imRVgGOusjeJrjvzkYjW2BUs4f3X8G47bgZ@notify.cloudflare.com>',NULL,'in','ignored','done','noreply@notify.cloudflare.com','','','','','2026-11-15T09:50:30Z','',NULL,'','',0);
+INSERT INTO "messages" VALUES(502,'<20261115095315.a0cfd74b78f9e56a@em.onedayonly.co.za>',NULL,'in','ignored','done','newsletter@em.onedayonly.co.za','','','','','2026-11-15T09:53:15Z','',NULL,'','',0);
+INSERT INTO "messages" VALUES(503,'<852f6e3f-0f28-33dd-8bd6-c9c8f17076ca@a.europe.nflshop.com>',NULL,'in','ignored','done','nflshop@a.europe.nflshop.com','','','','','2026-11-15T10:02:22Z','',NULL,'','',0);
 CREATE INDEX messages_app ON messages(application_id);
 CREATE INDEX events_app ON events(application_id);
 CREATE VIEW v_applications AS
