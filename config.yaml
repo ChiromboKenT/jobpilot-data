@@ -52,7 +52,7 @@ followup:                    # defaults copied onto each new application
   no_response_days: 21
 
 docs:
-  cv_template: cv_tawanda_template.docx
+  cv_template: cv.docx
   letter_template: letter.docx
   max_pages: 4
   max_bullets_recent: 6      # per role, first two roles
