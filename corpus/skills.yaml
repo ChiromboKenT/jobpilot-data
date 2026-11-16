@@ -151,3 +151,6 @@ skills:
 - {name: Research, aliases: [], level: proficient}
 - {name: Project Management, aliases: [], level: proficient}
 - {name: Communication skills, aliases: [Communication], level: proficient}
+- name: Natural Language Processing (NLP)
+  aliases: []
+  level: working
