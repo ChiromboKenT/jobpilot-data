@@ -157,3 +157,6 @@ skills:
 - name: Prompt engineering and LLM Operations
   aliases: []
   level: proficient
+- name: Model Evaluation, Observability & Responsible AI
+  aliases: []
+  level: proficient

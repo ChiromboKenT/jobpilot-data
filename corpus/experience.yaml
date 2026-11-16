@@ -366,6 +366,15 @@ roles:
     - LoRA
     - LlamaIndex
     - Prompt engineering and LLM Operations
+  - id: dreamverse-holdings-1-g02
+    text: Built RAG evaluation sets and repeatable LLM output checks alongside OpenTelemetry, Prometheus and Posthog observability, audit logging and analytics for human-in-the-loop AI systems.
+    skills:
+    - AI
+    - Observability
+    - Performance optimisation
+    - Troubleshooting
+    - Technical leadership
+    - Model Evaluation, Observability & Responsible AI
 - id: access-bank
   company: GoSoft (client Access Bank)
   title: Frontend Engineer
