@@ -1,35 +1,36 @@
-headline: "AI / LLM Engineer"
-summary: >-
-  Engineer with 8 years in software who builds LLM and ML features into production systems: a FastAPI gateway in front of LLM inference, RAG with its own evaluation set, vLLM benchmarks on AMD MI300X, and code checks that stop an LLM adding facts to its output. Earlier built ML models for water-quality risk with CI/CD/CT on AWS SageMaker.
+headline: AI / LLM Engineer
+summary: Software engineer with 8 years of experience, specializing in LLM applications, evaluation
+  and model serving. Built a FastAPI inference gateway, evaluated RAG groundedness, benchmarked vLLM
+  on AMD MI300X GPUs, and implemented claim-validation checks for LLM-generated CVs. Earlier developed
+  and evaluated water-quality risk models using Python and repeatable AWS SageMaker workflows.
 claims:
 - rp-account-01
 - rp-alloc-01
-- rp-api-01
 - rp-sec-01
-- rp-loans-01
 - rp-ops-01
+- dreamverse-ai-01
+- dreamverse-ai-02
 - dreamverse-mlops-01
 - dreamverse-mlops-03
-- dv-jobpilot-02
 - dreamverse-mlops-02
-- dreamverse-ai-02
-- dreamverse-holdings-1-02
+- dreamverse-mlops-04
+- dv-jobpilot-01
+- dv-jobpilot-02
+- dreamverse-ai-06
 - access-aiml-01
 - access-swe2-03
-- access-lead-03
 - dazn-platform-06
 - dazn-swe2-01
-- dazn-leadfull-02
 - league-05
-- league-01
+- university-of-johann-3-01
+- university-of-johann-3-04
+- university-of-johann-3-05
 - university-of-johann-3-07
 - uj-aiml-05
-- vincii-react-01
 - vincii-react-03
-- penyesa-sa-4-05
 - penyesa-sa-4-04
+- penyesa-sa-4-05
 - wikimedia-2-05
 - wikimedia-ml-01
-# Dreamverse is your own company, so its title follows the kind of role this base CV aims at.
 titles:
-  dreamverse-holdings-1: Lead AI Engineer
+  dreamverse-holdings-1: Technical Lead (AI & LLM Systems)
