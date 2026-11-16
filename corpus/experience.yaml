@@ -740,6 +740,13 @@ roles:
     - Machine Learning
     - Predictive Modeling
     - Natural Language Processing (NLP)
+  - id: university-of-johann-3-g02
+    text: Developed Machine Learning (ML) models for water-quality risk assessment and ran their CI/CD/CT workflows on AWS SageMaker.
+    skills:
+    - AWS Sagemaker
+    - Decision Support System
+    - Machine Learning
+    - Machine Learning (ML)
 - id: vincii
   company: Vincii
   title: React Developer

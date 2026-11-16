@@ -160,3 +160,6 @@ skills:
 - name: Model Evaluation, Observability & Responsible AI
   aliases: []
   level: proficient
+- name: Machine Learning (ML)
+  aliases: []
+  level: working
