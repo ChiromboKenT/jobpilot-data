@@ -82,7 +82,7 @@ cv:
     company: redPanda Software
     location: Johannesburg, Gauteng
     start: ''
-    end: ''
+    end: Sep 2025
   - role_id: access-bank
     bullets:
     - claim_id: access-aiml-01
