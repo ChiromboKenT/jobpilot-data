@@ -113,7 +113,7 @@ cv:
     bullets:
     - claim_id: university-of-johann-3-01
       text: Developed Machine Learning models for industrial water-quality risk assessment
-        to support decision-making.
+        to support decision-making
     - claim_id: university-of-johann-3-07
       text: Used AWS SageMaker to run continuous integration, delivery and testing
         (CI/CD/CT) workflows for Machine Learning models.
@@ -121,7 +121,7 @@ cv:
     company: UJ PEETS
     location: Johannesburg, Gauteng
     start: Jan 2019
-    end: ''
+    end: Apr 2021
   - role_id: wikimedia-2
     bullets:
     - claim_id: wikimedia-2-05
@@ -133,8 +133,8 @@ cv:
     title: Volunteer Software Developer
     company: Wikimedia
     location: Remote
-    start: ''
-    end: ''
+    start: Mar 2024
+    end: Present
   gaps:
   - Over 10 years of experience in IT engineering, software development, data engineering,
     or solutions architecture
