@@ -56,7 +56,7 @@ cv:
     company: Dreamverse Holdings
     location: Johannesburg, Gauteng
     start: Sep 2025
-    end: ''
+    end: Present
   - role_id: redpanda
     bullets:
     - claim_id: rp-alloc-01
