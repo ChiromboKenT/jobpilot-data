@@ -1,0 +1,160 @@
+About the job
+This is a remote position.Location: South Africa-based
+Working arrangement: To be confirmed with the client
+Employment: Permanent, full-time
+Target start: January 2027
+Indicative remuneration: R120,000–R160,000 CTC per month, depending on experience and the agreed package
+
+About the opportunity
+
+
+A UK-based creator-marketing business is looking for a Lead Software Engineer to take technical ownership of its campaign-management platform. 
+The platform is already used by the internal team. You’ll help develop it into the operational product that campaign teams, creators and clients rely on, covering shortlisting, outreach, reporting, payments and related workflows. 
+You’ll work alongside the Product Lead, an existing Full Stack Engineer and a Data Science Lead. As the senior engineering owner, you’ll set technical direction while continuing to code and deliver features yourself. 
+This is a long-term opportunity to build the product, establish sound engineering practices and help grow the team. 
+
+What you’ll own
+
+
+ 
+ 
+Product delivery: Build and release complete features, incorporating feedback from real users.
+
+ 
+ 
+ 
+Architecture: Make practical decisions about system design, scaling and maintainability.
+
+ 
+ 
+ 
+AI engineering: Ship reliable LLM features and establish validation, evaluation and cost controls.
+
+ 
+ 
+ 
+Production operations: Own monitoring, alerting, troubleshooting and reliability improvements.
+
+ 
+ 
+ 
+Integrations: Connect CRM, payment, outreach, invoicing and third-party data services.
+
+ 
+ 
+ 
+Engineering standards: Establish testing, code review, documentation, CI/CD and infrastructure-as-code practices.
+
+ 
+ 
+ 
+Product partnership: Break down requirements, challenge priorities and communicate realistic delivery expectations.
+
+ 
+ 
+ 
+Team development: Identify resourcing needs and help hire, mentor and lead future engineers.
+
+
+
+Requirements
+
+
+What you’ll bring
+
+
+ 
+ 
+Proven experience building and scaling a production product to 10,000+ users, including ownership of architecture decisions.
+
+ 
+ 
+ 
+Strong hands-on full-stack engineering skills and the ability to work across application, data and infrastructure layers.   
+
+ 
+ 
+ 
+Experience delivering production LLM features, including structured outputs, validation, evaluation, batch versus live processing and cost management.
+
+ 
+ 
+ 
+Daily use of AI coding tools, supported by strong code-review, debugging and refactoring skills.   
+
+ 
+ 
+ 
+Experience building for external users, including authentication, client data isolation, payments and privacy requirements.   
+
+ 
+ 
+ 
+Practical production-support experience and confidence diagnosing failures.   
+
+ 
+ 
+ 
+The ability to work with incomplete requirements and turn business needs into useful software.   
+
+ 
+ 
+ 
+Clear communication, sound judgement and confidence explaining technical trade-offs.   
+
+ 
+ 
+ 
+An interest in building a product and taking ongoing responsibility for its performance.   
+
+
+Technology environment
+
+
+Python services using FastAPI and SQLModel, with a Next.js/TypeScript application running on Google Cloud. 
+Infrastructure includes Cloud Run, Cloud SQL/PostgreSQL, BigQuery, Pub/Sub and Terraform, with deployments through GitHub Actions. 
+Experience with this stack is advantageous, although strong transferable production and architecture experience will be considered. 
+Multimodal AI, API ingestion, email deliverability, SOC 2 readiness and creator-marketing experience are additional advantages. 
+
+Working arrangements and package
+
+
+Applicants must be based in South Africa and able to collaborate with a UK-based team during agreed overlapping hours. 
+The working location, employment arrangements, benefits, production-support expectations and any travel requirements will be confirmed during the selection process. 
+The advertised remuneration is the employee’s monthly cost-to-company package, before tax and applicable deductions.
+
+How to apply
+
+
+Apply through NoSweat and include:
+ 
+ 
+Your CV and relevant product, project or technical case-study links.   
+
+ 
+ 
+ 
+Examples of systems you personally helped build and scale.   
+
+ 
+ 
+ 
+A production LLM example explaining your contribution, technical decisions and results.   
+
+ 
+ 
+ 
+Your experience with the stack, AI coding tools and technical leadership.   
+
+ 
+ 
+ 
+Your current location, notice period and availability for January 2027.   
+
+ 
+ 
+ 
+Your expected monthly CTC within the indicative range.   
+
+ 
+Please provide clear evidence of your personal contribution, architecture decisions and production responsibilities. Only include experience and results you can substantiate.
