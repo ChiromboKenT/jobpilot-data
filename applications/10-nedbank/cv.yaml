@@ -33,6 +33,31 @@ cv:
   - AWS
   - Data modelling
   roles:
+  - role_id: dreamverse-holdings-1
+    bullets:
+    - claim_id: dreamverse-holdings-1-01
+      text: Deployed AI and Machine Learning models to automate production workloads,
+        maintaining MLOps pipelines and performance monitoring for real-time applications.
+    - claim_id: dreamverse-ai-01
+      text: Integrated LLM-backed workflows into Python and TypeScript services behind
+        APIs with explicit prompt engineering, scope checks and error handling.
+    - claim_id: dreamverse-mlops-01
+      text: Wrapped an LLM model deployment behind a FastAPI gateway with model versioning,
+        timeouts, request budgets and structured response checks.
+    - claim_id: dv-jobpilot-01
+      text: Built JobPilot in Python to parse LinkedIn, Indeed and PNet alert emails
+        and the Adzuna API, merge duplicate jobs and score each job with an LLM.
+    - claim_id: dreamverse-mlops-03
+      text: Created a RAG evaluation set covering source relevance, groundedness and
+        negative test questions before changing embedding models.
+    - claim_id: dv-jobpilot-02
+      text: Wrote code checks comparing every LLM-tailored CV bullet against recorded
+        claims so generated CVs cannot add unrecorded skills, numbers or employers.
+    title: Technical Lead (AI & LLM Systems)
+    company: Dreamverse Holdings
+    location: Johannesburg, Gauteng
+    start: ''
+    end: ''
   - role_id: redpanda
     bullets:
     - claim_id: rp-alloc-01
@@ -56,31 +81,6 @@ cv:
         .NET services and React front ends.
     title: Software Engineer
     company: redPanda Software
-    location: Johannesburg, Gauteng
-    start: ''
-    end: ''
-  - role_id: dreamverse-holdings-1
-    bullets:
-    - claim_id: dreamverse-holdings-1-01
-      text: Deployed AI and Machine Learning models to automate production workloads,
-        maintaining MLOps pipelines and performance monitoring for real-time applications.
-    - claim_id: dreamverse-ai-01
-      text: Integrated LLM-backed workflows into Python and TypeScript services behind
-        APIs with explicit prompt engineering, scope checks and error handling.
-    - claim_id: dreamverse-mlops-01
-      text: Wrapped an LLM model deployment behind a FastAPI gateway with model versioning,
-        timeouts, request budgets and structured response checks.
-    - claim_id: dv-jobpilot-01
-      text: Built JobPilot in Python to parse LinkedIn, Indeed and PNet alert emails
-        and the Adzuna API, merge duplicate jobs and score each job with an LLM.
-    - claim_id: dreamverse-mlops-03
-      text: Created a RAG evaluation set covering source relevance, groundedness and
-        negative test questions before changing embedding models.
-    - claim_id: dv-jobpilot-02
-      text: Wrote code checks comparing every LLM-tailored CV bullet against recorded
-        claims so generated CVs cannot add unrecorded skills, numbers or employers.
-    title: Technical Lead (AI & LLM Systems)
-    company: Dreamverse Holdings
     location: Johannesburg, Gauteng
     start: ''
     end: ''
