@@ -10,8 +10,6 @@ roles:
   company: redPanda Software
   title: Software Engineer
   location: Johannesburg, Gauteng
-  start: Sep 2025
-  end: Present
   claims:
   - id: rp-account-01  # (repo)
     text: Built account-status synchronisation in a C# .NET customer service, with PostgreSQL migrations that replaced a legacy status column and kept a status history
@@ -51,8 +49,6 @@ roles:
   company: Dreamverse Holdings
   title: Technical Lead
   location: Johannesburg, Gauteng
-  start: Jan 2024
-  end: Present
   claims:
   # --- AI / LLM ---
   - id: dreamverse-holdings-1-01  # (cv)
@@ -217,8 +213,6 @@ roles:
   company: GoSoft (client Access Bank)
   title: Frontend Engineer
   location: Johannesburg, Gauteng
-  start: Jun 2024
-  end: Aug 2025   # deduced from the gap before redPanda (Sep 2025), not confirmed
   claims:
   - id: access-frontend-01  # (cv)
     text: Built responsive banking application journeys with Next.js, React, TypeScript and Tailwind CSS
@@ -282,8 +276,6 @@ roles:
   company: GoSoft (client DAZN)
   title: Cloud Engineer
   location: Johannesburg (remote, with DAZN's Poland team)
-  start: Aug 2022
-  end: Dec 2023
   claims:
   - id: dazn-swe2-01  # (cv rewrite)
     text: Built and maintained Node.js and NestJS microservices behind DAZN's metadata ingestion and enrichment workflows
@@ -361,8 +353,6 @@ roles:
   company: League Digital (client MultiChoice, DStv)
   title: React Native Developer
   location: Johannesburg (remote)
-  start: Nov 2022
-  end: Sep 2023
   claims:
   - id: league-01  # (cv)
     text: Built and maintained features for the MyDStv mobile app in React Native, writing shared code for Android and iOS
@@ -384,8 +374,6 @@ roles:
   company: UJ PEETS
   title: 'Research Associate: Python Developer'
   location: Johannesburg, Gauteng
-  start: Jan 2021
-  end: Dec 2023
   claims:
   - id: university-of-johann-3-01  # (cv)
     text: Developed machine learning models for industrial water-quality risk assessment to support decision-making
@@ -452,8 +440,6 @@ roles:
   company: Vincii
   title: React Developer
   location: Cape Town (remote)
-  start: Jan 2022
-  end: Jul 2022
   claims:
   - id: vincii-react-01  # (cv)
     text: Built and maintained features for a retailer-facing CMS dashboard in React and TypeScript
@@ -484,8 +470,6 @@ roles:
   company: Penyesa SA
   title: Full Stack Developer
   location: Sandton, Gauteng
-  start: Dec 2018
-  end: Dec 2020
   claims:
   - id: penyesa-sa-4-03  # (cv)
     text: Built an e-commerce web store end to end for a global audience
@@ -510,8 +494,6 @@ roles:
   company: Wikimedia
   title: Volunteer Software Developer
   location: Remote
-  start: Oct 2023
-  end: Present
   claims:
   - id: wikimedia-2-05  # (cv)
     text: Helped migrate machine-generated article descriptions from Toolforge to Lift Wing, keeping the article-description inference service running smoothly
