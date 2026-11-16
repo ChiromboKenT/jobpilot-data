@@ -154,3 +154,6 @@ skills:
 - name: Natural Language Processing (NLP)
   aliases: []
   level: working
+- name: Prompt engineering and LLM Operations
+  aliases: []
+  level: proficient

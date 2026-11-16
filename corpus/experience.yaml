@@ -356,6 +356,16 @@ roles:
     - Godot
     - C#
     - Game development
+  - id: dreamverse-holdings-1-g01
+    text: Optimised customer-facing chatbots with RAG systems and AI for intent classification and entity extraction, and implemented multi-department customer support Human in loop AI systems
+    skills:
+    - AI
+    - ComfyUI
+    - Data pipelines
+    - LLM evaluation
+    - LoRA
+    - LlamaIndex
+    - Prompt engineering and LLM Operations
 - id: access-bank
   company: GoSoft (client Access Bank)
   title: Frontend Engineer
