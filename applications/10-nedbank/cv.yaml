@@ -45,8 +45,7 @@ cv:
       text: Wrapped an LLM model deployment behind a FastAPI gateway with model versioning,
         timeouts, request budgets and structured response checks.
     - claim_id: dv-jobpilot-01
-      text: Built JobPilot in Python to parse LinkedIn, Indeed and PNet alert emails
-        and the Adzuna API, merge duplicate jobs and score each job with an LLM.
+      text: ''
     - claim_id: dreamverse-mlops-03
       text: Created a RAG evaluation set covering source relevance, groundedness and
         negative test questions before changing embedding models.
