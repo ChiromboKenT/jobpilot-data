@@ -1,0 +1,74 @@
+Job Family
+Information Technology
+Career Stream
+IT Technical/Specialists
+
+Job Purpose
+To identify opportunities within our Unit of Work and the respective systems where applicable Automation & Agentic AI can be used to optimize our systems, improve processes and create effeciencies using AI technology. To provide guidance and advice related to the integration of solutions across technologies; ensuing all outputs are following current governance and legislation and provide IT leadership based on IT and business acumen.
+
+Job Responsibilities
+The incumbent will build, support and evolve intelligent systems that drive Technology & Business improvement, automation and workflow efficiency.
+Design, develop, and operationalize AI-powered solutions that optimize the end-to-end Collections and Recoveries Unit of Work.
+Consult and provide advice on the use of the multiple technologies. Address the needs of the bank by deploying, supporting and configuring multiple technologies.
+Stay abreast of developments in field of expertise, ensuring personal and professional growth.
+Understand and embrace the Nedbank vision and values, leading by example.
+Ensure alignment with emerging technologies, and impact on Nedbank technologies and legislative requirements.
+Become a trusted consultant by providing trustworthy information and acknowledge if advice cannot be provided.
+Break down components of end to end design and defined logical units of work.
+Raise unallocated or missing components of design with project lead. Validate the individual design components and integrate these into end to end design.
+Ensure test strategy covers full end to end design.
+Provide integration solutions and validate the technical component design.
+Review and approve component designs.
+Consult on the resolution of high impact problem solving across.
+Build end to end design and release to stakeholders.
+Ensure alignment to IT strategy to architecture roadmaps.
+Lead end to end design on project.
+Ensure awareness of Group Technology initiatives and standards. Support the achievement of the business strategy, objectives and values.
+Enable skilling and required corrective action to take place by sharing knowledge and industry trends with team.
+Obtain buy-in for developing new and/or enhanced processes to improve stakeholders' businesses.
+Essential Qualifications - NQF Level
+Advanced Diplomas/National 1st Degrees
+Preferred Qualification
+Emerging Technology- AI and Cloud (Azure) certifications
+Essential Certifications
+Accredited where formal expert certification on technology is available JMP or MMP or equivalent
+Minimum Experience Level
+Over 10 years of experience in IT engineering, software development, data engineering, or solutions architecture
+Core AI & Data Skills
+Machine Learning (ML) – model development and deployment.
+Natural Language Processing (NLP) – email and document parsing.
+AI Builder / Copilot Studio – Power Platform AI tools.
+Data Engineering – ETL pipelines, cleansing and enrichment.
+Prompt engineering and LLM Operations- especially for building, fine-tuning, and deploying LLM-powered solutions.
+Model Evaluation, Observability & Responsible AI- experience with model monitoring, drift detection, explainability and responsible AI practices (bias detection, fairness, transparency).
+Integration & Automation
+Power Automate / Power Apps – workflow orchestration.
+RESTful APIs
+Azure Functions / Logic Apps – serverless automation.
+Kafka/Elastic/Queue skills
+Backend & Cloud
+Cloud Platforms – Azure (preferred), AWS.
+Dataverse / D365 – data modelling and integration.
+Java / .NET – backend development.
+Technical / Professional Knowledge
+Banking knowledge
+Business Acumen
+Business writing
+Principles of financial management
+Principles of project management
+Relevant regulatory knowledge
+Relevant software and systems knowledge
+Risk management process and frameworks
+Cluster Specific Operational Knowledge
+Mentoring
+Information Technology concepts
+System Development Life cycle(SDLC)
+Role relevant related technologies
+Service orientated Architecture (SOA)
+IT Solutions Architecture
+IT Infrastructure Architecture
+Knowledge across multiple technologies
+IT Risk and security principes
+Usability and GUI techniques
+Multiple operating system
+Systems Analysis and design

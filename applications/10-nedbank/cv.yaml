@@ -1,0 +1,176 @@
+base_cv: ai-ml
+template: cv.docx
+cv:
+  headline: AI Engineer
+  summary: AI Engineer who builds and deploys Machine Learning models, MLOps pipelines
+    and LLM-backed workflows in Python and TypeScript with explicit prompt engineering
+    and performance monitoring. Built RAG evaluation sets for groundedness and prototyped
+    document OCR for banking applications. Previously wrote account-allocation rules
+    for a C# collections service.
+  summary_claims:
+  - dreamverse-holdings-1-01
+  - dreamverse-ai-01
+  - dreamverse-mlops-03
+  - access-aiml-01
+  - rp-alloc-01
+  skills:
+  - AI
+  - Machine Learning
+  - LLMs
+  - Prompt engineering
+  - LLM evaluation
+  - Model Evaluation
+  - Model serving
+  - ML pipelines
+  - RAG
+  - OCR
+  - REST APIs
+  - Observability
+  - Python
+  - Dot Net
+  - C#
+  - Java
+  - AWS
+  - Data modelling
+  roles:
+  - role_id: redpanda
+    bullets:
+    - claim_id: rp-alloc-01
+      text: Wrote account-allocation rules in a C# collections service to route customer
+        accounts to follow-up queues by priority, backed by unit tests.
+    - claim_id: rp-account-01
+      text: Built account-status synchronisation in a C# .NET customer service using
+        PostgreSQL migrations that replaced a legacy status column and kept a status
+        history.
+    - claim_id: rp-api-01
+      text: Moved a branch-integration event service off direct reads of Customer
+        and Deal databases onto their RESTful APIs.
+    - claim_id: rp-java-01
+      text: Developed a Java Spring Boot ticket service backed by AWS DynamoDB for
+        a retail group's client project.
+    - claim_id: rp-sec-01
+      text: Closed an account-enumeration gap in password reset and added file-type
+        allowlist and count checks to document uploads.
+    - claim_id: rp-review-01
+      text: Shipped changes through Azure DevOps pull requests and code reviews across
+        .NET services and React front ends.
+    title: Software Engineer
+    company: redPanda Software
+    location: Johannesburg, Gauteng
+    start: ''
+    end: ''
+  - role_id: dreamverse-holdings-1
+    bullets:
+    - claim_id: dreamverse-holdings-1-01
+      text: Deployed AI and Machine Learning models to automate production workloads,
+        maintaining MLOps pipelines and performance monitoring for real-time applications.
+    - claim_id: dreamverse-ai-01
+      text: Integrated LLM-backed workflows into Python and TypeScript services behind
+        APIs with explicit prompt engineering, scope checks and error handling.
+    - claim_id: dreamverse-mlops-01
+      text: Wrapped an LLM model deployment behind a FastAPI gateway with model versioning,
+        timeouts, request budgets and structured response checks.
+    - claim_id: dv-jobpilot-01
+      text: Built JobPilot in Python to parse LinkedIn, Indeed and PNet alert emails
+        and the Adzuna API, merge duplicate jobs and score each job with an LLM.
+    - claim_id: dreamverse-mlops-03
+      text: Created a RAG evaluation set covering source relevance, groundedness and
+        negative test questions before changing embedding models.
+    - claim_id: dv-jobpilot-02
+      text: Wrote code checks comparing every LLM-tailored CV bullet against recorded
+        claims so generated CVs cannot add unrecorded skills, numbers or employers.
+    title: Technical Lead (AI & LLM Systems)
+    company: Dreamverse Holdings
+    location: Johannesburg, Gauteng
+    start: ''
+    end: ''
+  - role_id: access-bank
+    bullets:
+    - claim_id: access-aiml-01
+      text: Prototyped document OCR that pre-filled banking applications while keeping
+        every extracted field editable by the applicant.
+    - claim_id: access-lead-03
+      text: Added audit records for application-state changes and document actions
+        without writing sensitive values to logs.
+    title: Frontend Engineer
+    company: GoSoft (client Access Bank)
+    location: Johannesburg, Gauteng
+    start: ''
+    end: ''
+  - role_id: dazn
+    bullets:
+    - claim_id: dazn-platform-06
+      text: Introduced OpenTelemetry tracing and p95 latency dashboards for campaign
+        microservices.
+    - claim_id: dazn-backend-03
+      text: Improved failure handling in asynchronous AWS Lambda workflows and DynamoDB
+        reads where partial upstream responses could break a redemption.
+    title: Cloud Engineer
+    company: GoSoft (client DAZN)
+    location: Johannesburg (remote, with DAZN's Poland team)
+    start: ''
+    end: ''
+  - role_id: university-of-johann-3
+    bullets:
+    - claim_id: university-of-johann-3-01
+      text: Developed Machine Learning models for industrial water-quality risk assessment
+        to support decision-making.
+    - claim_id: university-of-johann-3-07
+      text: Used AWS SageMaker to run continuous integration, delivery and testing
+        (CI/CD/CT) workflows for Machine Learning models.
+    title: 'Research Associate: Python Developer'
+    company: UJ PEETS
+    location: Johannesburg, Gauteng
+    start: ''
+    end: ''
+  - role_id: wikimedia-2
+    bullets:
+    - claim_id: wikimedia-2-05
+      text: Migrated machine-generated article descriptions from Toolforge to Lift
+        Wing to keep the inference service running.
+    - claim_id: wikimedia-ml-01
+      text: Tracked API and service-behaviour changes users would see during the Lift
+        Wing move for article-description model serving.
+    title: Volunteer Software Developer
+    company: Wikimedia
+    location: Remote
+    start: ''
+    end: ''
+  gaps:
+  - Over 10 years of experience in IT engineering, software development, data engineering,
+    or solutions architecture
+  - Advanced Diplomas/National 1st Degrees
+  - AI and Cloud (Azure) certifications and JMP or MMP certification
+  - AI Builder / Copilot Studio (Power Platform AI tools)
+  - Power Automate / Power Apps workflow orchestration
+  - Azure cloud platform, Azure Functions and Logic Apps
+  - Dataverse / D365 data modelling and integration
+  - Kafka / Elastic / Queue skills
+  - Bias detection and fairness testing for Responsible AI
+letter:
+  paragraphs:
+  - I am applying for the AI Engineer role at Nedbank, where your team is optimising
+    end-to-end Collections and Recoveries workflows. That work connects directly to
+    my experience writing account-allocation rules in a C# collections service. I
+    have long believed Nedbank aligns with my vision to build impactful solutions
+    that actually help people and change their lives, rather than only increasing
+    convenience.
+  - In that C# collections service, accounts needed reliable routing to follow-up
+    queues. I wrote priority-based account-allocation rules with unit tests to keep
+    routing consistent. More recently, I integrated LLM-backed workflows into Python
+    and TypeScript services. To keep model behaviour predictable in production, I
+    placed calls behind APIs using prompt engineering, scope checks, and error handling.
+  - Evaluating model changes safely is just as important as shipping them. Before
+    changing embedding models in a RAG system, I built an evaluation set covering
+    source relevance, groundedness, and negative test questions. Elsewhere, I added
+    audit records for application-state changes and document actions without writing
+    sensitive values to logs, keeping traceability intact while protecting sensitive
+    data.
+  - Nedbank's focus on improving systems and processes while keeping outputs aligned
+    with governance and legislation fits how I approach engineering. I would be glad
+    to talk through these projects and how they map to your team's plans.
+  claim_ids:
+  - rp-alloc-01
+  - dreamverse-ai-01
+  - dreamverse-mlops-03
+  - access-lead-03
